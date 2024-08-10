@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>RA-SS Neo Geo</name>
+  <author>SuperrSonic</author>
+  <release_date>2022</release_date>
+  <short_description>An improved version of RA-Wii</short_description> 
+  <long_description>Mod By RunningSnakes.</long_description>
+  <ahb_access/>
+</app>
