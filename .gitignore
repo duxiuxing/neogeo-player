@@ -1,0 +1,10 @@
+arcade/new_roms/*
+arcade/wiiflow/log_cachecreate.txt
+
+cd/new_roms/*
+cd/wiiflow/log_cachecreate.txt
+
+pocket/new_roms/*
+pocket/wiiflow/log_cachecreate.txt
+
+python/__pycache__/*
