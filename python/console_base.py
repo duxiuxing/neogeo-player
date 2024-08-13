@@ -199,10 +199,11 @@ class ConsoleBase(ConsoleConfigs):
             print("\t2. 导入新游戏 Console.import_new_roms()")
             print("\t3. 检查游戏信息 Console.check_game_infos()")
             print("\t4. 转换封面图片 WiiFlow.convert_wfc_files()")
-            print("\t5. 导出 WiiFlow 的演示文件 WiiFlow.export_all(with_fake_roms = True)")
-            print("\t6. 导出 WiiFlow 的发布文件 WiiFlow.export_all(with_real_roms = False)")
-            print("\t7. 导出 Wii APP 的文件 Console.export_wii_app()")
-            print("\t8. 退出程序")
+            print("\t5. 转换游戏摘要 WiiFlow.convert_game_synopsis()")
+            print("\t6. 导出 WiiFlow 的演示文件 WiiFlow.export_all(with_fake_roms = True)")
+            print("\t7. 导出 WiiFlow 的发布文件 WiiFlow.export_all(with_real_roms = False)")
+            print("\t8. 导出 Wii APP 的文件 Console.export_wii_app()")
+            print("\t9. 退出程序")
 
             input_value = str(input("Enter the version number: "))
             if input_value == "1":
@@ -217,11 +218,14 @@ class ConsoleBase(ConsoleConfigs):
                 wiiflow.convert_wfc_files()
             elif input_value == "5":
                 wiiflow = WiiFlow(self)
-                wiiflow.export_all(True)
+                wiiflow.convert_game_synopsis()
             elif input_value == "6":
                 wiiflow = WiiFlow(self)
-                wiiflow.export_all(False)
+                wiiflow.export_all(True)
             elif input_value == "7":
-                self.export_wii_app(wii_app_files_tuple)
+                wiiflow = WiiFlow(self)
+                wiiflow.export_all(False)
             elif input_value == "8":
+                self.export_wii_app(wii_app_files_tuple)
+            elif input_value == "9":
                 break

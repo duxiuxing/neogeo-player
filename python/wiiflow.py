@@ -488,3 +488,37 @@ class WiiFlow:
         self.export_plugins_data()
         self.export_snapshots(zip_parent_folder_path)
         self.export_source_menu()
+
+    def convert_game_synopsis(self):
+        src_file_path = os.path.join(
+            self.console_configs.folder_path(), "doc\\game_synopsis.md")
+
+        dst_lines = []
+        with open(src_file_path, "r", encoding="utf-8") as src_file:
+            for line in src_file.readlines():
+                src_line = line.rstrip("\n")
+                if src_line.startswith("#"):
+                    dst_lines.append(src_line)
+                    continue
+                elif len(src_line) == 0:
+                    dst_lines.append("")
+                    continue
+                else:
+                    dst_line = ""
+                    for char in src_line:
+                        if len(dst_line) == 0:
+                            dst_line = char
+                        elif dst_line[-1] in " 、：，。《》（）【】“”":
+                            dst_line += char
+                        elif char in " 、：，。《》（）【】“”1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                            dst_line += char
+                        else:
+                            dst_line += f" {char}"
+
+                    dst_lines.append(dst_line)
+
+        dst_file_path = os.path.join(
+            self.console_configs.folder_path(), "doc\\game_synopsis.wiiflow.md")
+        with open(dst_file_path, "w", encoding="utf-8") as dst_file:
+            for line in dst_lines:
+                dst_file.write(f"{line}\n")
