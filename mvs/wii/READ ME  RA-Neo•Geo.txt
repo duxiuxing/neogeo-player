@@ -1,0 +1,25 @@
+
+
+ RA-Neo•Geo
+
+ This is a stand-alone Mod of SuperrSonic core. 
+ -----
+ BIOS "neogeo.zip" must be placed in the folder where your roms are located!
+ EXAMPLE...  SD > roms > Arcade > Neo Geo > bstars2.zip
+             SD > roms > Arcade > Neo Geo > neogeo.zip
+ -----
+ I have left my .cfg files in case you want the emulator pre-configured.
+ -----
+ Turbo is enabled in Input Setting to button 44 (B on Wiimote).
+ Hold down B button on Wiimote while pressing 1 or 2 for turbo speed.
+ Change turbo speed in...   Settings > Input > Turbo Period
+ -----
+ There are 2 themes included... "Fight" & "Metal"...
+ -----
+ Neo VM is the default core. From my testing as well as @Charco testing,
+ all "Normal" Neo•Geo games are working properly. However, when playing 
+ VM games, you must load the VM core again before loading another VM
+ game directly after...OR you will be greeted with "Error Not Enough Memory".
+ Loading a "Normal" Neo•Geo game directly after a VM game works without issues.
+ -----
+ ===========================================================
