@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Game-List name="all-neogeo-roms" rom-exists="true">
+    <Game crc32="46959ADD" bytes="7631274"
+        zip="3countb"
+        en="3 Count Bout"
+        zhcn="火线摔角 三回合较量"
+    />
+    <Game crc32="A7EE2B42" bytes="3290411"
+        zip="2020bb"
+        en="2020 Super Baseball"
+        zhcn="超级棒球2020"
+    />
+    <Game crc32="EF14750F" bytes="3229047"
+        zip="alpham2"
+        en="Alpha Mission II"
+        zhcn="阿尔法任务2"
+    />
+    <Game crc32="A99AB74C" bytes="1798227"
+        zip="androdun"
+        en="Andro Dunos"
+        zhcn="勇者之击"
+    />
+    <Game crc32="B4A36568" bytes="10076756"
+        zip="aodk"
+        en="Aggressors of Dark Kombat"
+        zhcn="痛快进行曲"
+    />
+    <Game crc32="A1DB85E5" bytes="6628384"
+        zip="aof"
+        en="Art of Fighting"
+        zhcn="龙虎之拳"
+    />
+    <Game crc32="D700D809" bytes="12588178"
+        zip="aof2"
+        en="Art of Fighting 2"
+        zhcn="龙虎之拳2"
+    />
+    <Game crc32="6D09D2E6" bytes="17322324"
+        zip="aof3"
+        en="Art of Fighting 3 - The Path of the Warrior"
+        zhcn="龙虎之拳3 斗士之路"
+    />
+    <Game crc32="B6E7A7AD" bytes="2515537"
+        zip="bakatono"
+        en="Bakatonosama Mahjong Manyuuki"
+        zhcn="傻瓜殿下麻雀漫游记"
+    />
+    <Game crc32="2F08FDE6" bytes="24276543"
+        zip="bangbead"
+        en="Bang Bead"
+        zhcn="碰碰球"
+    />
+    <Game crc32="4F9C5457" bytes="2937979"
+        zip="bjourney"
+        en="Blue's Journey"
+        zhcn="蓝色之旅"
+    />
+    <Game crc32="250611EF" bytes="21620163"
+        zip="blazstar"
+        en="Blazing Star"
+        zhcn="闪亮之星"
+    />
+    <Game crc32="682F973C" bytes="21319214"
+        zip="breakers"
+        en="Breakers"
+        zhcn="爆裂人"
+    />
+    <Game crc32="76C4E4D4" bytes="15821592"
+        zip="breakrev"
+        en="Breakers Revenge"
+        zhcn="爆裂人复仇"
+    />
+    <Game crc32="F8322A5F" bytes="3334702"
+        zip="bstars"
+        en="Baseball Stars Professional"
+        zhcn="棒球之星专业版"
+    />
+    <Game crc32="75926731" bytes="3706777"
+        zip="bstars2"
+        en="Baseball Stars 2"
+        zhcn="棒球之星2"
+    />
+    <Game crc32="34D2F163" bytes="3560567"
+        zip="burningf"
+        en="Burning Fight"
+        zhcn="热血快打"
+    />
+    <Game crc32="E157A16A" bytes="2724948"
+        zip="crsword"
+        en="Crossed Swords"
+        zhcn="圣十字剑"
+    />
+    <Game crc32="8327EAE0" bytes="5795026"
+        zip="ctomaday"
+        en="Captain Tomaday"
+        zhcn="番茄超人"
+    />
+    <Game crc32="A4ACB176" bytes="3294401"
+        zip="cyberlip"
+        en="Cyber-Lip"
+        zhcn="战斗边缘"
+    />
+    <Game crc32="6BEF009A" bytes="372322"
+        zip="diggerma"
+        en="Digger Man"
+        zhcn="挖地先生"
+    />
+    <Game crc32="76777799" bytes="9581206"
+        zip="doubledr"
+        en="Double Dragon"
+        zhcn="双截龙"
+    />
+    <Game crc32="B64FFBDC" bytes="2942533"
+        zip="eightman"
+        en="Eight Man"
+        zhcn="八超人"
+    />
+    <Game crc32="AD56BD3D" bytes="11294592"
+        zip="fatfursp"
+        en="Fatal Fury Special"
+        zhcn="饿狼传说特别版"
+    />
+    <Game crc32="FF3B7497" bytes="4057134"
+        zip="fatfury1"
+        en="Fatal Fury - King of Fighters"
+        zhcn="饿狼传说 拳皇大赛"
+    />
+    <Game crc32="26CDF367" bytes="7985455"
+        zip="fatfury2"
+        en="Fatal Fury 2"
+        zhcn="饿狼传说2"
+    />
+    <Game crc32="33F63DF5" bytes="19581084"
+        zip="fatfury3"
+        en="Fatal Fury 3 - Road to the Final Victory"
+        zhcn="饿狼传说3"
+    />
+    <Game crc32="8FF060F8" bytes="3096996"
+        zip="fbfrenzy"
+        en="Football Frenzy"
+        zhcn="疯狂橄榄球"
+    />
+    <Game crc32="191C9DC5" bytes="6533294"
+        zip="fightfev"
+        en="Fight Fever"
+        zhcn="狂热格斗"
+    />
+    <Game crc32="7A9C5C9D" bytes="2311660"
+        zip="flipshot"
+        en="Battle Flip Shot"
+        zhcn="盾牌大战"
+    />
+    <Game crc32="9442C56D" bytes="10704944"
+        zip="galaxyfg"
+        en="Galaxy Fight - Universal Warriors"
+        zhcn="银河快打 宇宙战士"
+    />
+    <Game crc32="DE64026D" bytes="19337400"
+        zip="ganryu"
+        en="Ganryu"
+        zhcn="武藏严流记"
+    />
+    <Game crc32="EFAB35E3" bytes="80982446"
+        zip="garou"
+        en="Garou - Mark of the Wolves"
+        zhcn="饿狼传说 狼之印记"
+    />
+    <Game crc32="69C4681F" bytes="3298603"
+        zip="ghostlop"
+        en="Ghostlop"
+        zhcn="鬼精灵投球手"
+    />
+    <Game crc32="281B8A20" bytes="4890299"
+        zip="goalx3"
+        en="Goal! Goal! Goal!"
+        zhcn="射门！射门！射门！"
+    />
+    <Game crc32="2188A4DC" bytes="12592807"
+        zip="gowcaizr"
+        en="Voltage Fighter - Gowcaizer"
+        zhcn="高压战士 超人学园"
+    />
+    <Game crc32="1F8BEEE6" bytes="3888844"
+        zip="gpilots"
+        en="Ghost Pilots"
+        zhcn="魔鬼飞行员"
+    />
+    <Game crc32="910D164E" bytes="909987"
+        zip="gururin"
+        en="Gururin"
+        zhcn="梦幻天堂"
+    />
+    <Game crc32="DEF8ABE0" bytes="4675628"
+        zip="irrmaze"
+        en="The Irritating Maze"
+        zhcn="终极电流急急棒"
+    />
+    <Game crc32="4F800BC5" bytes="3498756"
+        zip="janshin"
+        en="Janshin Densetsu - Quest of Jongmaster"
+        zhcn="雀神传说"
+    />
+    <Game crc32="2E3D89AD" bytes="17273412"
+        zip="jockeygp"
+        en="Jockey Grand Prix"
+        zhcn="赌马"
+    />
+    <Game crc32="8278C7A2" bytes="1058342"
+        zip="joyjoy"
+        en="Puzzled"
+        zhcn="阳光方块"
+    />
+    <Game crc32="DF266CCA" bytes="12105321"
+        zip="kabukikl"
+        en="Far East of Eden - Kabuki Klash"
+        zhcn="天外魔境真传"
+    />
+    <Game crc32="ADE4376C" bytes="7101847"
+        zip="karnovr"
+        en="Fighter's History Dynamite"
+        zhcn="斗士的历史"
+    />
+    <Game crc32="4AA407D5" bytes="16803866"
+        zip="kizuna"
+        en="Kizuna Encounter - Super Tag Battle"
+        zhcn="风云默示录"
+    />
+    <Game crc32="A8C6644B" bytes="81525199"
+        zip="kof2000"
+        en="The King of Fighters 2000"
+        zhcn="拳皇2000"
+    />
+    <Game crc32="D4354280" bytes="79827601"
+        zip="kof2001"
+        en="The King of Fighters 2001"
+        zhcn="拳皇2001"
+    />
+    <Game crc32="06DFEA66" bytes="183337819"
+        zip="kof2002"
+        en="The King of Fighters 2002"
+        zhcn="拳皇2002"
+    />
+    <Game crc32="C94EF2CB" bytes="186275087"
+        zip="kof2003"
+        en="The King of Fighters 2003"
+        zhcn="拳皇2003"
+    />
+    <Game crc32="6B7AFECA" bytes="12789059"
+        zip="kof94"
+        en="The King of Fighters '94"
+        zhcn="拳皇94"
+    />
+    <Game crc32="4D5B47D3" bytes="16919881"
+        zip="kof95"
+        en="The King of Fighters '95"
+        zhcn="拳皇95"
+    />
+    <Game crc32="11366E92" bytes="23956117"
+        zip="kof96"
+        en="The King of Fighters '96"
+        zhcn="拳皇96"
+    />
+    <Game crc32="3E4A4755" bytes="48627620"
+        zip="kof97"
+        en="The King of Fighters '97"
+        zhcn="拳皇97"
+    />
+    <Game crc32="1FB1FBE9" bytes="41071546"
+        zip="kof98"
+        en="The King of Fighters '98 - The Slugfest"
+        zhcn="拳皇98"
+    />
+    <Game crc32="8337CA35" bytes="129981544"
+        zip="kof99"
+        en="The King of Fighters '99 - Millennium Battle"
+        zhcn="拳皇99"
+    />
+</Game-List>

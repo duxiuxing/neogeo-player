@@ -1,8 +1,9 @@
-arcade/new_roms/*
-arcade/wiiflow/log_cachecreate.txt
-
 cd/new_roms/*
 cd/wiiflow/log_cachecreate.txt
+
+mvs/new_roms/*
+mvs/roms/*.zip
+mvs/wiiflow/log_cachecreate.txt
 
 pocket/new_roms/*
 pocket/wiiflow/log_cachecreate.txt

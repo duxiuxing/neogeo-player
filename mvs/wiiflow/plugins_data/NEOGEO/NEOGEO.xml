@@ -32,6 +32,9 @@ No entanto, a verdade é que a associação usou uma soma colossal de dinheiro p
 Em 2020, o Super Baseball é um jogo acelerado com novas regras, onde você pode selecionar 1 de 12 homens, mulheres ou jogadores de robôs. Durante o jogo, você pode fortalecer sua equipe com os prêmios obtidos de capturas surpreendentes.</synopsis>
 	<genre>Esporte / Baseball,Esporte</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>超级棒球2020</title>
+	</locale>
 		<developer>Pallas</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="10" day="25"/>
@@ -70,6 +73,9 @@ Elige uno de 10 luchadores, cada uno con sus movimientos especiales, y haz tu ca
 	<locale lang="JA">
 	<title>Fire Suplex</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>火线摔角 三回合较量</title>
+    </locale>
 		<developer>UPL</developer>
 		<publisher>SNK</publisher>
 		<date year="1993" month="04" day="23"/>
@@ -264,6 +270,9 @@ Fight your way through seven stages in this horizontal-scrolling game, and defea
 	<synopsis>A invasão de uma fonte de vida desconhecida está piorando. Ninguém sabe se a linha defensiva ou o coração da base inimiga está arruinada. Com a esperança do povo, o caça mais avançado será enviado para o espaço.nnLute em sete etapas neste jogo de rolagem horizontal e derrote um chefe no final de cada uma. Você começa o jogo com quatro armas principais, das quais você pode trocar com o clique de um botão.</synopsis>
 	<genre>Shoot'em Up / Horizontal,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>勇者之击</title>
+	</locale>
 		<developer>Visco</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="07" day="17"/>
@@ -276,7 +285,7 @@ Fight your way through seven stages in this horizontal-scrolling game, and defea
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Art Of Fighting / Ryuuko No Ken">
+	<game name="Art of Fighting / Ryuuko No Ken">
 		<id>37565A</id>
 	<locale lang="EN">
 	<title>Art of Fighting</title>
@@ -301,6 +310,9 @@ Fight your way through seven stages in this horizontal-scrolling game, and defea
 	<locale lang="JA">
 	<title>Ryuuko No Ken</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>龙虎之拳</title>
+	</locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="12" day="11"/>
@@ -313,7 +325,7 @@ Fight your way through seven stages in this horizontal-scrolling game, and defea
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Art Of Fighting 2 / Ryuuko No Ken 2">
+	<game name="Art of Fighting 2 / Ryuuko No Ken 2">
 		<id>37566A</id>
 	<locale lang="EN">
 	<title>Art of Fighting 2</title>
@@ -346,6 +358,9 @@ Todo el plantel del primer juego está aquí (excepto Todo y Mr.Karate) así com
 	<locale lang="JA">
 	<title>Ryuuko No Ken 2</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>龙虎之拳2</title>
+	</locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="03" day="11"/>
@@ -358,7 +373,7 @@ Todo el plantel del primer juego está aquí (excepto Todo y Mr.Karate) así com
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Art Of Fighting 3 - The Path Of The Warrior / Ryuuko No Ken Gaiden">
+	<game name="Art of Fighting 3 - The Path of the Warrior / Ryuuko No Ken Gaiden">
 		<id>37567A</id>
 	<locale lang="EN">
 	<title>Art of Fighting 3 - The Path of the Warrior</title>
@@ -386,6 +401,9 @@ Art of Fighting 3: La senda del guerrero cuenta con diez personajes con diferent
 	</locale>
 	<locale lang="JA">
 	<title>Ryuuko no Ken Gaiden</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>龙虎之拳3 斗士之路</title>
 	</locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
@@ -425,6 +443,9 @@ Des graphismes sommaires, une réalisation somme toute banale...Ce jeu est loin 
 	</locale>
 	<locale lang="JA">
 	<title>Bakatonosama Mahjong Manyuuki</title>
+	</locale>
+	<locale lang="ZHCN">
+		<title>傻瓜殿下麻雀漫游记</title>
 	</locale>
 		<developer>Monolith</developer>
 		<publisher>SNK</publisher>
@@ -497,6 +518,9 @@ Vraiment un bon titre, mais Windjammers lui fera éternellement de l'ombre. </sy
 	<locale lang="PT">
 	<synopsis>Bang Bead, conhecido no Japão como Bang Beads, é um jogo de rebater a bola de 2001 desenvolvido e publicado pela Visco exclusivamente para o Neo-Geo MVS. Ele combina os gêneros do jogos de Tênis do Magnavox Odyssey, dos jogos de fliperama da Atari Pong e Breakout, e da série Spitball Sparky, do Nintendo Game &amp; Watch. Você pode selecionar entre 9 personagens para jogar contra outro jogador ou o computador. Derrube as estrelas atrás do outro jogador e então faça a bola saltar para ganhar o round.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>碰碰球</title>
+	</locale>
 		<developer>Visco</developer>
 		<publisher>Visco</publisher>
 		<date year="2000" month="" day=""/>
@@ -535,6 +559,9 @@ The standard rules of baseball still apply, but it adds power-ups that the playe
 As regras padrão do beisebol ainda se aplicam, mas adiciona-se power-ups que o jogador pode pegar e usar durante o jogo, como a habilidade de seu arremessador jogar mais rápido ou seu batedor bater melhor. Eles também podem substituir um jogador durante o jogo, mas são limitados a três substituições por jogo. O jogo é mostrado através de gráficos 2D com cenas em estilo HQ para ilustrar a ação, como capturas dramáticas e home runs que aparecerão durante o jogo.</synopsis>
 	<genre>Esporte,Esporte / Baseball</genre>
 	</locale>
+    <locale lang="ZHCN">
+        <title>棒球之星2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="04" day="28"/>
@@ -569,6 +596,9 @@ As regras padrão do beisebol ainda se aplicam, mas adiciona-se power-ups que o 
 	<synopsis>Baseball Stars Professional é o sucessor do Baseball Stars para o Nintendo Entertainment System e apresenta gráficos em estilo HQ. Escolha entre uma variedade de equipes que incluem Planetas Celestes, Corpos Celestes, Demônios das Sombras, Cavaleiros de Batalha, Superstars Fabulosos e muitos outros. Em seguida, selecione o campo onde o jogo será realizado: o estádio SNK ou a cúpula SNK. Cada campo tem as mesmas dimensões, mas sua capacidade varia. O jogo é jogado da mesma maneira que o beisebol normal. Apresenta um modo VS. em que dois jogadores podem jogar um contra o outro.</synopsis>
 	<genre>Esporte,Esporte / Baseball</genre>
 	</locale>
+    <locale lang="ZHCN">
+        <title>棒球之星专业版</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -602,6 +632,9 @@ As regras padrão do beisebol ainda se aplicam, mas adiciona-se power-ups que o 
 	<locale lang="PT">
 	<synopsis>Battle Flip Shot é um jogo arcade que mistura elementos de Pong com o design de personagens japoneses.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+        <title>盾牌大战</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="12" day="08"/>
@@ -635,6 +668,9 @@ As regras padrão do beisebol ainda se aplicam, mas adiciona-se power-ups que o 
 	<locale lang="PT">
 	<synopsis>A sequência não oficial de Pulstar, Blazing Star, é novamente um "shoot-'em-up" de rolagem horizontal. Um ou dois jogadores seguem pelos níveis, cada um com um chefe inimigo no final, tentando resgatar a humanidade. Há seis naves para escolher, cada uma com seu próprio piloto (quatro deles mulheres), armas e características de movimento. Cada nave tem seus próprios tipos de tiros, mas também um tiro padrão, tiro carregado (mais poderoso) e tiro dividido (um tiro carregado pode ser dividido em mais balas, diminuindo a potência de cada bala enquanto amplia o alcance do fogo).</synopsis>
 	<genre>Shoot'em Up / Horizontal,Shoot'em Up</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>闪亮之星</title>
 	</locale>
 		<developer>Yumekobo</developer>
 		<publisher>SNK</publisher>
@@ -681,6 +717,9 @@ Você controla Blue, que tem apenas uma arma para lidar com os Darumas. Você po
 	<locale lang="JA">
 	<title>Raguy</title>
 	</locale>
+	<locale lang="ZHCN">
+		<title>蓝色之旅</title>
+	</locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -715,6 +754,9 @@ Você controla Blue, que tem apenas uma arma para lidar com os Darumas. Você po
 	<synopsis>Em Breakers, escolha um dos oito lutadores que tem seus próprios movimentos e ataques especiais. Existem oito etapas no jogo e cada etapa tem dois rounds. O objetivo de cada round é drenar a energia do seu oponente para vencer o round. Se houver empate, um terceiro round acontece. Se o limite de tempo expirar, o jogador com menos energia perde o round. Depois de completar todos os oito estágios, você enfrentará um adversário muito mais difícil do que os anteriores. Diferentes finais e diálogos no jogo são visualizados dependendo do personagem que você selecionar.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+    <locale lang="ZHCN">
+        <title>爆裂人</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="12" day="17"/>
@@ -749,6 +791,9 @@ Você controla Blue, que tem apenas uma arma para lidar com os Darumas. Você po
 	<synopsis>Os guerreiros retornam para um novo campeonato. Os perdedores da batalha anterior podem se vingar nesta? Não apenas eles se encontrarão cara a cara novamente, mas novos desafios os aguardam. No entanto, seu objetivo é o mesmo. Todo mundo quer ganhar o novo campeonato!</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+    <locale lang="ZHCN">
+        <title>爆裂人复仇</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="07" day="03"/>
@@ -784,6 +829,10 @@ Burning Fight is a side-scrolling street-fighting game similar to Final Fight. A
 	<locale lang="PT">
 	<synopsis>A família Castella de Metro City começou a arruinar a pacata cidade de Osaka com o violento grupo japonês "Heiwa-gumi". Para parar a luta, os detetives da polícia de Metro enviaram dois personagens perigosos, Duke e Billy, para o Japão. Com o apoio do famoso detetive japonês Ryu, eles decidiram invadir a fortaleza do inimigo. Violência impiedosa nas luzes de neon de Osaka. Haverá um fim para esta guerra?nnnnBurning Fight é um jogo de briga de rua lateral semelhante a Final Fight. Como Duke, Billy ou Ryu, você deve lutar em vários locais em Osaka. No início do jogo, você só pode usar seus punhos para lidar com gangues, mas quebrando coisas como cabines telefônicas e placas de rua ao longo do caminho, você pode obter novas armas e mais saúde. No final de cada local, você terá que derrotar um chefe para continuar a missão.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>热血快打</title>
+		<genre>清版动作游戏</genre>
+	</locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="08" day="09"/>
@@ -796,7 +845,7 @@ Burning Fight is a side-scrolling street-fighting game similar to Final Fight. A
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Puzzle Bobble / Bust-a-move">
+	<game name="Puzzle Bobble / Bust-a-Move">
 		<id>37614A</id>
 	<locale lang="EN">
 	<title>Bust-a-Move</title>
@@ -830,7 +879,7 @@ Burning Fight is a side-scrolling street-fighting game similar to Final Fight. A
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Puzzle Bobble 2 / Bust-a-move Again Ex">
+	<game name="Puzzle Bobble 2 / Bust-A-Move Again EX">
 		<id>37613A</id>
 	<locale lang="EN">
 	<title>Bust-A-Move Again EX</title>
@@ -888,6 +937,9 @@ Esto es debido al argumento, explicado en la intro. En un remoto laboratorio, un
 	<synopsis>Um shooting de rolagem vertical cômico estrelado por um tomate mutante que soca o inimigo e pode se transformar em outros personagens esquisitos.</synopsis>
 	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>番茄超人</title>
+	</locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1999" month="05" day="27"/>
@@ -937,10 +989,10 @@ Esto es debido al argumento, explicado en la intro. En un remoto laboratorio, un
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Choutetsu Brikin'ger - Iron Clad">
+	<game name="Choutetsu Brikin'ger / Iron Clad">
 		<id>87607A</id>
 	<locale lang="EN">
-	<title>Iron clad</title>
+	<title>Iron Clad</title>
 	<synopsis>Ironclad is a side scrolling shooter developed by Saurus in 1996. Ironclad was first shown in its native MVS cartridge format at the March 1996 ACME show in Orlando, Florida. I saw and played the game at the show. We always knew therefore that at the very least, one proto was available on the MVS format. Although the game saw release on the NEOGEO CD system, it was never officially released in either the MVS or HOME cartridge formats. Ironclad was the most sought after of all the CD-protos because of its appeal to shoot 'em up fans. This was most likely why it had coincidentally caused the largest number of false claims; more then any other proto cartridge! 13 years later, in November of 2009, SNK finally released the native ROM data for the game and as a result we finally got the game and can now enjoy it forever!</synopsis>
 	<genre>Shoot'em Up,Shoot'em up / Horizontal</genre>
 	</locale>
@@ -962,6 +1014,9 @@ Esto es debido al argumento, explicado en la intro. En un remoto laboratorio, un
 	<locale lang="JA">
 	<title>Chotetsu Brikin'ger</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>超铁战机</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="10" day="26"/>
@@ -1065,6 +1120,10 @@ Crossed Swords requiere movimientos muy coordinados para progresar. La regla bá
 	<locale lang="PT">
 	<synopsis>Como um cavaleiro, você deve viajar pelo campo lutando contra monstros e bandidos usando sua espada e escudo. Quando você entra em combate, a visão muda para uma perspectiva de pseudo-primeira pessoa, onde o corpo do seu cavaleiro é delineado para que você possa ver as criaturas que você está lutando. Quando os inimigos são derrotados, eles perdem dinheiro e bônus. Existem sete capítulos no jogo, e cada capítulo (exceto um) começa com você entrando na loja de um comerciante e comprando armas usando o dinheiro que você coletou até agora. Existem também caminhos alternativos que o levam a diferentes partes do jogo. No início do jogo, você pode escolher um capítulo (de um a três apenas) para o qual deseja começar.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>圣十字剑</title>
+		<genre>冒险游戏</genre>
+	</locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="10" day="01"/>
@@ -1103,6 +1162,10 @@ The Story: Decades have passed since the messenger of darkness Nausizz was defea
 	</locale>
 	<locale lang="PT">
 	<synopsis>Esta versão é um bootleg (cópia não oficial) da versão do NeoGeo CD. Jogo de luta 2D com uma visão na parte de trás do personagem (Seu sprite é transparente), tipo Punch-On no NES.</synopsis>
+	</locale>
+	<locale lang="ZHCN">
+		<title>圣十字剑2</title>
+		<genre>冒险游戏</genre>
 	</locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
@@ -1149,10 +1212,10 @@ The Story: Decades have passed since the messenger of darkness Nausizz was defea
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Crouching Tiger Hidden Dragon 2003">
+	<game name="Crouching Tiger Hidden Dragon 2003 SP">
 		<id>108864</id>
 	<locale lang="EN">
-	<title>Crouching Tiger Hidden Dragon 2003</title>
+	<title>Crouching Tiger Hidden Dragon 2003 SP</title>
 	<synopsis>This game, published without License, is in fact an Hack (Pirate version) of The King of Fighter 2001. To be precise, Crouching Tiger Hidden Dragon 2003 get his inspiration from a part of The King of Fighter 2001 but propose to the player to use a mix of Fighters from several versions of the King of Fighter Saga (for example the Brazilian Team from The King of Fighters ´94 is back in this version) and some places coming from other fighting games, like Street Fighter Alpha from Capcom, other games from SNK, Art of Fighting 3 and The Last Blade 2.</synopsis>
 	<genre>Fight</genre>
 	</locale>
@@ -1170,6 +1233,10 @@ The Story: Decades have passed since the messenger of darkness Nausizz was defea
 	<locale lang="PT">
 	<synopsis>Este jogo, publicado sem licença, é na verdade um Hack (versão pirata) de The King of Fighter 2001. Para ser preciso, Crouching Tiger Hidden Dragon 2003 obtém sua inspiração de uma parte do The King of Fighter 2001, mas propõe ao jogador uma mistura de lutadores de várias versões da saga King of Fighter (por exemplo, a equipe brasileira do The King of Fighters ´94 está de volta nesta versão) e alguns lugares vindos de outros jogos de luta, como Street Fighter Alpha da Capcom, outros jogos da SNK, como Art of Fighting 3 e The Last Blade 2.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+		<title>卧虎藏龙2003特别版</title>
+		<genre>格斗游戏</genre>
+	</locale>
 		<developer>Phenixsoft</developer>
 		<publisher>Phenixsoft</publisher>
 		<date year="2003" month="" day=""/>
@@ -1182,7 +1249,7 @@ The Story: Decades have passed since the messenger of darkness Nausizz was defea
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Cyber-lip">
+	<game name="Cyber-Lip">
 		<id>13931A</id>
 	<locale lang="EN">
 	<title>Cyber-Lip</title>
@@ -1206,6 +1273,9 @@ Este juego presenta un mundo apocalíptico. La Tierra, año 2016.  El Gobierno F
 	<synopsis>O Cyber-Lip é um jogo de rolagem lateral de 1 ou 2 jogadores, no qual você deve lutar em várias áreas e derrotar um chefe no final de cada uma delas. Ao longo do caminho, você pode pegar uma variedade de armas e usá-las contra os invasores. Ao destruir certos inimigos, você recebe um "core bot", que é um anel que envolve você, e quando isso toca os invasores, eles são destruídos. O tempo está contra você, quando expira, você perde uma vida.</synopsis>
 	<genre>Plataforma,Plataforma / Tiro com rolagem</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>战斗边缘</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -1239,6 +1309,9 @@ Este juego presenta un mundo apocalíptico. La Tierra, año 2016.  El Gobierno F
 	<locale lang="PT">
 	<synopsis>Digger Man é um jogo que rouba muitos sprites e sons do "Gururin" da Face. É um jogo de quebra-cabeça muito difícil. O jogador deve permanecer calmo e observar as pedras e bombas caindo.</synopsis>
 	<genre>Ação / Labirinto,Ação</genre>
+	</locale>
+	<locale lang="ZHCN">
+		<title>挖地先生</title>
 	</locale>
 		<developer>Kyle Hodgetts</developer>
 		<publisher>Kyle Hodgetts</publisher>
@@ -1278,6 +1351,9 @@ Sobre la plantilla de luchadores, disponemos de 10 personajes jugables y otros d
 	<synopsis>Lançado aproximadamente na mesma época que o filme de mesmo nome e vagamente baseado em sua história, este capítulo da série Double Dragon também se distancia do tradicional combate entre ruas e ruas até um puro jogo de luta individual. Há dez personagens para escolher, incluindo Billy e Jimmy e o jogo tem fundos interativos coloridos, zoom na tela, movimentos especiais exagerados e a inclusão de saltos duplos, combos, cargas para o jogador que perdeu e contra-ataques e muito espaço para estratégias de combate avançadas.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+		<title>双截龙</title>
+	</locale>
 		<developer>Tecmo</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="03" day="31"/>
@@ -1293,7 +1369,7 @@ Sobre la plantilla de luchadores, disponemos de 10 personajes jugables y otros d
 	<game name="Dragon's Heaven">
 		<id>108982</id>
 	<locale lang="EN">
-	<title>Dark Seed</title>
+	<title>Dragon's Heaven</title>
 	<synopsis>Unreleased fighting game featuring ten selectable characters.
 
 The game was supposed to feature a unique system called the 'alignment system' (Lawful, Neutral, and Chaotic) in which the character's property would change depending on the path that the player would pick after the end of each battle.
@@ -1319,6 +1395,9 @@ O jogo deveria ter um sistema único chamado de 'sistema de alinhamento' (Lawful
 
 O jogo deveria mudar o tempo a cada rodada (manhã, tarde, noite). Lawful ficaria mais forte durante o meio-dia e seria capaz de usar movimentos adicionais, enquanto, por outro lado, ficaria mais fraco durante a noite. Chaotic é exatamente o oposto e fica forte durante a noite e fraco durante o meio-dia. Neutral permanece o mesmo em todos os momentos.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+        <title>龙之天堂</title>
+    </locale>
 		<developer>FACE</developer>
 		<publisher>FACE</publisher>
 		<date year="1997" month="" day=""/>
@@ -1358,6 +1437,9 @@ C'est un Beat them Up un peu spécial, dont les déplacements se font sur une se
 	<synopsis>O super-herói deve parar a destruição de uma cidade nas mãos de um robô gigante e seu criador. O objetivo, como Eightman (ou Nineman), é mover a esquerda ou a direita golpeando inimigos e lutar contra um chefe no final do nível. Em alguns níveis, você está perseguindo um veículo enquanto os inimigos pulam em você. Os power-ups podem ser coletados ao longo do caminho, o que, quando coletados, farão seus chutes e golpes mais fortes, além de dar bombas que são usadas para acertar todos os inimigos. Se um jogo de dois jogadores estiver em andamento, uma faísca surgirá entre eles e o poder da bomba será aumentado.</synopsis>
 	<genre>Briga de rua,Plataforma / Combate com rolagem</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>八超人</title>
+    </locale>
 		<developer>SNK / Pallas</developer>
 		<publisher>SNK / Pallas</publisher>
 		<date year="1991" month="11" day="10"/>
@@ -1370,7 +1452,7 @@ C'est un Beat them Up un peu spécial, dont les déplacements se font sur une se
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Far East Of Eden - Kabuki Klash / Tengai Makyou - Shin Den">
+	<game name="Far East of Eden - Kabuki Klash / Tengai Makyou - Shin Den">
 		<id>37589A</id>
 	<locale lang="EN">
 	<title>Far East of Eden - Kabuki Klash</title>
@@ -1395,6 +1477,9 @@ C'est un Beat them Up un peu spécial, dont les déplacements se font sur une se
 	<locale lang="JA">
 	<title>Tengai Makyou - Shin Den</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>天外魔境真传</title>
+    </locale>
 		<developer>Red Company</developer>
 		<publisher>Hudson</publisher>
 		<date year="1995" month="07" day="01"/>
@@ -1407,7 +1492,7 @@ C'est un Beat them Up un peu spécial, dont les déplacements se font sur une se
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Fatal Fury - King Of Fighters / Garou Densetsu - Shukumei No Tatakai">
+	<game name="Fatal Fury - King of Fighters / Garou Densetsu - Shukumei no Tatakai">
 		<id>37576A</id>
 	<locale lang="EN">
 	<title>Fatal Fury - King of Fighters</title>
@@ -1434,6 +1519,9 @@ Fatal Fury is a 2D fighter and is the first game in a series of one-on-one fight
 	<locale lang="JA">
 	<title>Garou Densetsu - Shukumei no Tatakai</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>饿狼传说 拳皇大赛</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="12" day="20"/>
@@ -1474,6 +1562,9 @@ Tras la caída de Geese Howard, el jefe de la organización criminal que tuvo at
 	<locale lang="JA">
 	<title>Garou Densetsu 2 - Arata-naru Tatakai</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>饿狼传说2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="" day=""/>
@@ -1486,7 +1577,7 @@ Tras la caída de Geese Howard, el jefe de la organización criminal que tuvo at
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Fatal Fury 3 - Road To The Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai">
+	<game name="Fatal Fury 3 - Road to the Final Victory / Garou Densetsu 3 - Haruka-naru Tatakai">
 		<id>37578A</id>
 	<locale lang="EN">
 	<title>Fatal Fury 3 - Road to the Final Victory</title>
@@ -1512,6 +1603,9 @@ En este sentido, nos cuenta que Terry Bogard, Andy Bogard, Joe Higashi y Mai Shi
 	<locale lang="JA">
 	<title>Garou Densetsu 3 - Haruka-naru Tatakai</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>饿狼传说3</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="04" day="21"/>
@@ -1549,6 +1643,9 @@ En este sentido, nos cuenta que Terry Bogard, Andy Bogard, Joe Higashi y Mai Shi
 	<locale lang="JA">
 	<title>Garou Densetsu Special</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>饿狼传说特别版</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1993" month="12" day="22"/>
@@ -1583,6 +1680,9 @@ En este sentido, nos cuenta que Terry Bogard, Andy Bogard, Joe Higashi y Mai Shi
 	<synopsis>Existem 8 personagens para selecionar e dois chefes (o primeiro chefe só pode ser jogado no modo de dois jogadores). O objetivo do jogo é ganhar duas partidas de três. Cada personagem tem um conjunto de movimentos além de dois socos básicos e chutes. Cada personagem também tem um super movimento chamado "Danger Move", que são semelhantes aos Movimentos de Desespero de Fatal Fury 2. Os jogadores também têm a habilidade de provocar outros, mas ao contrário de jogos como Art of Fighting, isso não tem efeito e na verdade deixar o jogador aberto aos ataques.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>狂热格斗</title>
+    </locale>
 		<developer>Viccom</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="" day=""/>
@@ -1620,6 +1720,9 @@ En este sentido, nos cuenta que Terry Bogard, Andy Bogard, Joe Higashi y Mai Shi
 	<locale lang="JA">
 	<title>Fighter's History Dynamite</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>斗士的历史</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="04" day="28"/>
@@ -1658,6 +1761,9 @@ El hud es muy claro y continuamente estaremos informados de las jugadas realizad
 	<synopsis>Você nunca mais jogará outro jogo de futebol depois de jogar o Football Frenzy! O Football Frenzy é uma ação contundente no seu melhor! Você ouvirá, em completo estéreo, todas as pancadas para esmagamento de ossos e o impacto de capacete contra capacete, de metal sobre metal. Os grunhidos e gemidos dos jogadores sacrificando seus corpos pela equipe e o colocam direto no campo com eles! Os zooms da câmera proporcionam os mais deslumbrantes close-ups já vistos. Então, traga suas almofadas e capacete! Modo de torneio, exibições cinematográficas e mais de 10 equipes para escolher fazem deste pacote de futebol completo. Jogar contra o computador ou um amigo neste 46-MEG... Football Frenzy!</synopsis>
 	<genre>Esporte,Esporte / Futebol americano</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>疯狂橄榄球</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="" day=""/>
@@ -1727,6 +1833,9 @@ O conceito do jogo é bem simples: 2 rãs que precisam comer o máximo de inseto
 	<synopsis>As pessoas rezam aos deuses, mas o diabo veio do céu. Sua missão é derrotar Felden Kryse, governante do submundo. O fantástico desafio desdobra-se ferozmente em oito planetas diferentes. A imagem da tela muda instantaneamente para aumentar e diminuir o zoom com base no desenrolar da batalha. Use o Dash para sua maior vantagem e acelere pelo campo do infinito.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>银河快打 宇宙战士</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="02" day="25"/>
@@ -1767,6 +1876,9 @@ Você deve guiar Musashi ou sua irmã, Suzame, em vários locais, derrotando uma
 	<locale lang="JA">
 	<title>Musashi Ganryuki</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>武藏严流记</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>SNK</publisher>
 		<date year="1999" month="" day=""/>
@@ -1779,7 +1891,7 @@ Você deve guiar Musashi ou sua irmã, Suzame, em vários locais, derrotando uma
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Garou - Mark Of The Wolves">
+	<game name="Garou - Mark of the Wolves">
 		<id>37581A</id>
 	<locale lang="EN">
 	<title>Garou - Mark of the Wolves</title>
@@ -1803,6 +1915,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<synopsis>Já se passaram vários anos desde que Geese Howard foi derrotado em uma batalha com Terry Bogard, um jovem que queria vingar seu pai. Em vez de procurar ser salvo da morte depois de cair da varanda de seu escritório, Geese decidiu morrer e deixou para trás seu filho, Rock. Terry levou Rock e tornou-se um irmão mais velho para ele, criando o menino durante toda a sua vida.nnnnAgora Rock é um adolescente, e Terry é um homem de 30 anos, e ambos estão prestes a se unir em um novo confronto ... rostos novos e antigos se juntam para a maior batalha até agora!</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>饿狼传说 狼之印记</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1999" month="" day=""/>
@@ -1837,6 +1952,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<synopsis>O Ghost Pilots é um jogo de tiro de aviões militares no qual você deve abater jatos de combate usando balas ou bombas. Uma vez que você tenha matado caças suficientes, você terá que derrotar um caça a jato para continuar. Depois de alguns estágios, você deve selecionar uma rota para continuar sua jornada. Poderes podem ser coletados que aumentarão seu poder de fogo, e estrelas podem ser obtidas por pontos extras.</synopsis>
 	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>魔鬼飞行员</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="07" day="01"/>
@@ -1871,6 +1989,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<synopsis>Ghost Lop é um excelente jogo de quebra-cabeças baseado em Ghostbusters da Data East de 1996. Ele combina a ação rápida de um jogo no estilo Arkanoid, com o pensamento rápido de um jogo do tipo Bust-A-Move. O jogo foi cogitado para lançamento em 2001, mas a morte prematura da SNK no mesmo ano pode ter terminado com essa possibilidade. A Data East era mais conhecida por sua série Chain Reaction/Magical Drop de jogos de quebra-cabeça, e até mais tarde incluiu os personagens de Ghostlop em um dos lançamentos posteriores para sistemas de jogos domésticos modernos.</synopsis>
 	<genre>Quebra-cabeças,Quebra-cabeças / Lançar</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>鬼精灵投球手</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>Data East</publisher>
 		<date year="1996" month="" day=""/>
@@ -1905,6 +2026,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<synopsis>Um jogo de futebol com todos os ingredientes certos, habilidade, talento, paixão e, claro, OBJETIVOS! Com 28 seleções nacionais, participe de um torneio para se tornar a melhor nação de futebol do mundo. Ultrapasse a fase de grupos de abertura e passe para um estágio de eliminação mata-mata onde o fracasso não é uma opção. Para ajudá-lo no seu caminho, mantenha pressionado o botão de disparo até que a barra de energia fique cheia e você possa fazer um SUPER CHUTE PODEROSO!</synopsis>
 	<genre>Esporte,Esporte / Futebol</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>射门！射门！射门！</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="" day=""/>
@@ -1939,6 +2063,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<synopsis>Seu objetivo é fazer com que três pessoas da mesma cor se alinhem e desapareçam - mas para fazer isso, você não vai virar as pessoas enquanto elas caem, mas sim girar o buraco inteiro assim que aterrissarem. Como roupas em uma secadora, você tem que virar todo o campo de jogo e tentar igualar as miniaturas enquanto elas deslizam para a parte de baixo da tela, reorganizando-se à medida que chegam.</synopsis>
 	<genre>Quebra-cabeças,Quebra-cabeças / Queda</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>梦幻天堂</title>
+    </locale>
 		<developer>FACE</developer>
 		<publisher>FACE</publisher>
 		<date year="1994" month="" day=""/>
@@ -1972,6 +2099,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<locale lang="PT">
 	<genre>Jogo de tabuleiro Asiático,Mahjong</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>偶像麻将最终罗曼史2</title>
+    </locale>
 		<developer>hack</developer>
 		<publisher>hack</publisher>
 		<date year="1995" month="" day=""/>
@@ -1984,7 +2114,7 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Irritating Maze / Ultra Denryu Iraira Bou, The">
+	<game name="The Irritating Maze / Ultra Denryu Iraira Bou">
 		<id>37587A</id>
 	<locale lang="EN">
 	<title>The Irritating Maze</title>
@@ -2009,6 +2139,9 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 	<locale lang="JA">
 	<title>Ultra Denryu Iraira Bou</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>终极电流急急棒</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="" day=""/>
@@ -2021,7 +2154,7 @@ Now Rock is a teenager, and Terry is a man in his 30s, and both are about to com
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Janshin Densetsu - Quest Of Jongmaster">
+	<game name="Janshin Densetsu - Quest of Jongmaster">
 		<id>87608A</id>
 	<locale lang="EN">
 	<title>Janshin Densetsu - Quest of Jongmaster</title>
@@ -2044,6 +2177,9 @@ Lorsque vous aurez vaincu votre adversaire, vous aurez le droit d'admirer une jo
 	<locale lang="PT">
 	<genre>Mahjong,Jogo de tabuleiro Asiático,Mahjong</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>雀神传说</title>
+    </locale>
 		<developer>Aicom Corporation</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="" day=""/>
@@ -2077,6 +2213,9 @@ Lorsque vous aurez vaincu votre adversaire, vous aurez le droit d'admirer une jo
 	<locale lang="PT">
 	<genre>Corrida com Cavalos,Esporte com animais</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>赌马</title>
+    </locale>
 		<developer>BrezzaSoft</developer>
 		<publisher>BrezzaSoft</publisher>
 		<date year="2001" month="" day=""/>
@@ -2089,7 +2228,7 @@ Lorsque vous aurez vaincu votre adversaire, vous aurez le droit d'admirer une jo
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Jonas Indiana And The Lost Temple Of Ra">
+	<game name="Jonas Indiana and the Lost Temple of RA">
 		<id>108989</id>
 	<locale lang="EN">
 	<title>Jonas Indiana and the Lost Temple of RA</title>
@@ -2107,6 +2246,9 @@ Lorsque vous aurez vaincu votre adversaire, vous aurez le droit d'admirer une jo
 	<locale lang="DE">
 	<genre>Plattform</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>印第安纳琼斯与失落的神殿</title>
+    </locale>
 		<developer>Blastar</developer>
 		<publisher>homebrew</publisher>
 		<date year="2005" month="" day=""/>
@@ -2119,7 +2261,7 @@ Lorsque vous aurez vaincu votre adversaire, vous aurez le droit d'admirer une jo
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters '94, The">
+	<game name="The King of Fighters '94">
 		<id>13894A</id>
 	<locale lang="EN">
 	<title>The King of Fighters '94</title>
@@ -2143,6 +2285,9 @@ Estos luchadores son invitados a participar en la edición anual del torneo The 
 	<synopsis>King of Fighters '94 é notável por ser um dos primeiros jogos de luta conhecidos que coloca times de lutadores um contra o outro em combate único. Cada equipe consiste de três lutadores para cada jogador, sendo o vencedor o jogador que é capaz de eliminar o outro time primeiro. Cada personagem ativo pode carregar, ao estilo "Art of Fighting", para ganhar acesso a "Desperation Moves", ou "DMs" (movimentos que funcionam muito como Super Combos de Street Fighter). Jogando contra o computador, o jogador deve derrotar todas as 8 equipes no jogo, a fim de chegar ao chefe final, Rugal Bernstein.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇94</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="10" day="01"/>
@@ -2155,7 +2300,7 @@ Estos luchadores son invitados a participar en la edición anual del torneo The 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters '95, The">
+	<game name="The King of Fighters '95">
 		<id>37592A</id>
 	<locale lang="EN">
 	<title>The King of Fighters '95</title>
@@ -2179,6 +2324,9 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 	<synopsis>A primeira sequência da série King of Fighters começa um ano após o final do primeiro torneio. Mais uma vez, lutadores de todo o mundo recebem um misterioso convite para um torneio de luta em equipe. E assim como no ano passado, parece que o notório criminoso Rugal Bernstein está por trás disso, aparentemente retornando do mundo dos mortos para se erguer mais uma vez ...nnnnKing of Fighters '95 apresenta o rival de Kyo Kusanagi, Iori Yagami, e coloca Kyo como personagem principal para o resto da série. A jogabilidade de The King of Fighters '95 está essencialmente inalterada em relação ao título anterior, embora introduza o conceito de "edição de equipe", que permaneceria como um recurso padrão da série. Usando o recurso "editar equipe", é possível criar uma equipe totalmente personalizada usando qualquer um dos lutadores disponíveis ou usar uma das equipes padrão, se desejar.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇95</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="09" day="01"/>
@@ -2191,7 +2339,7 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters '96, The">
+	<game name="The King of Fighters '96">
 		<id>37593A</id>
 	<locale lang="EN">
 	<title>The King of Fighters '96</title>
@@ -2213,6 +2361,9 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 	<synopsis>A principal série da SNK retorna para mais um ano. Muitas das mudanças no lançamento do KOF deste ano vêm na forma de gráficos aprimorados, efeitos sonoros, música e sprites de personagens totalmente refeitos. A jogabilidade do sistema foi alterada com a adição de combos multi-hit "Rush" e novos movimentos para praticamente todos os personagens. O enredo da série recebe grande foco nesta versão com a Saga Orochi girando em alta velocidade. Outras características do ano anterior incluem a capacidade de escolher entre o modo "Team Fighting" padrão ou o tradicional estilo de jogo "Single Fighter", além dos modos de jogo "Versus" e "Survival".</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇96</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="09" day="27"/>
@@ -2225,7 +2376,7 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters '97, The">
+	<game name="The King of Fighters '97">
 		<id>37594A</id>
 	<locale lang="EN">
 	<title>The King of Fighters '97</title>
@@ -2247,6 +2398,9 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 	<synopsis>Mais um ano, outro KOF. As adições este ano vêm na forma de gráficos e sons ligeiramente melhorados, novos movimentos e um novo modo de jogo. A jogabilidade é muito mais orientada pelo enredo, já que você tem chefes intermediários que podem mudar dependendo de qual time você selecionar. Além disso, existem vários finais especiais que são mostrados apenas quando certas combinações "Edit Team" são selecionadas. Novos personagens incluem o New Face Team, o Fatal Fury Outlaw Team (com a estréia em KOF de "Blue" Mary Ryan e Ryuji Yamazaki, e o retorno de Billy Kane), e o aluno de Kyo, Shingo Yabuki. No total, The King of Fighters '97 tem 29 personagens diferentes.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇97</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="09" day="25"/>
@@ -2259,7 +2413,7 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends, The">
+	<game name="The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends">
 		<id>37595A</id>
 	<locale lang="EN">
 	<title>The King of Fighters '98 - The Slugfest</title>
@@ -2284,6 +2438,9 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 	<locale lang="JA">
 	<title>King of Fighters '98 - Dream Match Never Ends</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇98</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="09" day="23"/>
@@ -2296,10 +2453,10 @@ The King of Fighters '95 introduces Kyo Kusanagi's rival Iori Yagami, and firmly
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters '99 - Millennium Battle, The">
+	<game name="The King of Fighters '99 - Millennium Battle">
 		<id>37596A</id>
 	<locale lang="EN">
-	<title>The King of Fighters '99 : Millennium Battle</title>
+	<title>The King of Fighters '99 - Millennium Battle</title>
 	<synopsis>It's time once again for the famous KOF Tournament! New faces and old alike join together to participate in the latest KOF tournament, but something seems wrong. Why was this year's tournament announced without fanfare? What could be up? That's for you to find out! Featuring classic KOF gameplay with a new twist: The Striker Match!</synopsis>
 	<genre>Fight / Versus,Fight</genre>
 	</locale>
@@ -2319,6 +2476,9 @@ King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y
 	<synopsis>Chegamos mais uma vez ao tempo para o famoso KOF Tournament! Novos rostos e velhos se juntam para participar do último torneio KOF, mas algo parece errado. Por que o torneio deste ano foi anunciado sem fanfarra? O que poderia estar acontecendo? Isso é para você descobrir! Apresentando uma jogabilidade KOF clássica com um novo toque: The Striker Match!</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇99</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1999" month="09" day="23"/>
@@ -2331,7 +2491,7 @@ King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters 2000, The">
+	<game name="The King of Fighters 2000">
 		<id>13879A</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2000</title>
@@ -2353,6 +2513,9 @@ King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y
 	<synopsis>O último King of Fighters lançado pela SNK em seu estado original, The King of Fighters 2000 expande a história e jogabilidade apresentada em The King of Fighters '99. O torneio deste ano é patrocinado pelos Ikari Warriors, numa tentativa de descobrir mais sobre a organização NESTS, e descarrilar os planos dos potenciais agentes da NESTS, K 'e Maxima. Nem tudo é tão direto como costuma ser, no entanto, e até mesmo os guerreiros Ikari correm o risco de serem traídos de dentro até o final do torneio.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇2000</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2000" month="12" day="21"/>
@@ -2365,7 +2528,7 @@ King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters 2001, The">
+	<game name="The King of Fighters 2001">
 		<id>37591A</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2001</title>
@@ -2387,6 +2550,9 @@ King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y
 	<synopsis>Nesta oitava edição da série King of Fighters, dez equipes diferentes mais uma vez batalham em vários países para decidir qual time será o Rei dos Lutadores deste ano. No entanto, a organização NESTS está mais uma vez no caminho do participante; eles implantaram sua própria equipe de quatro lutadores, liderados por dois indivíduos de alto escalão dentro da NESTS: um homem que afirma ser o Zero original e Igniz, o CEO da NESTS. A lista de personagens foi atualizada novamente para este lançamento da série.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇2001</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2002" month="03" day="14"/>
@@ -2399,7 +2565,7 @@ King tuvo que rehacer su equipo, ya que Mai pudo entrar en el Fatal Fury Team, y
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters 2002, The">
+	<game name="The King of Fighters 2002">
 		<id>13857A</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2002</title>
@@ -2423,6 +2589,9 @@ The gameplay system has also changed. The striker system and four-character team
 	<synopsis>O segundo "dream match" sem trama da série King of Fighters, este jogo apresenta 39 personagens normais e 5 personagens secretos, alguns dos quais não aparecem desde o KOF98.nnnnO sistema de jogabilidade também mudou. O sistema de atacantes e as equipes de quatro personagens encontradas nos últimos três lançamentos de KOF foram totalmente removidos. Em seu lugar estão as equipes de três personagens da velha guarda e o sistema "Advance" do The King of Fighters '97 e The King of Fighters '98.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇2002</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2002" month="12" day="18"/>
@@ -2435,7 +2604,7 @@ The gameplay system has also changed. The striker system and four-character team
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters 2003, The">
+	<game name="The King of Fighters 2003">
 		<id>13878A</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2003</title>
@@ -2457,6 +2626,9 @@ The gameplay system has also changed. The striker system and four-character team
 	<synopsis>Como The King of Fighters 2002, este jogo volta ao antigo formato 3-para-3 usado do KOF '94 ao KOF '98. Um novo recurso para este jogo que os fãs do KOF da velha guarda podem ter dificuldade em se acostumar é o novo sistema de equipe intercambiável. Você ainda escolhe três personagens e decide a ordem dos seus personagens antes de uma partida, mas agora você tem a opção de mudar para outro personagem durante uma partida. Você pode mudar a qualquer momento durante uma partida, mas você não pode quando dois de seus companheiros de equipe foram retirados, e apenas um personagem é deixado em reserva.</synopsis>
 	<genre>Luta / Versus,Luta</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇2003</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2004" month="03" day="18"/>
@@ -2469,7 +2641,7 @@ The gameplay system has also changed. The striker system and four-character team
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of Fighters 2004 EX Hero, The">
+	<game name="The King of Fighters 2004 EX Hero">
 		<id>167335</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2004 EX Hero</title>
@@ -2483,7 +2655,7 @@ The gameplay system has also changed. The striker system and four-character team
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of Fighters 2004 Plus, The">
+	<game name="The King of Fighters 2004 Plus">
 		<id>167337</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2004 Plus</title>
@@ -2497,7 +2669,7 @@ The gameplay system has also changed. The striker system and four-character team
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of Fighters 2004 Ultra Plus, The">
+	<game name="The King of Fighters 2004 Ultra Plus">
 		<id>167334</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2004 Ultra Plus</title>
@@ -2511,7 +2683,7 @@ The gameplay system has also changed. The striker system and four-character team
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of Fighters 2004, The">
+	<game name="The King of Fighters 2004">
 		<id>167336</id>
 	<locale lang="EN">
 	<title>The King of Fighters 2004</title>
@@ -2528,7 +2700,7 @@ The gameplay system has also changed. The striker system and four-character team
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of The Monsters">
+	<game name="King of the Monsters">
 		<id>37597A</id>
 	<locale lang="EN">
 	<title>King of the Monsters</title>
@@ -2552,6 +2724,9 @@ En nuestra pantalla aparecerán dos monstruos que deberán enfrentarse en divers
 	<locale lang="PT">
 	<synopsis>King of the Monsters é um jogo de lutas (humano Vs humano ou humano Vs computador) no qual são usados criaturas gigantes que competem pelo título de campeão mundial dos monstros. O jogador tem o controle de monstros parecidos com Godzillas e batalham em diferentes cidades do mundo. A medida que a luta avança as cidades são gradualmente destruídas pelas criaturas. Os jogadores podem interagir com os cenários, pegando barcos por exemplo, e usando como armas contra seu rival.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+        <title>怪兽之王</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="07" day="01"/>
@@ -2564,7 +2739,7 @@ En nuestra pantalla aparecerán dos monstruos que deberán enfrentarse en divers
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King Of The Monsters 2 - The Next Thing">
+	<game name="King of the Monsters 2 - The Next Thing">
 		<id>37598A</id>
 	<locale lang="EN">
 	<title>King of the Monsters 2 - The Next Thing</title>
@@ -2627,6 +2802,9 @@ The Fate of 10 of the World's Mightiest Warriors Rests on the Grand Ambitions of
 	<locale lang="JA">
 	<title>Fu'un Super Tag Battle</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>风云默示录</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="11" day="08"/>
@@ -2639,7 +2817,7 @@ The Fate of 10 of the World's Mightiest Warriors Rests on the Grand Ambitions of
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Last Blade 2, The">
+	<game name="The Last Blade 2">
 		<id>37600A</id>
 	<locale lang="EN">
 	<title>The Last Blade 2</title>
@@ -2677,7 +2855,7 @@ Una fuerza desconocida a quien muchos asocian al dios Hades resucita a su maestr
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Last Blade, The">
+	<game name="The Last Blade">
 		<id>37599A</id>
 	<locale lang="EN">
 	<title>The Last Blade</title>
@@ -2811,7 +2989,7 @@ The game features six distinct stages and four weapons.</synopsis>
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Legend Of Success Joe / Ashita No Joe Densetsu">
+	<game name="Legend of Success Joe / Ashita no Joe Densetsu">
 		<id>37601A</id>
 	<locale lang="EN">
 	<title>Legend of Success Joe</title>
@@ -2844,7 +3022,7 @@ The game features six distinct stages and four weapons.</synopsis>
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Magical Drop 2">
+	<game name="Magical Drop II">
 		<id>13904A</id>
 	<locale lang="EN">
 	<title>Magical Drop II</title>
@@ -2885,7 +3063,7 @@ Depending of the originating country, there are different game modes:
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Magical Drop 3">
+	<game name="Magical Drop III">
 		<id>13883A</id>
 	<locale lang="EN">
 	<title>Magical Drop III</title>
@@ -3036,7 +3214,7 @@ Técnicamente el juego es un prodigio, escenarios detallados y animaciones sobre
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Metal Slug 2 - Super Vehicle-001/ii">
+	<game name="Metal Slug 2 - Super Vehicle-001/II">
 		<id>37605A</id>
 	<locale lang="EN">
 	<title>Metal Slug 2 - Super Vehicle-001/II</title>
@@ -3246,7 +3424,7 @@ El general de La Rebelión, Donald Morden, vuelve a llevar a cabo una serie de a
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Minasan No Okagesamadesu! Dai Sugoroku Taikai">
+	<game name="Minasan no Okagesamadesu! Dai Sugoroku Taikai">
 		<id>87611A</id>
 	<locale lang="EN">
 	<title>Minasan no Okagesamadesu! Dai Sugoroku Taikai</title>
@@ -3348,7 +3526,7 @@ En el momento de la propagación de virus, dos jóvenes luchadores llamados Rick
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Nam-1975">
+	<game name="NAM-1975">
 		<id>13892A</id>
 	<locale lang="EN">
 	<title>NAM-1975</title>
@@ -3405,6 +3583,9 @@ El modo Battle es un desafío por mantenerte con vida en cualquiera de los 4 map
 	<locale lang="PT">
 	<genre>Ação / Labirinto,Ação</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>Neo 炸弹人</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>Hudson</publisher>
 		<date year="1997" month="01" day="05"/>
@@ -3438,6 +3619,9 @@ El modo Battle es un desafío por mantenerte con vida en cualquiera de los 4 map
 	<locale lang="PT">
 	<genre>Corrida, Pilotagem,Corrida, Pilotagem / Corrida</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>Neo 拉力赛车 - 新技术</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="07" day="26"/>
@@ -3472,6 +3656,9 @@ Un objetivo adicional aparece cuando todos los monstruos están fuera del nido. 
 	<locale lang="PT">
 	<synopsis>Neo Mr. Do! é uma versão aprimorada do Mr. Do!, e apresenta gráficos melhorados, som estéreo e intermissões que podem ser visualizadas quando uma área é concluída. Você também pode viajar para as fases bônus, onde o objetivo é fazer o seu caminho em direção à saída, colocando cuidadosamente as maçãs para criar um caminho. Estes estágios bônus podem ser alcançados matando todos os inimigos na tela, ao invés de coletar todos os itens que estão em grupos.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+        <title>Neo 嘟先生！</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>Universal Interactive</publisher>
 		<date year="1996" month="" day=""/>
@@ -3502,6 +3689,9 @@ Un objetivo adicional aparece cuando todos los monstruos están fuera del nido. 
 	<locale lang="DE">
 	<genre>Puzzle</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>Neo 智力方块</title>
+    </locale>
 		<developer>Blastar</developer>
 		<publisher>homebrew</publisher>
 		<date year="2002" month="" day=""/>
@@ -3532,6 +3722,9 @@ Un objetivo adicional aparece cuando todos los monstruos están fuera del nido. 
 	<locale lang="DE">
 	<genre>Action</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title></title>
+    </locale>
 		<developer>NeoDev</developer>
 		<publisher>homebrew</publisher>
 		<date year="2002" month="" day=""/>
@@ -3615,7 +3808,7 @@ El juego cuenta con dos modos de juego. El primero es Stroke Play, en el que el 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Neo-geo Cup '98 - The Road To The Victory">
+	<game name="Neo-Geo Cup '98 - The Road to the Victory">
 		<id>37609A</id>
 	<locale lang="EN">
 	<title>Neo-Geo Cup '98 - The Road to the Victory</title>
@@ -3650,7 +3843,7 @@ Los partidos de fútbol de nivel mundial están a tu alcance con NEOGEO CUP '98.
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Neogeo 2-player Tetris">
+	<game name="NeoGeo 2-Player Tetris">
 		<id>108998</id>
 	<locale lang="EN">
 	<title>NeoGeo 2-Player Tetris</title>
@@ -3683,7 +3876,7 @@ Los partidos de fútbol de nivel mundial están a tu alcance con NEOGEO CUP '98.
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Ngem2k">
+	<game name="NGEM2K">
 		<id>108999</id>
 	<locale lang="EN">
 	<title>NGEM2K</title>
@@ -3713,7 +3906,7 @@ Los partidos de fútbol de nivel mundial están a tu alcance con NEOGEO CUP '98.
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Nightmare In The Dark">
+	<game name="Nightmare in the Dark">
 		<id>13956A</id>
 	<locale lang="EN">
 	<title>Nightmare in the Dark</title>
@@ -3950,7 +4143,7 @@ As one of three Ninja Commandos, you must fight your opponents through different
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Pochi And Nyaa">
+	<game name="Pochi and Nyaa">
 		<id>37616A</id>
 	<locale lang="EN">
 	<title>Pochi and Nyaa</title>
@@ -4059,7 +4252,7 @@ The fact that you are not playing against a virtual opponent and that the bluff 
 	<game name="Matrimelee / Shin Gouketsuji Ichizoku Toukon">
 		<id>37914A</id>
 	<locale lang="EN">
-	<title>Power Instinct Matrimelee</title>
+	<title>Matrimelee</title>
 	<synopsis>The king of certain country wants to find a worthy successor for the throne and the ideal husband for his little daughter (or a beautiful and strong woman for his older son). So he holds a fighting tournament where the prize is the hand of the princess and the throne succession.</synopsis>
 	<genre>Fight / Versus,Fight</genre>
 	</locale>
@@ -4093,7 +4286,7 @@ The fact that you are not playing against a virtual opponent and that the bluff 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Power Spikes 2">
+	<game name="Power Spikes II">
 		<id>37618A</id>
 	<locale lang="EN">
 	<title>Power Spikes II</title>
@@ -4287,6 +4480,9 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 	<locale lang="JA">
 	<title>Joy Joy Kid</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>阳光方块</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="01" day="07"/>
@@ -4332,7 +4528,7 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Quiz King Of Fighters">
+	<game name="Quiz King of Fighters">
 		<id>109003</id>
 	<locale lang="EN">
 	<title>Quiz King of Fighters</title>
@@ -4365,7 +4561,7 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Quiz Meitantei Neo And Geo - Quiz Daisousa Sen Part 2">
+	<game name="Quiz Meitantei Neo&amp;Geo - Quiz Daisousa Sen part 2">
 		<id>109004</id>
 	<locale lang="EN">
 	<title>Quiz Meitantei Neo&amp;Geo - Quiz Daisousa Sen part 2</title>
@@ -4398,7 +4594,7 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Rage Of The Dragons">
+	<game name="Rage of the Dragons">
 		<id>37626A</id>
 	<locale lang="EN">
 	<title>Rage of the Dragons</title>
@@ -4663,7 +4859,7 @@ Por suerte para la humanidad, dos héroes llamados Maxima y Rocky, se enfrentar�
 	<game name="Samurai Shodown / Samurai Spirits">
 		<id>37629A</id>
 	<locale lang="EN">
-	<title>Samurai Shodown / Samurai Spirits</title>
+	<title>Samurai Shodown</title>
 	<synopsis>In early Japan, a man named Shiro Tokisada Amakusa preaches a heretic religion. Little does anyone know that Amakusa is really a servant of the evil Ambrosia, who took over Amakusa's body. Ambrosia wishes to shroud the world in darkness.
 Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor of destroying Amakusa, and fulfilling a mission.</synopsis>
 	<genre>Fight,Fight / Versus</genre>
@@ -4698,7 +4894,7 @@ Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Samurai Shodown 2 / Shin Samurai Spirits - Haohmaru Jigokuhen">
+	<game name="Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen">
 		<id>37630A</id>
 	<locale lang="EN">
 	<title>Samurai Shodown II</title>
@@ -4735,7 +4931,7 @@ Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Samurai Shodown 3 / Samurai Spirits - Zankurou Musouken">
+	<game name="Samurai Shodown III / Samurai Spirits - Zankurou Musouken">
 		<id>37631A</id>
 	<locale lang="EN">
 	<title>Samurai Shodown III</title>
@@ -4772,7 +4968,7 @@ Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Samurai Shodown 4 - Amakusa's Revenge / Samurai Spirits - Amakusa Kourin">
+	<game name="Samurai Shodown IV - Amakusa's Revenge / Samurai Spirits - Amakusa Kourin">
 		<id>37632A</id>
 	<locale lang="EN">
 	<title>Samurai Shodown IV - Amakusa's Revenge</title>
@@ -5037,7 +5233,7 @@ The game incorporates a more complex fighting system similar to a one-on-one fig
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Shadow Of The Beast">
+	<game name="Shadow of the Beast">
 		<id>108952</id>
 	<locale lang="EN">
 	<title>Shadow of the Beast</title>
@@ -5492,7 +5688,7 @@ La compétition se déroule sous forme de tournoi : vous commencez en bas de tab
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Super Spy, The">
+	<game name="The Super Spy">
 		<id>13935A</id>
 	<locale lang="EN">
 	<title>The Super Spy</title>
@@ -5526,10 +5722,10 @@ Using your fists, knife, or gun, you must use the elevators to travel between fl
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Svc Chaos - Snk Vs. Capcom">
+	<game name="SVC Chaos - SNK vs. Capcom">
 		<id>13853A</id>
 	<locale lang="EN">
-	<title>SVC Chaos - SNK Vs. Capcom</title>
+	<title>SVC Chaos - SNK vs. Capcom</title>
 	<synopsis>SVC Chaos: SNK vs. Capcom on Neo Geo is a fighting game featuring the warriors of the two famous series Street Fighter and King of Fighters. The game offers an arcade mode where one follows the story of his hero, as well as modes versus, challenge and survival.</synopsis>
 	<genre>Fight,Fight / Versus</genre>
 	</locale>
@@ -5560,7 +5756,7 @@ Using your fists, knife, or gun, you must use the elevators to travel between fl
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Syougi No Tatsujin - Master Of Syougi">
+	<game name="Syougi No Tatsujin - Master of Syougi">
 		<id>108993</id>
 	<locale lang="EN">
 	<title>Syougi No Tatsujin - Master of Syougi</title>
@@ -5630,7 +5826,7 @@ On offense you can perform short or long passes with the A and C buttons, respec
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="King of Fighters 10th Anniversary, The">
+	<game name="The King of Fighters 10th Anniversary">
 		<id>108987</id>
 	<locale lang="EN">
 	<title>The King of Fighters 10th Anniversary</title>
@@ -5657,10 +5853,10 @@ On offense you can perform short or long passes with the A and C buttons, respec
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Super Sidekicks 4 - The Ultimate 11">
+	<game name="The Ultimate 11 - SNK Football Championship">
 		<id>37647A</id>
 	<locale lang="EN">
-	<title>The Ultimate 11: SNK Football Championship</title>
+	<title>The Ultimate 11 - SNK Football Championship</title>
 	<synopsis>Super Sidekicks 4, also known as The Ultimate 11: SNK Football Championship, is a sports retro arcade football (soccer) game created for the Neo Geo arcade system, and is the fourth of the popular Super Sidekicks series. The game features 80 national teams divided into 8 regions of the globe. Build power the more you hold the ball. Maintain your dribble and guard off against enemy steals. Amass enough foot power and kick the ball to the goal!</synopsis>
 	<genre>Sports,Sports / Soccer</genre>
 	</locale>
@@ -5826,7 +6022,7 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="Treasure Of The Caribbean">
+	<game name="Treasure of the Caribbean">
 		<id>87614A</id>
 	<locale lang="EN">
 	<title>Treasure of the Caribbean</title>
@@ -5889,7 +6085,7 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 			<control type="gamecube" required="false"/>
 		</input>
 	</game>
-	<game name="V-liner">
+	<game name="V-Liner">
 		<id>87615A</id>
 	<locale lang="EN">
 	<title>V-Liner</title>
@@ -5981,6 +6177,9 @@ One or two players (in hot-seat or cooperative mode) control a spaceship equippe
 	<locale lang="JA">
 	<title>Chojin Gakuen Gowcaizer</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>高压战士 超人学园</title>
+    </locale>
 		<developer>Technos Japan</developer>
 		<publisher>Tecmo</publisher>
 		<date year="1995" month="10" day="20"/>
