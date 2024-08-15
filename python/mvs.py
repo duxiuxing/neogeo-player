@@ -6,6 +6,7 @@ from console_base import ConsoleBase
 from export_wii_apps import ExportWiiApps
 from local_configs import LocalConfigs
 from main_menu import MainMenu
+from mvs_adjust_covers import AdjustCovers
 from wiiflow import WiiFlow
 
 
@@ -29,4 +30,5 @@ wii_app_files_tuple = (
 MainMenu.console = NeoGeoMVS(1)
 MainMenu.init_default_cmd_handlers()
 MainMenu.add_cmd_handler(ExportWiiApps(wii_app_files_tuple))
+MainMenu.add_cmd_handler(AdjustCovers())
 MainMenu.show()
