@@ -80,10 +80,10 @@ class ConsoleBase(ConsoleConfigs):
             os.rename(default_zip_path, dst_zip_path)
 
     def import_new_roms(self):
-        # 本函数用于从 new_roms 文件夹里导入新的 ROM 文件
-        # 1. 新文件会被转移到 roms 文件夹，新文件的 GameInfo 会被
-        #    写入 new_roms.xml，暂时需要进一步手动合入 roms\\all.xml；
-        # 2. 已经有的 ROM 文件不会被转移，它们的 GameInfo 会被写入 exist_roms.xml
+        # 本函数用于导入 new_roms 文件夹里的游戏文件（.zip 格式）
+        # 1. 新的游戏文件会被转移到 roms 文件夹，对应的 GameInfo 会
+        #    记录在 new_roms.xml，需要进一步手动合入 roms\\all.xml；
+        # 2. 已经有的游戏文件不会被转移，对应的 GameInfo 会记录在 exist_roms.xml
         self.reset_zip_crc32_to_game_info()
 
         exist_zip_crc32_to_name = {}

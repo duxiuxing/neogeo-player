@@ -198,8 +198,9 @@ class WiiFlow:
             self.zip_title_to_path[zip_title] = zip_path
 
     def convert_wfc_files(self):
-        # 调用 wfc_conv.exe 把 wiiflow 文件夹里的图片文件（主要是游戏封面）转换成 .wfc 格式
-        # .wfc 格式的图片文件都在 wiiflow\\cache 文件夹里，，目的是为了提高读取速度
+        # 调用 wfc_conv.exe 把 wiiflow 文件夹里的图片转换成 cache 文件（.wfc 格式）
+        # 这些图片主要是游戏封面，转换格式的目的是为了提高读取速度
+        # .wfc 格式的文件都存放在 wiiflow\\cache 文件夹里
         if not os.path.exists(LocalConfigs.WFC_CONV_EXE):
             print(f"无效的文件：{LocalConfigs.WFC_CONV_EXE}")
             zip_file_path = os.path.join(
@@ -537,7 +538,7 @@ class WiiFlow:
         copy_file_if_not_exist(src_png_path, dst_png_path)
 
     def convert_game_synopsis(self):
-        # wiiflow\\plugins_data 里的 <self.plugin_name>.xml 里可以配置游戏的中文摘要
+        # wiiflow\\plugins_data 里的 <self.plugin_name>.xml 可以配置游戏的中文摘要
         # 但 WiiFlow 在显示中文句子的时候不会自动换行，需要在每个汉字之间加上空格才能有较好的显示效果，
         # 本函数用于把 game_synopsis.md 中的摘要文本转换成 WiiFlow 需要的排版格式
         # 转换后的摘要文本存于 game_synopsis.wiiflow.md，需要手动合入 <self.plugin_name>.xml
