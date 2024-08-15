@@ -35,7 +35,11 @@ def verify_folder_exist(folder_path):
         return True
     else:
         os.mkdir(folder_path)
-        return os.path.isdir(folder_path)
+        if os.path.isdir(folder_path):
+            return True
+        else:
+            print(f"无效文件夹：{folder_path}")
+            return False
 
 
 def copy_file_if_not_exist(src_file_path, dst_file_path):
@@ -304,16 +308,17 @@ class WiiFlow:
             return
 
         # SD:\\wiiflow\\boxcovers\\blank_covers
-        dst_blank_covers_folder_path = os.path.join(
-            dst_boxcovers_folder_path, "blank_covers")
-        if verify_folder_exist(dst_blank_covers_folder_path):
-            src_blank_cover_path = os.path.join(
-                self.console_root_folder_path, f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name}.png")
-            dst_blank_cover_path = os.path.join(
-                dst_blank_covers_folder_path, f"{self.plugin_name}.png")
-            copy_file_if_not_exist(src_blank_cover_path, dst_blank_cover_path)
-        else:
-            print(f"无效的文件夹：{dst_blank_covers_folder_path}")
+        src_blank_cover_path = os.path.join(
+            self.console_root_folder_path,
+            f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name}.png")
+        if os.path.exists(src_blank_cover_path):
+            dst_blank_covers_folder_path = os.path.join(
+                dst_boxcovers_folder_path, "blank_covers")
+            if verify_folder_exist(dst_blank_covers_folder_path):
+                dst_blank_cover_path = os.path.join(
+                    dst_blank_covers_folder_path, f"{self.plugin_name}.png")
+                copy_file_if_not_exist(
+                    src_blank_cover_path, dst_blank_cover_path)
 
         # SD:\\wiiflow\\boxcovers\\<plugin_name>
         dst_folder_path = os.path.join(
@@ -357,18 +362,17 @@ class WiiFlow:
             return
 
         # SD:\\wiiflow\\cache\\blank_covers
-        dst_cache_blank_covers_folder_path = os.path.join(
-            dst_cache_folder_path, "blank_covers")
-        if verify_folder_exist(dst_cache_blank_covers_folder_path):
-            src_cache_blank_cover_path = os.path.join(
-                self.console_root_folder_path, f"wiiflow\\cache\\blank_covers\\{self.plugin_name}.wfc")
-            dst_cache_blank_cover_path = os.path.join(
-                dst_cache_blank_covers_folder_path, f"{self.plugin_name}.wfc")
-            copy_file_if_not_exist(
-                src_cache_blank_cover_path,
-                dst_cache_blank_cover_path)
-        else:
-            print(f"无效的文件夹：{dst_cache_blank_covers_folder_path}")
+        src_cache_blank_cover_path = os.path.join(
+            self.console_root_folder_path,
+            f"wiiflow\\cache\\blank_covers\\{self.plugin_name}.wfc")
+        if os.path.exists(src_cache_blank_cover_path):
+            dst_cache_blank_covers_folder_path = os.path.join(
+                dst_cache_folder_path, "blank_covers")
+            if verify_folder_exist(dst_cache_blank_covers_folder_path):
+                dst_cache_blank_cover_path = os.path.join(
+                    dst_cache_blank_covers_folder_path, f"{self.plugin_name}.wfc")
+                copy_file_if_not_exist(
+                    src_cache_blank_cover_path, dst_cache_blank_cover_path)
 
         # SD:\\wiiflow\\cache\\<plugin_name>
         dst_folder_path = os.path.join(dst_cache_folder_path, self.plugin_name)
