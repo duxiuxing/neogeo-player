@@ -66,6 +66,8 @@ class AdjustCovers(CmdHandler):
             cover_1090x680.paste(Image.open(front_file_path).resize(
                 (cover_1090x680.width - x2, cover_1090x680.height)), (x2, 0))
             self.file_names_adjusted.append(front_file_name)
+        else:
+            print(f"封面文件缺失：{front_file_name}")
 
         back_file_name = f"{file_title}.back.png"
         back_filer_path = os.path.join(
@@ -74,6 +76,8 @@ class AdjustCovers(CmdHandler):
             cover_1090x680.paste(Image.open(back_filer_path).resize(
                 (x1, cover_1090x680.height)), (0, 0))
             self.file_names_adjusted.append(back_file_name)
+        else:
+            print(f"封底文件缺失：{back_file_name}")
 
         self.save_wiiflow_boxcover(file_title, cover_1090x680)
 

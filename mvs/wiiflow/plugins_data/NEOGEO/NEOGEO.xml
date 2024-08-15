@@ -977,6 +977,9 @@ Esto es debido al argumento, explicado en la intro. En un remoto laboratorio, un
 	<locale lang="JA">
 	<title>Chibi Marukochan Deluxe Quiz</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>小丸子问答</title>
+    </locale>
 		<developer>Takara</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="11" day="27"/>
@@ -2761,6 +2764,9 @@ En 1999, justo cuando la humanidad perdía toda esperanza de salvar su planeta y
 	<locale lang="PT">
 	<synopsis>O objeto do King of the Monsters 2 é semelhante ao seu predecessor. Escolha entre três monstros que incluem um grande lagarto, um grande macaco robótico e um enorme humano mutante. Em seguida, caminhe por cada cidade, certificando-se de destruir tudo no local, incluindo aviões, edifícios e outras criaturas. Quando destruídos, alguns prédios revelam power-ups que tornam seu personagem mais poderoso. No final de cada cidade, você vai cara a cara com a criatura chefe. Existem pequenos estágios entre os quais você luta contra um segundo monstro por pontos de bônus, ou você cai do céu e aterrissa debaixo d'água onde você tenta coletar pontos e power-ups enquanto cai.</synopsis>
 	</locale>
+	<locale lang="ZHCN">
+        <title>怪兽之王2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>Takara</publisher>
 		<date year="1992" month="" day=""/>
@@ -2843,6 +2849,9 @@ Una fuerza desconocida a quien muchos asocian al dios Hades resucita a su maestr
 	<locale lang="JA">
 	<title>Bakumatsu Roman Dai Ni Maku: Gekka no Kenshi</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>月华剑士2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="" day=""/>
@@ -2880,6 +2889,9 @@ Una fuerza desconocida a quien muchos asocian al dios Hades resucita a su maestr
 	<locale lang="JA">
 	<title>Bakumatsu Roman: Gekka no Kenshi</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>月华剑士</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="" day=""/>
@@ -2944,6 +2956,9 @@ The game features six distinct stages and four weapons.</synopsis>
 	<locale lang="PT">
 	<genre>Shoot'em Up / Horizontal,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>终极手段</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="04" day="24"/>
@@ -2977,6 +2992,9 @@ The game features six distinct stages and four weapons.</synopsis>
 	<locale lang="PT">
 	<genre>Esporte / Boliche,Esporte</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>联盟保龄球</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -3010,6 +3028,9 @@ The game features six distinct stages and four weapons.</synopsis>
 	<locale lang="JA">
 	<title>Ashita no Joe Densetsu</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>小拳王</title>
+    </locale>
 		<developer>Wave Corp</developer>
 		<publisher>Wave Corp</publisher>
 		<date year="1991" month="" day=""/>
@@ -3051,6 +3072,9 @@ Depending of the originating country, there are different game modes:
 	<locale lang="PT">
 	<genre>Quebra-cabeças / Lançar,Quebra-cabeças</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>魔法气泡2</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="04" day="19"/>
@@ -3090,6 +3114,9 @@ For the PSX version, the first Magical Drop was included on a separate disc.</sy
 Você pode jogar o jogo nos modos single player ou contra um amigo no modo versus. No modo versus, você escolhe seu personagem, muito parecido com um jogo de luta, cada um com seus próprios contra-ataques e habilidades.</synopsis>
 	<genre>Quebra-cabeças / Lançar,Quebra-cabeças</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>魔法气泡3</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>Data East</publisher>
 		<date year="1997" month="04" day="25"/>
@@ -3123,6 +3150,9 @@ Você pode jogar o jogo nos modos single player ou contra um amigo no modo versu
 	<locale lang="PT">
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>幻魔大战</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -3160,6 +3190,9 @@ Você pode jogar o jogo nos modos single player ou contra um amigo no modo versu
 	<locale lang="JA">
 	<title>Mahjong Kyo Retsuden</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>麻雀狂烈传</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="04" day="26"/>
@@ -3202,6 +3235,9 @@ Técnicamente el juego es un prodigio, escenarios detallados y animaciones sobre
 	<synopsis>Metal Slug, originalmente lançado no Neo Geo, é um side-scrolling shoot'em'up.nnnnO jogador(es) assume o papel de um soldado (ou dois) e luta contra um gigantesco exército. Cada nível consiste em correr para frente e explodir tudo o que se move, enquanto coleta power-ups ao longo do caminho (há também uma grande variedade de armas no jogo). No final de cada nível, o jogador enfrenta um chefe gigantesco.</synopsis>
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头</title>
+    </locale>
 		<developer>Nazca Corporation</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="05" day="24"/>
@@ -3237,6 +3273,9 @@ Su sorpresa es máxima cuando descubren que el general ha pactado una alianza co
 	<synopsis>Como Marco, Eri, Tarma ou Fio, você deve derrotar o malvado General Morden e seus capangas. Para fazer isso, você deve derrotar vários inimigos que ficam no seu caminho. Ao longo do jogo, você pode coletar novas armas, incluindo Heavy Machine Gun, Shot Gun, Rocket Launcher, Flame Shot, Laser Shot, Flame Bottles, and Armor Piercer. Também espalhados por todo o jogo, você pode andar em quatro veículos diferentes (conhecidos como Slugs), como o Metal Slug, Slug Flyer, SlugNoid e Camel Slug. Ao usar esses veículos, você pode causar uma destruição impressionante contra o exército maligno de Morden. Outros itens, como energia, munição extra e comida (coma demais e seu jogador ganhará peso) também são encontrados durante o jogo.</synopsis>
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="04" day="02"/>
@@ -3273,6 +3312,9 @@ In the Xbox version, additional game modes, such as Storming the Mothership and 
 	<synopsis>Na terceira parte da série Metal Slug, o General Morden está de volta e ele planeja estabelecer uma nova ordem mundial. Você guia um dos heróis: Marco, Tarma, Eri ou Fio enquanto eles abrem caminho através de níveis laterais com um tema único, repleto de incontáveis inimigos e chefes difíceis. Você tem que libertar os reféns e você pode montar veículos bizarros, como camelos, elefantes, tanques e robôs.</synopsis>
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头3</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2000" month="06" day="01"/>
@@ -3308,6 +3350,9 @@ In the Xbox version, additional game modes, such as Storming the Mothership and 
 	<synopsis>O 5º episódio da mais famosa série de tiro dos arcades traz a jogabilidade clássica inalterada, uma nova arma, 6 novos veículos, bem como 2 novos soldados para o panteão. A introdução mais notável da série é o Sistema Metalish, dando ao jogador uma nova possibilidade de ganhar mais pontos: depois de pegar certos emblemas em forma de escudo, uma barra de cronômetro será exibida na parte superior da tela. Durante esse tempo, você deve atirar rapidamente no maior número de inimigos possível e, dependendo da sua atuação, você receberá um bônus correspondente a um distintivo que será adicionado à sua pontuação após completá-lo. Quando você morre, o bônus desaparece.</synopsis>
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头4</title>
+    </locale>
 		<developer>MEGA Enterprise</developer>
 		<publisher>SNK</publisher>
 		<date year="2002" month="06" day="12"/>
@@ -3342,6 +3387,9 @@ In the Xbox version, additional game modes, such as Storming the Mothership and 
 	<synopsis>A quinta edição da mais famosa série de tiro dos arcades traz muitas mudanças: desta vez, você não enfrentará o exército de Morden como nos jogos anteriores, mas um novo grupo de inimigos que compõe o já mencionado Exército Ptolemaico. Mais conteúdo neste título incluem 3 armas e 2 veículos de jogos passados foram reincorporados, assim como 3 novos veículos. A adição mais importante é um movimento deslizante: pressionar o botão B ao fazer o agachamento fará seu personagem deslizar por um curto período de tempo no solo. Você não será capaz de lançar granadas, mas sua arma pode ser disparada normalmente.</synopsis>
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头5</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2003" month="" day=""/>
@@ -3375,6 +3423,9 @@ In the Xbox version, additional game modes, such as Storming the Mothership and 
 	<locale lang="PT">
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头6</title>
+    </locale>
 		<date year="2006" month="" day=""/>
 		<rating type="NOTE" value="">
 		</rating>
@@ -3412,6 +3463,9 @@ El general de La Rebelión, Donald Morden, vuelve a llevar a cabo una serie de a
 	<synopsis>Metal Slug X é uma versão alternativa do Metal Slug 2. Diferente do primeiro jogo da franquia, Metal Slug X permite que você escolha os personagens Marco, Tarma, Eri e Fio.nnO General Morden derrotado por Marco e Tarma resolve se aliar a alienígenas que vem do espaço e a sua contínua ambição de conquistar o mundo.nnDurante as missões deve-se libertar os prisioneiros, estes oferecem armas e equipamentos que podem ser usados no combate.nnSão 6 missões até o final onde os alienígenas prendem Morden e o Exército se une para destruir os alienígenas e libertar o general.</synopsis>
 	<genre>Plataforma / Tiro com rolagem,Plataforma</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>合金弹头X</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1999" month="05" day="27"/>
@@ -3445,6 +3499,9 @@ El general de La Rebelión, Donald Morden, vuelve a llevar a cabo una serie de a
 	<locale lang="JA">
 	<title>Minasan no Okagesamadesu! Dai Sugoroku Taikai</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>麻雀大富翁</title>
+    </locale>
 		<developer>Monolith (Japan)</developer>
 		<publisher>Monolith (Japan)</publisher>
 		<date year="1990" month="" day=""/>
@@ -3481,6 +3538,9 @@ El general de La Rebelión, Donald Morden, vuelve a llevar a cabo una serie de a
 	<locale lang="JA">
 	<title>Money Idol Exchanger</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>金钱游戏</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="10" day="15"/>
@@ -3514,6 +3574,9 @@ En el momento de la propagación de virus, dos jóvenes luchadores llamados Rick
 	<locale lang="DE">
 	<genre>Beat'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title></title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="04" day="17"/>
@@ -3548,6 +3611,9 @@ Pero el Dr. R. Muckly  no ha sido raptado, se ha vuelto loco y, tras construir u
 	<locale lang="PT">
 	<genre>Tiro,Tiro / Tiro em 3ª pessoa</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title></title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -4274,6 +4340,9 @@ The fact that you are not playing against a virtual opponent and that the bluff 
 	<locale lang="JA">
 	<title>Shin Goketsuji Ichizoku</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>豪血寺一族</title>
+    </locale>
 		<developer>Noise Factory</developer>
 		<publisher>SNK</publisher>
 		<date year="2002" month="" day=""/>
@@ -5779,6 +5848,9 @@ The 'Shougi' is a Japanese chess-style game.</synopsis>
 	<locale lang="PT">
 	<genre>Shougi,Jogo de tabuleiro Asiático</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>将棋高手</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="10" day="13"/>

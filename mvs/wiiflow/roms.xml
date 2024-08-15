@@ -275,4 +275,115 @@
         en="The King of Fighters '99 : Millennium Battle"
         zhcn="拳皇99"
     />
+    <Game crc32="CA98502F" bytes="4198036"
+        zip="kotm"
+        en="King of the Monsters"
+        zhcn="怪兽之王"
+    />
+    <Game crc32="89C20275" bytes="5510788"
+        zip="kotm2"
+        en="King of the Monsters 2 - The Next Thing"
+        zhcn="怪兽之王2"
+    />
+    <Game crc32="874CD348" bytes="26919747"
+        zip="lastblad"
+        en="The Last Blade"
+        zhcn="月华剑士"
+    />
+    <Game crc32="44CD8D2E" bytes="32488249"
+        zip="lastbld2"
+        en="The Last Blade 2"
+        zhcn="月华剑士2"
+    />
+    <Game crc32="C18B5EFB" bytes="1620970"
+        zip="lbowling"
+        en="League Bowling"
+        zhcn="联盟保龄球"
+    />
+    <Game crc32="849376D5" bytes="1587813"
+        zip="legendos"
+        en="Legend of Success Joe"
+        zhcn="小拳王"
+    />
+    <Game crc32="469BB079" bytes="2921557"
+        zip="lresort"
+        en="Last Resort"
+        zhcn="终极手段"
+    />
+    <Game crc32="C99D2F9D" bytes="3692741"
+        zip="magdrop2"
+        en="Magical Drop II"
+        zhcn="魔法气泡2"
+    />
+    <Game crc32="5AFB7BDA" bytes="8575663"
+        zip="magdrop3"
+        en="Magical Drop III"
+        zhcn="魔法气泡3"
+    />
+    <Game crc32="4D19CCAE"
+        bytes="3057260"
+        zip="maglord"
+        en="Magician Lord"
+        zhcn="幻魔大战"
+    />
+    <Game crc32="B295CFBF" bytes="3036748"
+        zip="mahretsu"
+        en="Mahjong Kyo Retsuden"
+        zhcn="麻雀狂烈传"
+    />
+    <Game crc32="BBF23CDA" bytes="4441205"
+        zip="marukodq"
+        en="Chibi Marukochan Deluxe Quiz"
+        zhcn="小丸子问答"
+    />
+    <Game crc32="82855ED2" bytes="134154808"
+        zip="matrim"
+        en="Matrimelee"
+        zhcn="豪血寺一族"
+    />
+    <Game crc32="45EC401B" bytes="5346354"
+        zip="miexchng"
+        en="Money Puzzle Exchanger"
+        zhcn="金钱游戏"
+    />
+    <Game crc32="9187BE39" bytes="2075226"
+        zip="minasan"
+        en="Minasan no Okagesamadesu! Dai Sugoroku Taikai"
+        zhcn="麻雀大富翁"
+    />
+    <Game crc32="9645A0F9" bytes="3728834"
+        zip="mosyougi"
+        en="Syougi No Tatsujin - Master of Syougi"
+        zhcn="将棋高手"
+    />
+    <Game crc32="03F40A74" bytes="13181481"
+        zip="mslug"
+        en="Metal Slug - Super Vehicle-001"
+        zhcn="合金弹头"
+    />
+    <Game crc32="2FC28291" bytes="17512812"
+        zip="mslug2"
+        en="Metal Slug 2 - Super Vehicle-001/II"
+        zhcn="合金弹头2"
+    />
+    <Game crc32="50340C8C" bytes="105327840"
+        zip="mslug3"
+        en="Metal Slug 3"
+        zhcn="合金弹头3"
+    />
+    <Game crc32="EAB3632F" bytes="81247979"
+        zip="mslug4"
+        en="Metal Slug 4"
+        zhcn="合金弹头4"
+    />
+    <Game crc32="636D6122" bytes="99437075"
+        zip="mslug5"
+        en="Metal Slug 5"
+        zhcn="合金弹头5"
+    />
+    <Game crc32="26822ED1" bytes="28559494"
+        zip="mslugx"
+        en="Metal Slug X - Super Vehicle-001"
+        zhcn="合金弹头X"
+    />
 </Game-List>
