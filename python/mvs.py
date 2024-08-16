@@ -16,7 +16,7 @@ class NeoGeoMVS(ConsoleBase):
         self.wiiflow = WiiFlow(self, "NEOGEO")
 
     def root_folder_path(self):
-        return os.path.join(LocalConfigs.REPOSITORY_FOLDER, "mvs")
+        return os.path.join(LocalConfigs.repository_folder_path(), "mvs")
 
 
 wii_app_files_tuple = (

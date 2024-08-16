@@ -24,7 +24,7 @@ wii_app_files_tuple = (
 
 class NeoGeoPocket(ConsoleBase):
     def folder_path(self):
-        return os.path.join(LocalConfigs.REPOSITORY_FOLDER, "pocket")
+        return os.path.join(LocalConfigs.repository_folder_path(), "pocket")
 
     def wiiflow_plugin_name(self):
         return "NEOPOCKET"

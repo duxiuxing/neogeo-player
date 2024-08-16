@@ -2,7 +2,18 @@
 
 
 class LocalConfigs:
-    REPOSITORY_FOLDER = "D:\\workspace\\github\\duxiuxing\\neogeo-player"
-    SDCARD_ROOT = "C:\\Users\\duxiu\\AppData\\Roaming\\Dolphin Emulator\\Load\\WiiSDSync"
-    SEVEN_ZIP_EXE = "C:\\Program Files\\7-Zip\\7z.exe"
-    WFC_CONV_EXE = "C:\\Program Files\\WFC_conv\\Windows\\wfc_conv.exe"
+    @staticmethod
+    def repository_folder_path():
+        return "D:\\workspace\\github\\duxiuxing\\neogeo-player"
+
+    @staticmethod
+    def sd_path():
+        return "C:\\Users\\duxiu\\AppData\\Roaming\\Dolphin Emulator\\Load\\WiiSDSync"
+
+    @staticmethod
+    def seven_zip_exe_path():
+        return "C:\\Program Files\\7-Zip\\7z.exe"
+
+    @staticmethod
+    def wfc_conv_exe_path():
+        return "C:\\Program Files\\WFC_conv\\Windows\\wfc_conv.exe"

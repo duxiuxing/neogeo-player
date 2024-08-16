@@ -26,7 +26,7 @@ def folder_exist(folder_path):
 
 class AdjustCovers(CmdHandler):
     def __init__(self):
-        super().__init__("把 adjust_covers 文件夹里的封面调整成标准封面")
+        super().__init__("NeoGeoMVS - 导入 - adjust_covers 文件夹里的非标准封面")
         # 已经调整过的封面文件名列表，避免重复调整
         self.file_names_adjusted = []
 

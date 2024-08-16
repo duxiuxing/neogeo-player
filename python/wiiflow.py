@@ -202,13 +202,12 @@ class WiiFlow:
             self.zip_title_to_path[zip_title] = zip_path
 
     def convert_wfc_files(self):
-        # 调用 wfc_conv.exe 把 wiiflow 文件夹里的图片转换成 cache 文件（.wfc 格式）
-        # 这些图片主要是游戏封面，转换格式的目的是为了提高读取速度
+        # 调用 wfc_conv.exe 生成 WiiFlow 专用的游戏封面文件（.png 格式转 .wfc 格式）
         # .wfc 格式的文件都存放在 wiiflow\\cache 文件夹里
-        if not os.path.exists(LocalConfigs.WFC_CONV_EXE):
-            print(f"无效的文件：{LocalConfigs.WFC_CONV_EXE}")
+        if not os.path.exists(LocalConfigs.wfc_conv_exe_path()):
+            print(f"无效的文件：{LocalConfigs.wfc_conv_exe_path()}")
             zip_file_path = os.path.join(
-                LocalConfigs.REPOSITORY_FOLDER, "pc-tool\\WFC_conv_0-1.zip")
+                LocalConfigs.repository_folder_path(), "pc-tool\\WFC_conv_0-1.zip")
             print(f"安装文件在 {zip_file_path}")
             return
 
@@ -225,17 +224,17 @@ class WiiFlow:
             print(f"无效文件夹：{cache_folder_path}")
             return
 
-        cmd_line = f"\"{LocalConfigs.WFC_CONV_EXE}\" \"{wiiflow_foler_path}\""
+        cmd_line = f"\"{LocalConfigs.wfc_conv_exe_path()}\" \"{wiiflow_foler_path}\""
         print(cmd_line)
         subprocess.call(cmd_line)
 
     def export_roms(self):
         # 本函数用于把 self.zip_title_to_path 所有的 .zip 文件导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\roms
-        dst_roms_folder_path = os.path.join(LocalConfigs.SDCARD_ROOT, "roms")
+        dst_roms_folder_path = os.path.join(LocalConfigs.sd_path(), "roms")
         if not verify_folder_exist(dst_roms_folder_path):
             return
 
@@ -251,7 +250,7 @@ class WiiFlow:
                 roms_plugin_name_folder_path, f"{zip_title}.zip")
             copy_file_if_not_exist(src_zip_path, dst_zip_path)
 
-    def export_fake_roms(self):
+    def export_all_fake_roms(self):
         # 本函数会根据 <plugin_name>.ini 创建空白的 .zip 文件并导出到 Wii 的 SD 卡
         # 主要是为了方便在 WiiFlow 中展示所有游戏封面，而不需要在 SD 卡里装上所有游戏
         ini_file_path = os.path.join(
@@ -262,12 +261,12 @@ class WiiFlow:
             print(f"无效的文件：{ini_file_path}")
             return
 
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\roms
         dst_roms_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "roms")
+            LocalConfigs.sd_path(), "roms")
         if not verify_folder_exist(dst_roms_folder_path):
             return
 
@@ -292,12 +291,12 @@ class WiiFlow:
         # 2. 根据 SD 卡里的 ROM 文件，把对应的封面文件（.png 格式）导出到 Wii 的 SD 卡
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果已经导出过 .wfc 格式的封面文件，可以不导出 .png 格式的
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow
         dst_wiiflow_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "wiiflow")
+            LocalConfigs.sd_path(), "wiiflow")
         if not verify_folder_exist(dst_wiiflow_folder_path):
             return
 
@@ -330,7 +329,7 @@ class WiiFlow:
             self.console_root_folder_path, f"wiiflow\\boxcovers\\{self.plugin_name}")
 
         roms_plugin_name_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, f"roms\\{self.plugin_name}")
+            LocalConfigs.sd_path(), f"roms\\{self.plugin_name}")
         for zip_name in os.listdir(roms_plugin_name_folder_path):
             if not fnmatch.fnmatch(zip_name, "*.zip"):
                 continue
@@ -347,12 +346,12 @@ class WiiFlow:
         # 3. 删除 SD:\\wiiflow\\cache 里可能失效的缓存文件
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果导出了 .wfc 格式的封面文件，可以不导出 .png 格式的
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow
         dst_wiiflow_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "wiiflow")
+            LocalConfigs.sd_path(), "wiiflow")
         if not verify_folder_exist(dst_wiiflow_folder_path):
             return
 
@@ -383,7 +382,7 @@ class WiiFlow:
             self.console_root_folder_path, f"wiiflow\\cache\\{self.plugin_name}")
 
         roms_plugin_name_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, f"roms\\{self.plugin_name}")
+            LocalConfigs.sd_path(), f"roms\\{self.plugin_name}")
         for zip_name in os.listdir(roms_plugin_name_folder_path):
             if not fnmatch.fnmatch(zip_name, "*.zip"):
                 continue
@@ -402,12 +401,12 @@ class WiiFlow:
 
     def export_plugin(self):
         # 本函数用于把 wiiflow\\plugins 里的文件导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow
         dst_wiiflow_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "wiiflow")
+            LocalConfigs.sd_path(), "wiiflow")
         if not verify_folder_exist(dst_wiiflow_folder_path):
             return
 
@@ -442,12 +441,12 @@ class WiiFlow:
         # # 本函数执行的操作如下：
         # 1. 把 wiiflow\\plugins_data 里的文件导出到 Wii 的 SD 卡
         # 2. 删除可能失效的缓存文件：gametdb_offsets.bin
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow
         dst_wiiflow_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "wiiflow")
+            LocalConfigs.sd_path(), "wiiflow")
         if not verify_folder_exist(dst_wiiflow_folder_path):
             return
 
@@ -482,12 +481,12 @@ class WiiFlow:
 
     def export_snapshots(self):
         # 本函数用于把 wiiflow\\snapshots 里的游戏截图（.png格式）导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow
         dst_wiiflow_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "wiiflow")
+            LocalConfigs.sd_path(), "wiiflow")
         if not verify_folder_exist(dst_wiiflow_folder_path):
             return
 
@@ -507,7 +506,7 @@ class WiiFlow:
             self.console_root_folder_path, f"wiiflow\\snapshots\\{self.plugin_name}")
 
         roms_plugin_name_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, f"roms\\{self.plugin_name}")
+            LocalConfigs.sd_path(), f"roms\\{self.plugin_name}")
         for zip_file_name in os.listdir(roms_plugin_name_folder_path):
             if not fnmatch.fnmatch(zip_file_name, "*.zip"):
                 continue
@@ -520,12 +519,12 @@ class WiiFlow:
 
     def export_source_menu(self):
         # 本函数用于把 wiiflow\\source_menu 里的源菜单图标（.png格式）导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.SDCARD_ROOT):
+        if not folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow
         dst_wiiflow_folder_path = os.path.join(
-            LocalConfigs.SDCARD_ROOT, "wiiflow")
+            LocalConfigs.sd_path(), "wiiflow")
         if not verify_folder_exist(dst_wiiflow_folder_path):
             return
 
@@ -544,7 +543,7 @@ class WiiFlow:
     def convert_game_synopsis(self):
         # wiiflow\\plugins_data 里的 <self.plugin_name>.xml 可以配置游戏的中文摘要
         # 但 WiiFlow 在显示中文句子的时候不会自动换行，需要在每个汉字之间加上空格才能有较好的显示效果，
-        # 本函数用于把 game_synopsis.md 中的摘要文本转换成 WiiFlow 需要的排版格式
+        # 本函数用于生成 WiiFlow 专用排版格式的游戏摘要文本，原始的摘要文本存于 game_synopsis.md，
         # 转换后的摘要文本存于 game_synopsis.wiiflow.md，需要手动合入 <self.plugin_name>.xml
         src_file_path = os.path.join(
             self.console_root_folder_path, "doc\\game_synopsis.md")

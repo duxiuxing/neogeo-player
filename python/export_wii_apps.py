@@ -54,12 +54,15 @@ def copy_file(src, dst):
     if not verify_folder_exist_ex(os.path.dirname(dst)):
         return
     if not os.path.exists(dst):
-        shutil.copy2(src, dst)
+        if os.path.exists(src):
+            shutil.copy2(src, dst)
+        else:
+            print(f"源文件缺失：{src}")
 
 
 class ExportWiiApps(CmdHandler):
     def __init__(self, files_tuple):
-        super().__init__("【导出】独立模拟器 APP 的文件到 Wii 的 SD 卡")
+        super().__init__("Wii - 导出 - 模拟器 APP")
         self.files_tuple = files_tuple
 
     def run(self):
@@ -67,11 +70,7 @@ class ExportWiiApps(CmdHandler):
             MainMenu.console.root_folder_path(), "wii")
         for relative_path in self.files_tuple:
             src_path = os.path.join(wii_folder_path, relative_path)
-            dst_path = os.path.join(LocalConfigs.SDCARD_ROOT, relative_path)
-
-            if not os.path.exists(src_path):
-                print(f"源文件缺失：{src_path}")
-                continue
+            dst_path = os.path.join(LocalConfigs.sd_path(), relative_path)
 
             if os.path.isdir(src_path):
                 copy_folder(src_path, dst_path)

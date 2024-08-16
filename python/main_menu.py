@@ -21,7 +21,7 @@ class Quit(CmdHandler):
 
 class ImportNewRoms(CmdHandler):
     def __init__(self):
-        super().__init__("【导入】new_roms 文件夹里的游戏文件")
+        super().__init__("Console - 导入 - new_roms 文件夹里的游戏文件")
 
     def run(self):
         MainMenu.console.import_new_roms()
@@ -29,7 +29,7 @@ class ImportNewRoms(CmdHandler):
 
 class CheckExistGamesInfos(CmdHandler):
     def __init__(self):
-        super().__init__("检查 roms\\all.xml 中的游戏信息")
+        super().__init__("Console - 检查 - roms\\all.xml 中的游戏信息")
 
     def run(self):
         MainMenu.console.check_exist_games_infos()
@@ -37,7 +37,7 @@ class CheckExistGamesInfos(CmdHandler):
 
 class ConvertWfcFiles(CmdHandler):
     def __init__(self):
-        super().__init__("把 wiiflow 文件夹里的图片转换成 cache 文件")
+        super().__init__("WiiFlow - 生成 - 专用的游戏封面文件")
 
     def run(self):
         MainMenu.console.wiiflow.convert_wfc_files()
@@ -45,7 +45,7 @@ class ConvertWfcFiles(CmdHandler):
 
 class ConvertGameSynopsis(CmdHandler):
     def __init__(self):
-        super().__init__("把游戏摘要文本转换成 WiiFlow 需要的排版格式")
+        super().__init__("WiiFlow - 生成 - 专用排版格式的游戏摘要文本")
 
     def run(self):
         MainMenu.console.wiiflow.convert_game_synopsis()
@@ -53,7 +53,7 @@ class ConvertGameSynopsis(CmdHandler):
 
 class ExportPluginToWiiSdCard(CmdHandler):
     def __init__(self):
-        super().__init__("【导出】WiiFlow 的插件文件")
+        super().__init__("WiiFlow - 导出 - 插件文件")
 
     def run(self):
         MainMenu.console.wiiflow.export_plugin()
@@ -61,29 +61,34 @@ class ExportPluginToWiiSdCard(CmdHandler):
         MainMenu.console.wiiflow.export_source_menu()
 
 
-class ExportFakeGamesToWiiSdCard(CmdHandler):
+class ExportAllFakeRoms(CmdHandler):
     def __init__(self):
-        super().__init__("【导出】空白的游戏文件（包括 ROM、封面和截图）")
+        super().__init__("WiiFlow - 导出 - 所有空白 ROM")
 
     def run(self):
-        MainMenu.console.wiiflow.export_fake_roms()
-        MainMenu.console.wiiflow.export_cache()
-        MainMenu.console.wiiflow.export_snapshots()
+        MainMenu.console.wiiflow.export_all_fake_roms()
 
 
-class ExportGamesToWiiSdCard(CmdHandler):
+class ExportRoms(CmdHandler):
     def __init__(self):
-        super().__init__("【导出】正常的游戏文件（包括 ROM、封面和截图）")
+        super().__init__("WiiFlow - 导出 - 正常 ROM")
 
     def run(self):
         MainMenu.console.wiiflow.export_roms()
-        MainMenu.console.wiiflow.export_cache()
-        MainMenu.console.wiiflow.export_snapshots()
 
 
-class ExportPngCoversToWiiSdCard(CmdHandler):
+class ExportSnapshotAndCacheFiles(CmdHandler):
     def __init__(self):
-        super().__init__("【导出】游戏封面的原图")
+        super().__init__("WiiFlow - 导出 - 截图和封面")
+
+    def run(self):
+        MainMenu.console.wiiflow.export_snapshots()
+        MainMenu.console.wiiflow.export_cache()
+
+
+class ExportPngCovers(CmdHandler):
+    def __init__(self):
+        super().__init__("WiiFlow - 导出 - 封面原图")
 
     def run(self):
         MainMenu.console.wiiflow.export_png_boxcovers()
@@ -105,9 +110,10 @@ class MainMenu:
         MainMenu.add_cmd_handler(ConvertWfcFiles())
         MainMenu.add_cmd_handler(ConvertGameSynopsis())
         MainMenu.add_cmd_handler(ExportPluginToWiiSdCard())
-        MainMenu.add_cmd_handler(ExportFakeGamesToWiiSdCard())
-        MainMenu.add_cmd_handler(ExportGamesToWiiSdCard())
-        MainMenu.add_cmd_handler(ExportPngCoversToWiiSdCard())
+        MainMenu.add_cmd_handler(ExportAllFakeRoms())
+        MainMenu.add_cmd_handler(ExportRoms())
+        MainMenu.add_cmd_handler(ExportSnapshotAndCacheFiles())
+        MainMenu.add_cmd_handler(ExportPngCovers())
 
     @staticmethod
     def show():
