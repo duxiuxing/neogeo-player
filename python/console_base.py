@@ -157,8 +157,8 @@ class ConsoleBase(ConsoleConfigs):
                 }
                 ET.SubElement(exist_roms_xml_root, "Game", attribs)
                 print(f"{zip_name} 已经存在，crc32 = {zip_crc32}")
-            tree = ET.ElementTree(exist_roms_xml_root)
-            tree.write(xml_file_path, encoding="utf-8", xml_declaration=True)
+            ET.ElementTree(exist_roms_xml_root).write(
+                xml_file_path, encoding="utf-8", xml_declaration=True)
 
         xml_file_path = os.path.join(new_roms_folder_path, "new_roms.xml")
         if os.path.exists(xml_file_path):
@@ -169,8 +169,8 @@ class ConsoleBase(ConsoleConfigs):
             return
         else:
             print(f"发现 {new_roms_count} 个新游戏")
-            tree = ET.ElementTree(new_roms_xml_root)
-            tree.write(xml_file_path, encoding="utf-8", xml_declaration=True)
+            ET.ElementTree(new_roms_xml_root).write(
+                xml_file_path, encoding="utf-8", xml_declaration=True)
 
     def check_exist_games_infos(self):
         # WiiFlow 里有当前机种所有游戏的详细信息，本函数用于检查 roms\\all.xml 里

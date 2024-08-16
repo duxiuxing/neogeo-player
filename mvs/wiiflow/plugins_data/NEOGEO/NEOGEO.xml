@@ -867,6 +867,9 @@ Burning Fight is a side-scrolling street-fighting game similar to Final Fight. A
 	<synopsis>Puzzle Bobble (conhecido como Bust-A-Move fora do Japão) é um spin-off da série Bubble Bobble, apresentando temas do jogo original (como inimigos presos em bolhas pela alegre dupla de dinossauros Bub e Bob que devem ser estouradas ). Os jogadores tentam limpar uma placa de bolhas coloridas, disparando outras bolhas em um ângulo e combinando várias bolhas da mesma cor. Sua animação e música japonesas caracteristicamente fofas, juntamente com sua mecânica de jogo e designs de níveis, tornaram-se um sucesso como um título de arcade e geraram várias sequências e ports para os consoles domésticos.</synopsis>
 	<genre>Quebra-cabeças,Quebra-cabeças / Lançar</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>泡泡龙</title>
+    </locale>
 		<developer>Taito</developer>
 		<publisher>Taito</publisher>
 		<date year="1994" month="12" day="21"/>
@@ -901,6 +904,9 @@ Burning Fight is a side-scrolling street-fighting game similar to Final Fight. A
 	<synopsis>Bub e Bob estão de volta! Como em Tetris ao contrário, você atira bolhas em uma série de bolhas de cores diferentes presas em um teto sempre descendo, tentando combiná-las três por três para fazê-las desaparecer. Esta edição contém desafios de quebra-cabeça, multiplayer e estágios progressivos normais.</synopsis>
 	<genre>Quebra-cabeças,Quebra-cabeças / Lançar</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>泡泡龙2</title>
+    </locale>
 		<developer>Taito</developer>
 		<publisher>Taito</publisher>
 		<date year="1995" month="" day=""/>
@@ -3575,7 +3581,7 @@ En el momento de la propagación de virus, dos jóvenes luchadores llamados Rick
 	<genre>Beat'em Up</genre>
 	</locale>
 	<locale lang="ZHCN">
-        <title></title>
+        <title>外星游龙</title>
     </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
@@ -3612,7 +3618,7 @@ Pero el Dr. R. Muckly  no ha sido raptado, se ha vuelto loco y, tras construir u
 	<genre>Tiro,Tiro / Tiro em 3ª pessoa</genre>
 	</locale>
 	<locale lang="ZHCN">
-        <title></title>
+        <title>越战1975</title>
     </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
@@ -3789,7 +3795,7 @@ Un objetivo adicional aparece cuando todos los monstruos están fuera del nido. 
 	<genre>Action</genre>
 	</locale>
 	<locale lang="ZHCN">
-        <title></title>
+        <title>Neo 弹球</title>
     </locale>
 		<developer>NeoDev</developer>
 		<publisher>homebrew</publisher>
@@ -3897,6 +3903,9 @@ Los partidos de fútbol de nivel mundial están a tu alcance con NEOGEO CUP '98.
 	<synopsis>Neo Geo Cup'98 é um simulador de futebol baseado na Copa do Mundo de 1998. Este título é uma nova parcela da série Super Sidekicks e atualiza todos os dados para focar no evento. Na fase de qualificação ou durante o mata-mata, lidere uma das 64 equipes disponíveis para a vitória.</synopsis>
 	<genre>Esporte,Esporte / Futebol</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>98机皇杯 胜利之路</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="07" day="30"/>
@@ -3998,6 +4007,9 @@ There are five stages with five levels each, and each one of them has you throwi
 	<synopsis>Esta era uma história antiga, quando as pessoas ainda acreditavam em bruxaria.nnnnLá vivia um coveiro em uma aldeia muito pequena em uma região remota. Ele viveu uma vida tranquila e solitária em um canto do cemitério. Ele se manteve longe das pessoas da aldeia devido à sua aparência muito feia. Um dia, ele percebeu que as sepulturas foram saqueadas e alguns cadáveres foram roubados. Ele não queria que as pessoas da aldeia descobrissem, então ele decidiu eliminar os ladrões por si mesmo. Assim, ele patrulhava o cemitério todas as noites.nnnnExistem cinco fases com cinco níveis cada, e cada uma delas tem você jogando bolas de fogo em ghouls, fantasmas, goblins e zumbis. Quando você continua jogando bolas de fogo nesses inimigos, eles se incendeiam em uma bola de fogo gigante, que você pode atirar em outros inimigos para matá-los, e obter o tesouro restante antes de passar para o próximo nível. No final do quinto nível, um chefe deve ser derrotado para continuar o jogo.</synopsis>
 	<genre>Plataforma,Plataforma / Corre e Pula</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>午夜噩梦</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2000" month="" day=""/>
@@ -4029,6 +4041,9 @@ Su misión es devolver la paz a la gente. Forman el NINJA COMBAT junto con amigo
 	<locale lang="DE">
 	<genre>Beat'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>忍者大战</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -4061,6 +4076,9 @@ As one of three Ninja Commandos, you must fight your opponents through different
 	<locale lang="DE">
 	<genre>Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>忍者指令</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="05" day="29"/>
@@ -4094,6 +4112,9 @@ As one of three Ninja Commandos, you must fight your opponents through different
 	<locale lang="PT">
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>霸王忍法帖</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="06" day="28"/>
@@ -4127,6 +4148,9 @@ As one of three Ninja Commandos, you must fight your opponents through different
 	<locale lang="PT">
 	<genre>Corrida, Pilotagem,Corrida, Pilotagem / Corrida</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>跨越巅峰</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>ADK</publisher>
 		<date year="1996" month="" day=""/>
@@ -4161,6 +4185,9 @@ As one of three Ninja Commandos, you must fight your opponents through different
 	<locale lang="PT">
 	<genre>Quebra-cabeças,Quebra-cabeças / Queda</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>炸弹人方块</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>Hudson</publisher>
 		<date year="1995" month="01" day="18"/>
@@ -4197,6 +4224,9 @@ As one of three Ninja Commandos, you must fight your opponents through different
 	<locale lang="JA">
 	<title>Futsal - 5 on 5 Mini Soccer</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>快乐射门</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="07" day="19"/>
@@ -4233,6 +4263,9 @@ As one of three Ninja Commandos, you must fight your opponents through different
 	<locale lang="JA">
 	<title>Pochi to Nyaa</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>波奇和娜亚</title>
+    </locale>
 		<developer>Aiky</developer>
 		<publisher>Aiky</publisher>
 		<date year="2003" month="12" day="24"/>
@@ -4303,6 +4336,9 @@ The fact that you are not playing against a virtual opponent and that the bluff 
 	<locale lang="JA">
 	<title>Gapporin</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>动物方块</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="" day=""/>
@@ -4376,6 +4412,9 @@ The fact that you are not playing against a virtual opponent and that the bluff 
 	<locale lang="PT">
 	<genre>Esporte,Esporte / Voleibol</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>超级排球2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>Video System</publisher>
 		<date year="1994" month="10" day="19"/>
@@ -4409,6 +4448,9 @@ The fact that you are not playing against a virtual opponent and that the bluff 
 	<locale lang="PT">
 	<genre>Shoot'em Up / Horizontal,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>恐龙岛2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1999" month="09" day="27"/>
@@ -4449,6 +4491,9 @@ Pulstar é um shooter de rolagem lateral 2D no qual você controla sua nave enqu
 Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscenes totalmente animadas entre cada nível. Também possui suporte para modo cooperativo.</synopsis>
 	<genre>Shoot'em Up / Horizontal,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>惑星战机</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="09" day="29"/>
@@ -4483,6 +4528,9 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 	<synopsis>O jogador elimina as bolas coloridas na tela atirando bolas contra outras bolas da mesma cor, o objetivo do jogo não é limpar a tela das bolas. Em vez disso, é necessário limpar todas as bolas ao redor da forma do nível, conhecido como "drop token". Uma vez que esta forma é liberada, ela explode e o jogador viaja para o próximo nível. Existem 39 níveis no jogo, divididos em grupos de três níveis. Nos dois primeiros níveis, a forma é algo genérico; no terceiro nível, a forma é um signo do Zodíaco, até o nível 36 (já que há 12 sinais). A forma do nível 39 é o símbolo solar.</synopsis>
 	<genre>Quebra-cabeças,Quebra-cabeças / Lançar</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>解谜气泡</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>Visco</publisher>
 		<date year="1995" month="11" day="28"/>
@@ -4585,6 +4633,9 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 	<locale lang="PT">
 	<genre>Quiz,Quiz / Japonês</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>问答大搜查线</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="07" day="01"/>
@@ -4618,6 +4669,9 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 	<locale lang="PT">
 	<genre>Quiz,Quiz / Japonês</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>拳皇问答</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="02" day="01"/>
@@ -4651,6 +4705,9 @@ Mesmo completamente 2D, o jogo usa sprites 3D pré-renderizados e inclui cutscen
 	<locale lang="PT">
 	<genre>Quiz,Quiz / Japonês</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>问答大搜查线2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="" day=""/>
@@ -4724,6 +4781,9 @@ Los elementos sobrenaturales en Ragnagard llevan a los luchadores  más allá de
 	<locale lang="JA">
 	<title>Shin-Oh-Ken</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>神凰拳</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>Saurus</publisher>
 		<date year="1996" month="07" day="26"/>
@@ -4761,6 +4821,9 @@ Los elementos sobrenaturales en Ragnagard llevan a los luchadores  más allá de
 	<locale lang="JA">
 	<title>Real Bout Garou Densetsu</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>RB 饿狼传说</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="01" day="26"/>
@@ -4802,6 +4865,9 @@ But the main addition of this title (and the reason for subtitle "The Newcomers"
 	<locale lang="JA">
 	<title>Real Bout Garou Densetsu 2 - The Newcomers</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>RB 饿狼传说2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="03" day="20"/>
@@ -4842,6 +4908,9 @@ Un año después de la terrible conclusión de "Real Bout", los lobos hambriento
 	<locale lang="JA">
 	<title>Real Bout Garou Densetsu Special</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>RB 饿狼传说特别版</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="" day=""/>

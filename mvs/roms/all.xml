@@ -386,4 +386,149 @@
         en="Metal Slug X - Super Vehicle-001"
         zhcn="合金弹头X"
     />
+    <Game crc32="8ADEC05B" bytes="3779133"
+        zip="mutnat"
+        en="Mutation Nation"
+        zhcn="外星游龙"
+    />
+    <Game crc32="04E7F4ED" bytes="3045765"
+        zip="nam1975"
+        en="NAM-1975"
+        zhcn="越战1975"
+    />
+    <Game crc32="3630A96F" bytes="3261715"
+        zip="ncombat"
+        en="Ninja Combat"
+        zhcn="忍者大战"
+    />
+    <Game crc32="5431507C" bytes="3362439"
+        zip="ncommand"
+        en="Ninja Commando"
+        zhcn="忍者指令"
+    />
+    <Game crc32="3F20D148" bytes="6248519"
+        zip="neobombe"
+        en="Neo Bomberman"
+        zhcn="Neo 炸弹人"
+    />
+    <Game crc32="7C75D388" bytes="10005361"
+        zip="neocup98"
+        en="Neo-Geo Cup '98 - The Road to the Victory"
+        zhcn="98机皇杯 胜利之路"
+    />
+    <Game crc32="D107A897" bytes="8570185"
+        zip="neodrift"
+        en="Neo Drift Out - New Technology"
+        zhcn="Neo 拉力赛车 - 新技术"
+    />
+    <Game crc32="35428510" bytes="1613171"
+        zip="neomrdo"
+        en="Neo Mr. Do!"
+        zhcn="Neo 嘟先生！"
+    />
+    <Game crc32="BE2C39DA" bytes="2014632"
+        zip="neopong"
+        en="Neo Pong"
+        zhcn="Neo 弹球"
+    />
+    <Game crc32="7538EAD6" bytes="18095576"
+        zip="ninjamas"
+        en="Ninja Master's - Haoh-ninpo-cho"
+        zhcn="霸王忍法帖"
+    />
+    <Game crc32="D0095639" bytes="24631422"
+        zip="nitd"
+        en="Nightmare in the Dark"
+        zhcn="午夜噩梦"
+    />
+    <Game crc32="3A8DA519" bytes="12280451"
+        zip="overtop"
+        en="Over Top"
+        zhcn="跨越巅峰"
+    />
+    <Game crc32="7DE52BCB" bytes="2639944"
+        zip="panicbom"
+        en="Panic Bomber"
+        zhcn="炸弹人方块"
+    />
+    <Game crc32="19A353FA" bytes="8556329"
+        zip="pbobbl2n"
+        en="Bust-A-Move Again EX"
+        zhcn="泡泡龙2"
+    />
+    <Game crc32="29D4023C" bytes="3677907"
+        zip="pbobble"
+        en="Bust-a-Move"
+        zhcn="泡泡龙"
+    />
+    <Game crc32="8596892D" bytes="7269654"
+        zip="pgoal"
+        en="Pleasure Goal"
+        zhcn="快乐射门"
+    />
+    <Game crc32="163CE0BE" bytes="21024284"
+        zip="pnyaa"
+        en="Pochi and Nyaa"
+        zhcn="波奇和娜亚"
+    />
+    <Game crc32="617655A1" bytes="3043021"
+        zip="popbounc"
+        en="Pop 'n Bounce"
+        zhcn="动物方块"
+    />
+    <Game crc32="650E71A2" bytes="75037408"
+        zip="preisle2"
+        en="Prehistoric Isle 2"
+        zhcn="恐龙岛2"
+    />
+    <Game crc32="4E9D68B9" bytes="3994697"
+        zip="pspikes2"
+        en="Power Spikes II"
+        zhcn="超级排球2"
+    />
+    <Game crc32="73FD8641" bytes="18798658"
+        zip="pulstar"
+        en="Pulstar"
+        zhcn="惑星战机"
+    />
+    <Game crc32="13C3A9CA" bytes="922779"
+        zip="puzzledp"
+        en="Puzzle De Pon!"
+        zhcn="解谜气泡"
+    />
+    <Game crc32="CFA8594D" bytes="3510859"
+        zip="quizdai2"
+        en="Quiz Meitantei Neo&amp;Geo - Quiz Daisousa Sen part 2"
+        zhcn="问答大搜查线2"
+    />
+    <Game crc32="C7592150" bytes="2650743"
+        zip="quizdais"
+        en="Quiz Daisousa Sen - The Last Count Down"
+        zhcn="问答大搜查线"
+    />
+    <Game crc32="2B7BD418" bytes="15729431"
+        zip="quizkof"
+        en="Quiz King of Fighters"
+        zhcn="拳皇问答"
+    />
+    <Game crc32="CB8A2466" bytes="22913029"
+        zip="ragnagrd"
+        en="Ragnagard"
+        zhcn="神凰拳"
+    />
+    <Game crc32="500EB859" bytes="24351386"
+        zip="rbff1"
+        en="Real Bout Fatal Fury"
+        zhcn="RB 饿狼传说"
+    />
+    <Game crc32="14761699" bytes="30490971"
+        zip="rbff2"
+        en="Real Bout Fatal Fury 2 - The Newcomers"
+        zhcn="RB 饿狼传说2"
+    />
+    <Game crc32="D455E883" bytes="24918204"
+        zip="rbffspec"
+        en="Real Bout Fatal Fury Special"
+        zhcn="RB 饿狼传说特别版"
+    />
 </Game-List>

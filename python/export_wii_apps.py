@@ -59,7 +59,7 @@ def copy_file(src, dst):
 
 class ExportWiiApps(CmdHandler):
     def __init__(self, files_tuple):
-        super().__init__("导出独立模拟器 APP 的文件到 Wii 的 SD 卡")
+        super().__init__("【导出】独立模拟器 APP 的文件到 Wii 的 SD 卡")
         self.files_tuple = files_tuple
 
     def run(self):
