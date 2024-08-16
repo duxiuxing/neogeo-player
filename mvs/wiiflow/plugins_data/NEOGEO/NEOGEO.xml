@@ -113,6 +113,9 @@ Elige uno de 10 luchadores, cada uno con sus movimientos especiales, y haz tu ca
 	<locale lang="JA">
 	<title>Sonic Wings 2</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>四国战机2</title>
+    </locale>
 		<developer>Video System</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="08" day="26"/>
@@ -150,6 +153,9 @@ Elige uno de 10 luchadores, cada uno con sus movimientos especiales, y haz tu ca
 	<locale lang="JA">
 	<title>Sonic Wings 3</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>四国战机3</title>
+    </locale>
 		<developer>Video System</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="11" day="17"/>
@@ -482,6 +488,9 @@ Lançant un appel à l'aide de la planète Palua, le tyran attire nos deux héro
 	<synopsis>Depois de escolher o seu personagem favorito (Lazy ou Refia), você chega para uma atração cinemática com nossos heróis em sua nave espacial, pousando no planeta Palua. Sete zonas aguardam jogadores, divididas em vários níveis. Gelo, florestas verdes, imponentes cachoeiras, castelos, montanhas do mal, pirâmides egípcias ... Que mundo! Com tanta diversidade, não há necessidade de dizer que os cenários são variados e os gráficos exóticos!</synopsis>
 	<genre>Plataforma,Plataforma / Corre e Pula</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>砰砰破坏者</title>
+    </locale>
 		<developer>Visco</developer>
 		<publisher>Neo Conception International</publisher>
 		<date year="2000" month="" day=""/>
@@ -3868,6 +3877,9 @@ El juego cuenta con dos modos de juego. El primero es Stroke Play, en el que el 
 	<locale lang="JA">
 	<title>Big Tournament Golf</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>高尔夫大赛机皇版</title>
+    </locale>
 		<developer>Nazca Corporation</developer>
 		<publisher>Nazca Corporation</publisher>
 		<date year="1996" month="03" day="01"/>
@@ -4744,6 +4756,9 @@ The story involves various pairs of martial artists and those with supernatural 
 	<synopsis>Originalmente concebido pelo estúdio Evoga para ser uma continuação do jogo de luta Double Dragon de 1995 (transformando-o numa homenagem depois de não conseguir os direitos intelectuais da série), Rage of the Dragons é um jogo de luta de duplas de 2 contra 2, o mesmo estilo de arte do antigo Sengoku 3 da Noise Factory.nnnnA história envolve vários pares de artistas marciais e aqueles com poderes sobrenaturais, com todos tendo motivações pessoais para lutar em Sunshine City. Alguns desses lutadores aproveitam o poder dos espíritos do dragão (com os irmãos Billy e Jimmy Lewis controlando os Dragões Azul e Vermelho e o principal antagonista, Johann, controlando o Dragão Negro).</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>龙吼</title>
+    </locale>
 		<developer>Evoga / Playmore</developer>
 		<publisher>Evoga / Playmore</publisher>
 		<date year="2002" month="09" day="20"/>
@@ -4951,6 +4966,9 @@ Multi-Play mode lets you "link" cabinets together so that two players can race e
 	<synopsis>Um jogo de esportes com tons de RPG. Com três modos de jogo: modo de história, arcade e multiplay. embora o prato principal se concentre no modo história, no qual nos colocaremos no lugar de um jovem piloto novato, com poucos recursos cujo objetivo será derrotar Diamond Dave, o piloto mais habilidoso e rápido da cidade. Para isso, devemos competir contra adversários cada vez mais rápidos, e assim ganhar dinheiro suficiente para comprar uma motocicleta mais potente, ou melhorá-la corrida após corrida.</synopsis>
 	<genre>Corrida, Pilotagem,Corrida de moto em 3ª pessoa</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>风速英雄</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1990" month="" day=""/>
@@ -4982,6 +5000,9 @@ Por suerte para la humanidad, dos héroes llamados Maxima y Rocky, se enfrentar�
 	<locale lang="DE">
 	<genre>Beat'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>机甲神兵</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="12" day="20"/>
@@ -5020,6 +5041,9 @@ Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor 
 	<locale lang="JA">
 	<title>Samurai Spirits</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>侍魂</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1993" month="08" day="11"/>
@@ -5057,6 +5081,9 @@ Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor 
 	<locale lang="JA">
 	<title>Shin Samurai Spirits - Haohmaru Jigokuhen</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>侍魂2 霸王丸地狱变</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="12" day="02"/>
@@ -5094,6 +5121,9 @@ Now, choose between 12 warriors (and 3 bonus characters) to fight for the honor 
 	<locale lang="JA">
 	<title>Samurai Spirits - Zankurou Musouken</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>侍魂3 斩红郎无双剑</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="12" day="01"/>
@@ -5135,6 +5165,9 @@ With the intention to provide more action in the battles, the "No Contest" Moves
 	<locale lang="JA">
 	<title>Samurai Spirits - Amakusa Kourin</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>侍魂4 天草降临</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="11" day="29"/>
@@ -5176,6 +5209,9 @@ There are 24 characters, a familiar cast with some new faces. Unlike the previou
 	<locale lang="JA">
 	<title>Samurai Spirits Zero</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>侍魂5</title>
+    </locale>
 		<developer>Yuki Enterprise / SNK Playmore</developer>
 		<publisher>Yuki Enterprise / SNK Playmore</publisher>
 		<date year="2003" month="12" day="11"/>
@@ -5213,6 +5249,9 @@ There are 24 characters, a familiar cast with some new faces. Unlike the previou
 	<locale lang="JA">
 	<title>Samurai Spirits Zero Special</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>侍魂5 特别版</title>
+    </locale>
 		<developer>Yuki Enterprise / SNK Playmore</developer>
 		<publisher>Yuki Enterprise / SNK Playmore</publisher>
 		<date year="2004" month="07" day="09"/>
@@ -5254,6 +5293,9 @@ Savage Reign é um jogo de luta 2D um contra um no qual você seleciona seu pers
 	<locale lang="JA">
 	<title>Fu'un Mokushiroku - Kakutou Sousei</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>风云默示录</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="05" day="26"/>
@@ -5289,6 +5331,9 @@ The game thus takes you from the city to a spirit-realm from time to time, in wh
 	<locale lang="JA">
 	<title>Sengoku Denshou</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>战国传承</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="07" day="01"/>
@@ -5324,6 +5369,9 @@ As in the original, the game plays as a standard 2D side-scrolling beat 'em up, 
 	<locale lang="JA">
 	<title>Sengoku Denshou 2</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>战国传承2</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1993" month="04" day="09"/>
@@ -5359,6 +5407,9 @@ The game incorporates a more complex fighting system similar to a one-on-one fig
 	<locale lang="JA">
 	<title>Sengoku Denshou 2001</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>战国传承3</title>
+    </locale>
 		<developer>Noise Factory</developer>
 		<publisher>SNK</publisher>
 		<date year="2001" month="10" day="25"/>
@@ -5421,6 +5472,9 @@ There is a team mode where players have to select three characters. The characte
 	<locale lang="DE">
 	<genre>Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>突击骑兵</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="11" day="11"/>
@@ -5453,6 +5507,9 @@ The second game in the Shock Troopers series enables shot locking, close proximi
 	<locale lang="DE">
 	<genre>Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>突击骑兵 第二分队</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1998" month="" day=""/>
@@ -5486,6 +5543,9 @@ The second game in the Shock Troopers series enables shot locking, close proximi
 	<locale lang="PT">
 	<genre>Esporte,Esporte / Futebol</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>机器人足球</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="" day=""/>
@@ -5526,6 +5586,9 @@ It is also possible to jump on enemies or perform a sliding attack.</synopsis>
 	<locale lang="JA">
 	<title>Miracle Adventure</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>强尼大冒险</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>Data East</publisher>
 		<date year="1993" month="" day=""/>
@@ -5562,6 +5625,9 @@ It is also possible to jump on enemies or perform a sliding attack.</synopsis>
 	<locale lang="JA">
 	<title>Stakes Winner - GI Kinzen Seiha e no Michi</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>赛马冠军</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="" day=""/>
@@ -5595,6 +5661,9 @@ It is also possible to jump on enemies or perform a sliding attack.</synopsis>
 	<locale lang="PT">
 	<genre>Corrida com Cavalos,Esporte com animais</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>赛马冠军2</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="12" day="13"/>
@@ -5632,6 +5701,9 @@ It is also possible to jump on enemies or perform a sliding attack.</synopsis>
 	<locale lang="JA">
 	<title>Dunk Dream</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>街头篮球</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>Data East</publisher>
 		<date year="1994" month="12" day="09"/>
@@ -5668,6 +5740,9 @@ After the player beats the final boss, the game starts again from the beginning,
 	<locale lang="PT">
 	<genre>Shoot'em Up,Shoot'em Up / Vertical</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>打击者1945 Plus</title>
+    </locale>
 		<developer>Psikyo</developer>
 		<publisher>Psikyo</publisher>
 		<date year="1999" month="12" day="24"/>
@@ -5704,6 +5779,9 @@ After the player beats the final boss, the game starts again from the beginning,
 	<locale lang="JA">
 	<title>Kunio no Nekketsu Toukyuu Densetsu</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>超级躲避球</title>
+    </locale>
 		<developer>Tecmo</developer>
 		<publisher>Tecmo</publisher>
 		<date year="1987" month="" day=""/>
@@ -5741,6 +5819,9 @@ After the player beats the final boss, the game starts again from the beginning,
 	<locale lang="JA">
 	<title>Tokuten Ou</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>得点王</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="" day=""/>
@@ -5778,6 +5859,9 @@ La compétition se déroule sous forme de tournoi : vous commencez en bas de tab
 	<locale lang="JA">
 	<title>Tokuten Ou 2 - Real Fight Football</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>得点王2 世界冠军</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="04" day="19"/>
@@ -5814,6 +5898,9 @@ La compétition se déroule sous forme de tournoi : vous commencez en bas de tab
 	<locale lang="JA">
 	<title>Tokuten Ou 3 - Eikou e no Michi</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>得点王3 下一次的荣誉</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="04" day="07"/>
@@ -5848,6 +5935,9 @@ Using your fists, knife, or gun, you must use the elevators to travel between fl
 	<locale lang="PT">
 	<genre>Briga de rua,Aventura</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>谍报飞龙</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="07" day="01"/>
@@ -5882,6 +5972,9 @@ Using your fists, knife, or gun, you must use the elevators to travel between fl
 	<synopsis>SVC Chaos: SNK vs Capcom para Neo Geo é um jogo de luta com os guerreiros das duas famosas séries Street Fighter e King of Fighters. O jogo oferece um modo arcade onde se segue a história de seu herói, assim como os modos versus, challenge  e survival.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>SNK 对卡普空</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2003" month="07" day="01"/>
@@ -5955,6 +6048,9 @@ On offense you can perform short or long passes with the A and C buttons, respec
 	<locale lang="PT">
 	<genre>Esporte,Esporte / Futebol</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>96 Tecmo 世界杯</title>
+    </locale>
 		<developer>Tecmo</developer>
 		<publisher>Tecmo</publisher>
 		<date year="1996" month="" day=""/>
@@ -6018,6 +6114,9 @@ On offense you can perform short or long passes with the A and C buttons, respec
 	<locale lang="JA">
 	<title>Tokuten Ou - Honoo no Libero</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>得点王4 终极十一人</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="12" day="20"/>
@@ -6054,6 +6153,9 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 	<locale lang="PT">
 	<genre>Corrida, Pilotagem,Corrida, Pilotagem / Corrida</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>极速英豪 拉力赛车</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="12" day="20"/>
@@ -6117,6 +6219,9 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 	<locale lang="PT">
 	<genre>Plataforma,Plataforma / Combate com rolagem</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>顶尖猎人</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="06" day="24"/>
@@ -6151,6 +6256,9 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 	<synopsis>Competição de Primeira Classe! Em um belo percurso, a competição silenciosa começará. Selecione entre quatro jogadores individuais. Jogue um jogo de Nassau para um toque diferente. Desfrute de emoção de golfe na vida real!</synopsis>
 	<genre>Esporte,Esporte / Golfe</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>顶尖高尔夫</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="1991" month="07" day="01"/>
@@ -6214,6 +6322,9 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 	<locale lang="PT">
 	<genre>Shoot'em Up / Vertical,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>梦幻小妖精</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1997" month="01" day="31"/>
@@ -6247,6 +6358,9 @@ A global ranking is kept while racing, but it is based on your time, not on the 
 	<locale lang="PT">
 	<genre>Cassino,Cassino / Caça-níqueis</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>赌博机</title>
+    </locale>
 		<developer>Dyna</developer>
 		<publisher>SNK</publisher>
 		<date year="2001" month="" day=""/>
@@ -6282,6 +6396,9 @@ One or two players (in hot-seat or cooperative mode) control a spaceship equippe
 	<locale lang="PT">
 	<genre>Shoot'em Up / Diagonal,Shoot'em Up</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>观点战机</title>
+    </locale>
 		<developer>Sammy</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="12" day="11"/>
@@ -6355,6 +6472,9 @@ One or two players (in hot-seat or cooperative mode) control a spaceship equippe
 	<synopsis>As sete bolas mágicas Waku Waku surgiram novamente e os poucos que sabem da sua existência decidem lutar uns contra os outros para recolher todas elas. Se eles forem capazes de derrotar o poderoso monstro escravizado nelas, as bolas Waku Waku concederão ao sortudo vencedor, seja qual for o desejo que fizerem. O jogo em geral foi criado como uma paródia da série anime, WW7 reúne todos os pilares do gênero e os faz lutar uns contra os outros. De gatinhas fofinhas e afeminadas, elfos muito legais, a criaturas parecidas com pokémon e heróis idiotas e barulhentos.</synopsis>
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>火热火热7</title>
+    </locale>
 		<developer>Sunsoft</developer>
 		<publisher>SNK</publisher>
 		<date year="1996" month="12" day="27"/>
@@ -6389,6 +6509,9 @@ Deberemos ganar cada uno de los partidos de frisbee que se nos presenten, y gana
 	<locale lang="DE">
 	<genre>Sport</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>野外飞盘</title>
+    </locale>
 		<developer>Data East</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="04" day="08"/>
@@ -6424,6 +6547,9 @@ Featuring a cast of characters ranging from ninjas to a cybernetic supersoldier,
 	<locale lang="PT">
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>世界英雄</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1992" month="07" day="28"/>
@@ -6459,6 +6585,9 @@ This sequel features all-new stages and music, and improved animation and graphi
 	<locale lang="PT">
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>世界英雄2</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1993" month="06" day="04"/>
@@ -6494,6 +6623,9 @@ This sequel features all-new stages and music, and improved animation and graphi
 	<locale lang="PT">
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>世界英雄2 喷射版</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="04" day="26"/>
@@ -6536,6 +6668,9 @@ This sequel features all-new stages and music, and improved animation and graphi
 	<locale lang="PT">
 	<genre>Luta,Luta / Versus</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>世界英雄完美版</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="08" day="25"/>
@@ -6570,6 +6705,9 @@ This sequel features all-new stages and music, and improved animation and graphi
 	<synopsis>Você e / ou um amigo devem escolher um dos três personagens para jogar, cada um com velocidades diferentes nas quais controlam suas naves. Em seguida, selecione três armas para usar na frente e na traseira da nave. Durante o jogo, você deve viajar para todos os planetas do sistema solar e derrotar as várias naves inimigas e o chefe perto do fim do planeta. Suas armas podem ser atualizadas durante a batalha, e você também pode coletar HyperBombs se quiser causar dano máximo. Contém uma trilha sonora agradável que remete ao início da década de 1990, a música "rave".</synopsis>
 	<genre>Shoot'em Up,Shoot'em Up / Horizontal</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>作战名末日</title>
+    </locale>
 		<developer>Saurus</developer>
 		<publisher>SNK</publisher>
 		<date year="1994" month="09" day="13"/>
@@ -6607,6 +6745,9 @@ This sequel features all-new stages and music, and improved animation and graphi
 	<locale lang="JA">
 	<title>Oshidashi Zentrix</title>
 	</locale>
+	<locale lang="ZHCN">
+        <title>决战平推方块</title>
+    </locale>
 		<developer>ADK</developer>
 		<publisher>SNK</publisher>
 		<date year="1995" month="" day=""/>
@@ -6640,6 +6781,9 @@ This sequel features all-new stages and music, and improved animation and graphi
 	<locale lang="PT">
 	<genre>Plataforma,Plataforma / Corre e Pula</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>星星大作战</title>
+    </locale>
 		<developer>SNK</developer>
 		<publisher>SNK</publisher>
 		<date year="2001" month="09" day="01"/>

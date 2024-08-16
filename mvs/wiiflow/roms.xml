@@ -40,6 +40,11 @@
         en="Art of Fighting 3 - The Path of the Warrior"
         zhcn="龙虎之拳3 斗士之路"
     />
+    <Game crc32="171D7281" bytes="1636993"
+        zip="b2b"
+        en="Bang Bang Busters"
+        zhcn="砰砰破坏者"
+    />
     <Game crc32="B6E7A7AD" bytes="2515537"
         zip="bakatono"
         en="Bakatonosama Mahjong Manyuuki"
@@ -109,6 +114,11 @@
         zip="doubledr"
         en="Double Dragon"
         zhcn="双截龙"
+    />
+    <Game crc32="0D1D0F09" bytes="5456315"
+        zip="dragonsh"
+        en="Dragon's Heaven"
+        zhcn="龙之天堂"
     />
     <Game crc32="B64FFBDC" bytes="2942533"
         zip="eightman"
@@ -189,6 +199,11 @@
         zip="gururin"
         en="Gururin"
         zhcn="梦幻天堂"
+    />
+    <Game crc32="EF314079" bytes="12528623"
+        zip="ironclad"
+        en="Iron Clad"
+        zhcn="超铁战机"
     />
     <Game crc32="DEF8ABE0" bytes="4675628"
         zip="irrmaze"
@@ -272,7 +287,7 @@
     />
     <Game crc32="8337CA35" bytes="129981544"
         zip="kof99"
-        en="The King of Fighters '99 : Millennium Battle"
+        en="The King of Fighters '99 - Millennium Battle"
         zhcn="拳皇99"
     />
     <Game crc32="CA98502F" bytes="4198036"
@@ -530,5 +545,240 @@
         zip="rbffspec"
         en="Real Bout Fatal Fury Special"
         zhcn="RB 饿狼传说特别版"
+    />
+    <Game crc32="9DCF0513" bytes="3836341"
+        zip="ridhero"
+        en="Riding Hero"
+        zhcn="风速英雄"
+    />
+    <Game crc32="01F7FDB9" bytes="3257942"
+        zip="roboarmy"
+        en="Robo Army"
+        zhcn="机甲神兵"
+    />
+    <Game crc32="F36AD4B7" bytes="90431444"
+        zip="rotd"
+        en="Rage of the Dragons"
+        zhcn="龙吼"
+    />
+    <Game crc32="F6F4F9CA" bytes="92679072"
+        zip="s1945p"
+        en="Strikers 1945 Plus"
+        zhcn="打击者1945 Plus"
+    />
+    <Game crc32="DD3BF8AD" bytes="112082425"
+        zip="samsh5sp"
+        en="Samurai Shodown V Special"
+        zhcn=""
+    />
+    <Game crc32="F54B61EF" bytes="9162937"
+        zip="samsho"
+        en="Samurai Shodown"
+        zhcn="侍魂"
+    />
+    <Game crc32="DDF19103" bytes="15996240"
+        zip="samsho2"
+        en="Samurai Shodown II"
+        zhcn="侍魂2 霸王丸地狱变"
+    />
+    <Game crc32="1A94E42F" bytes="19102808"
+        zip="samsho3"
+        en="Samurai Shodown III"
+        zhcn="侍魂3 斩红郎无双剑"
+    />
+    <Game crc32="A70D6FAD" bytes="23106482"
+        zip="samsho4"
+        en="Samurai Shodown IV - Amakusa's Revenge"
+        zhcn="侍魂4 天草降临"
+    />
+    <Game crc32="4787A2BA" bytes="151254002"
+        zip="samsho5"
+        en="Samurai Shodown V"
+        zhcn="侍魂5"
+    />
+    <Game crc32="16448392" bytes="13277025"
+        zip="savagere"
+        en="Savage Reign"
+        zhcn="风云默示录"
+    />
+    <Game crc32="8B7EAB78" bytes="7226184"
+        zip="sdodgeb"
+        en="Super Dodge Ball"
+        zhcn="超级躲避球"
+    />
+    <Game crc32="4F06AA2C" bytes="3721724"
+        zip="sengoku"
+        en="Sengoku"
+        zhcn="战国传承"
+    />
+    <Game crc32="3F287B93" bytes="5295684"
+        zip="sengoku2"
+        en="Sengoku 2"
+        zhcn="战国传承2"
+    />
+    <Game crc32="5346A38A" bytes="53018765"
+        zip="sengoku3"
+        en="Sengoku 3"
+        zhcn="战国传承3"
+    />
+    <Game crc32="B59C99E9" bytes="58661181"
+        zip="shocktr2"
+        en="Shock Troopers - 2nd Squad"
+        zhcn="突击骑兵 第二分队"
+    />
+    <Game crc32="6688106F" bytes="20010070"
+        zip="shocktro"
+        en="Shock Troopers"
+        zhcn="突击骑兵"
+    />
+    <Game crc32="69D374DA" bytes="3280263"
+        zip="socbrawl"
+        en="Soccer Brawl"
+        zhcn="机器人足球"
+    />
+    <Game crc32="70DB4A7D" bytes="5554229"
+        zip="sonicwi2"
+        en="Aero Fighters 2"
+        zhcn="四国战机2"
+    />
+    <Game crc32="27E71E60" bytes="9351522"
+        zip="sonicwi3"
+        en="Aero Fighters 3"
+        zhcn="四国战机3"
+    />
+    <Game crc32="9B30E3E2" bytes="4047773"
+        zip="spinmast"
+        en="Spin Master"
+        zhcn="强尼大冒险"
+    />
+    <Game crc32="051A04A2" bytes="3260087"
+        zip="ssideki"
+        en="Super Sidekicks"
+        zhcn="得点王"
+    />
+    <Game crc32="FA77E147" bytes="6856176"
+        zip="ssideki2"
+        en="Super Sidekicks 2 - The World Championship"
+        zhcn="得点王2 世界冠军"
+    />
+    <Game crc32="54AFBF91" bytes="9875380"
+        zip="ssideki3"
+        en="Super Sidekicks 3 - The Next Glory"
+        zhcn="得点王3 下一次的荣誉"
+    />
+    <Game crc32="02AB5FCD" bytes="13656842"
+        zip="ssideki4"
+        en="The Ultimate 11 - SNK Football Championship"
+        zhcn="得点王4 终极十一人"
+    />
+    <Game crc32="2E4360C6" bytes="3369063"
+        zip="stakwin"
+        en="Stakes Winner"
+        zhcn="赛马冠军"
+    />
+    <Game crc32="A60BE93D" bytes="10793084"
+        zip="stakwin2"
+        en="Stakes Winner 2"
+        zhcn="赛马冠军2"
+    />
+    <Game crc32="657C7096" bytes="4684978"
+        zip="strhoop"
+        en="Street Slam"
+        zhcn="街头篮球"
+    />
+    <Game crc32="8D514D5F" bytes="3297637"
+        zip="superspy"
+        en="The Super Spy"
+        zhcn="谍报飞龙"
+    />
+    <Game crc32="8F90FE23" bytes="161247679"
+        zip="svc"
+        en="SVC Chaos - SNK vs. Capcom"
+        zhcn="SNK 对卡普空"
+    />
+    <Game crc32="6CE8E23C" bytes="7394259"
+        zip="tophuntr"
+        en="Top Hunter"
+        zhcn="顶尖猎人"
+    />
+    <Game crc32="831F6528" bytes="3791042"
+        zip="tpgolf"
+        en="Top Player's Golf"
+        zhcn="顶尖高尔夫"
+    />
+    <Game crc32="BB412CB9" bytes="2877139"
+        zip="trally"
+        en="Thrash Rally"
+        zhcn="极速英豪 拉力赛车"
+    />
+    <Game crc32="2C0E7137" bytes="9329414"
+        zip="turfmast"
+        en="Neo Turf Masters"
+        zhcn="高尔夫大赛机皇版"
+    />
+    <Game crc32="E7E2E641" bytes="9076957"
+        zip="twinspri"
+        en="Twinkle Star Sprites"
+        zhcn="梦幻小妖精"
+    />
+    <Game crc32="B3432672" bytes="6154027"
+        zip="tws96"
+        en="Tecmo World Soccer '96"
+        zhcn="96 Tecmo 世界杯"
+    />
+    <Game crc32="A8B29C06" bytes="4048956"
+        zip="viewpoin"
+        en="Viewpoint"
+        zhcn="观点战机"
+    />
+    <Game crc32="BC08635C" bytes="232288"
+        zip="vliner"
+        en="V-Liner"
+        zhcn="赌博机"
+    />
+    <Game crc32="2D9F1AEF" bytes="13651205"
+        zip="wakuwak7"
+        en="Waku Waku 7"
+        zhcn="火热火热7"
+    />
+    <Game crc32="FC1C86EF" bytes="5518976"
+        zip="wh1"
+        en="World Heroes"
+        zhcn="世界英雄"
+    />
+    <Game crc32="F203E042" bytes="9039158"
+        zip="wh2"
+        en="World Heroes 2"
+        zhcn="世界英雄2"
+    />
+    <Game crc32="48F695A3" bytes="10888436"
+        zip="wh2j"
+        en="World Heroes 2 Jet"
+        zhcn="世界英雄2 喷射版"
+    />
+    <Game crc32="2182493F" bytes="15019585"
+        zip="whp"
+        en="World Heroes Perfect"
+        zhcn="世界英雄完美版"
+    />
+    <Game crc32="CF25A8D1" bytes="4043821"
+        zip="wjammers"
+        en="Windjammers"
+        zhcn="野外飞盘"
+    />
+    <Game crc32="CFEE8CE1" bytes="5158908"
+        zip="zedblade"
+        en="Zed Blade"
+        zhcn="作战名末日"
+    />
+    <Game crc32="B13BA321" bytes="3294502"
+        zip="zintrckb"
+        en="Zintrick"
+        zhcn="决战平推方块"
+    />
+    <Game crc32="E6BD865B" bytes="23747295"
+        zip="zupapa"
+        en="Zupapa"
+        zhcn="星星大作战"
     />
 </Game-List>
