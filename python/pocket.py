@@ -10,9 +10,8 @@ from wiiflow import WiiFlow
 
 
 class NeoGeoPocket(ConsoleImpl):
-    def __init__(self, version_number):
-        super().__init__()
-        self.wiiflow = WiiFlow(self, "NEOPOCKET")
+    def create_wiiflow(self):
+        return WiiFlow(self, "NEOPOCKET")
 
     def root_folder_path(self):
         return os.path.join(LocalConfigs.repository_folder_path(), "pocket")
@@ -26,7 +25,7 @@ wii_app_files_tuple = (
 )
 
 
-MainMenu.console = NeoGeoPocket(1)
+MainMenu.console = NeoGeoPocket()
 MainMenu.init_default_cmd_handlers()
 # MainMenu.add_cmd_handler(ExportWiiApps(wii_app_files_tuple))
 # MainMenu.add_cmd_handler(AdjustCovers())

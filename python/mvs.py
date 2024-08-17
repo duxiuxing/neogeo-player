@@ -11,9 +11,6 @@ from wiiflow import WiiFlow
 
 
 class NeoGeoMVS(ConsoleImpl):
-    def __init__(self, version_number):
-        super().__init__()
-
     def create_wiiflow(self):
         return WiiFlow(self, "NEOGEO")
 
@@ -29,7 +26,7 @@ wii_app_files_tuple = (
 )
 
 
-MainMenu.console = NeoGeoMVS(1)
+MainMenu.console = NeoGeoMVS()
 MainMenu.init_default_cmd_handlers()
 MainMenu.add_cmd_handler(ExportWiiApps(wii_app_files_tuple))
 MainMenu.add_cmd_handler(AdjustCovers())
