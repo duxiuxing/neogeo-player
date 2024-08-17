@@ -54,17 +54,17 @@ def copy_file_if_not_exist(src_file_path, dst_file_path):
 
 
 class WiiFlow:
-    def __init__(self, console_config, plugin_name):
+    def __init__(self, console, plugin_name):
         # 机种对应的文件夹路径
-        self.console_root_folder_path = console_config.root_folder_path()
+        self.console_root_folder_path = console.root_folder_path()
 
         # 机种对应的 WiiFlow 插件名称
         self.plugin_name = plugin_name
 
         # CRC32 值和 .zip 文件标题为键，游戏 ID 为值的字典
         # 内容来自 <self.plugin_name>.ini
-        # 读取操作在 self.init_zip_crc32_to_game_id() 中实现
-        self.zip_crc32_to_game_id = {}
+        # 读取操作在 self.init_rom_crc32_to_game_id() 中实现
+        self.rom_crc32_to_game_id = {}
 
         # 游戏 ID 为键，GameInfo 为值的字典
         # 内容来自 <self.plugin_name>.xml
@@ -76,12 +76,12 @@ class WiiFlow:
         # 读取操作在 self.init_zip_title_to_path() 中实现
         self.zip_title_to_path = {}
 
-    def init_zip_crc32_to_game_id(self):
+    def init_rom_crc32_to_game_id(self):
         # 本函数执行的操作如下：
         # 1. 读取 <self.plugin_name>.ini
-        # 2. 填充 self.zip_crc32_to_game_id
+        # 2. 填充 self.rom_crc32_to_game_id
         # 3. 有防止重复读取的逻辑
-        if len(self.zip_crc32_to_game_id) > 0:
+        if len(self.rom_crc32_to_game_id) > 0:
             return
 
         ini_file_path = os.path.join(
@@ -98,9 +98,9 @@ class WiiFlow:
             for zip_title in ini_parser[self.plugin_name]:
                 values = ini_parser[self.plugin_name][zip_title].split("|")
                 game_id = values[0]
-                self.zip_crc32_to_game_id[zip_title] = game_id
+                self.rom_crc32_to_game_id[zip_title] = game_id
                 for index in range(1, len(values)):
-                    self.zip_crc32_to_game_id[values[index].rjust(
+                    self.rom_crc32_to_game_id[values[index].rjust(
                         8, "0")] = game_id
 
     def init_game_id_to_info(self):
@@ -144,26 +144,26 @@ class WiiFlow:
             self.game_id_to_info[game_id] = GameInfo(
                 en_title=en_title, zhcn_title=zhcn_title)
 
-    def find_game_info(self, zip_title, zip_crc32):
-        # 根据 CRC32 值或 .zip 文件标题查找 GameInfo
+    def find_game_info(self, rom_title, rom_crc32):
+        # 根据 CRC32 值或 ROM 文件标题查找 GameInfo
         # Args:
-        #     zip_title (str): .zip 文件的标题，比如 1941.zip 的标题就是 1941
-        #     zip_crc32 (str): .zip 文件的 CRC32 值
+        #     rom_title (str): ROM 文件的标题，比如 1941.zip 的标题就是 1941
+        #     rom_crc32 (str): ROM 文件的 CRC32 值
         # Returns:
         #     找到则返回 GameInfo 对象，否则返回 None
-        self.init_zip_crc32_to_game_id()
+        self.init_rom_crc32_to_game_id()
         self.init_game_id_to_info()
 
         game_id = None
-        if zip_title in self.zip_crc32_to_game_id.keys():
-            game_id = self.zip_crc32_to_game_id[zip_title]
-        elif zip_crc32 in self.zip_crc32_to_game_id.keys():
-            game_id = self.zip_crc32_to_game_id[zip_crc32]
+        if rom_title in self.rom_crc32_to_game_id.keys():
+            game_id = self.rom_crc32_to_game_id[rom_title]
+        elif rom_crc32 in self.rom_crc32_to_game_id.keys():
+            game_id = self.rom_crc32_to_game_id[rom_crc32]
 
         if game_id is not None and game_id in self.game_id_to_info.keys():
             return self.game_id_to_info[game_id]
 
-        print(f"{zip_title}.zip 不在 {self.plugin_name}.ini 中，crc32 = {zip_crc32}")
+        print(f"{rom_title} 不在 {self.plugin_name}.ini 中，crc32 = {rom_crc32}")
         return None
 
     def init_zip_title_to_path(self):
@@ -185,16 +185,16 @@ class WiiFlow:
         root = tree.getroot()
 
         for game_elem in root.findall("Game"):
-            zip_crc32 = game_elem.get("crc32").rjust(8, "0")
+            rom_crc32 = game_elem.get("crc32").rjust(8, "0")
             zip_title = game_elem.get("zip")
             if zip_title is None:
-                print(f"crc32 = {zip_crc32} 的元素缺少 zip 属性")
+                print(f"crc32 = {rom_crc32} 的元素缺少 zip 属性")
                 continue
             zip_path = os.path.join(
                 self.console_root_folder_path, f"roms\\{zip_title}.zip")
             if not os.path.exists(zip_path):
                 zip_path = os.path.join(
-                    self.console_root_folder_path, f"roms\\{zip_title}\\{zip_crc32}.zip")
+                    self.console_root_folder_path, f"roms\\{zip_title}\\{rom_crc32}.zip")
                 if not os.path.exists(zip_path):
                     print(f"无效的文件：{zip_path}")
                     continue
