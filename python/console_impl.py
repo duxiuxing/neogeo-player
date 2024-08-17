@@ -6,7 +6,7 @@ import shutil
 import xml.etree.ElementTree as ET
 import zlib
 
-from console_configs import ConsoleConfigs
+from console import Console
 from game_info import GameInfo
 from local_configs import LocalConfigs
 from wiiflow import WiiFlow
@@ -25,15 +25,19 @@ def compute_crc32(file_path):
         return crc32.rjust(8, "0")
 
 
-class ConsoleBase(ConsoleConfigs):
+class ConsoleImpl(Console):
     def __init__(self):
-        # WiiFow 类型的实例，在子类的构造函数中创建。
-        self.wiiflow = None
-
+        self._wiiflow = self.create_wiiflow()
         # CRC32 值为键，GameInfo 为值的字典
         # 内容来自 roms\\all.xml
         # 读取操作在 self.reset_zip_crc32_to_game_info() 中实现
         self.zip_crc32_to_game_info = {}
+
+    def create_wiiflow(self):
+        raise NotImplementedError()
+
+    def wiiflow(self):
+        return self._wiiflow
 
     def reset_zip_crc32_to_game_info(self):
         # 本函数执行的操作如下：
@@ -111,7 +115,7 @@ class ConsoleBase(ConsoleConfigs):
             en_title = ""
             zhcn_title = ""
 
-            wii_game_info = self.wiiflow.find_game_info(zip_title, zip_crc32)
+            wii_game_info = self.wiiflow().find_game_info(zip_title, zip_crc32)
             if wii_game_info is not None:
                 en_title = wii_game_info.en_title
                 zhcn_title = wii_game_info.zhcn_title
@@ -173,22 +177,22 @@ class ConsoleBase(ConsoleConfigs):
                 xml_file_path, encoding="utf-8", xml_declaration=True)
 
     def check_exist_games_infos(self):
-        # WiiFlow 里有当前机种所有游戏的详细信息，本函数用于检查 roms\\all.xml 里
+        # WiiFlow 里有当前机种所有游戏的详细信息，本函数用于检查 roms\\all.xml 中
         # 的游戏中英文名称和 WiiFlow 里的是否一致，如果不一致则打印出来
         self.reset_zip_crc32_to_game_info()
 
         for zip_crc32, game_info in self.zip_crc32_to_game_info.items():
-            wii_game_info = self.wiiflow.find_game_info(
+            wii_game_info = self.wiiflow().find_game_info(
                 game_info.zip_title, zip_crc32)
             if wii_game_info is not None:
                 if wii_game_info.en_title != game_info.en_title:
                     print("en 属性不一致")
                     print(f"\t{game_info.en_title} 在 all.xml")
                     print(
-                        f"\t{wii_game_info.en_title} 在 {self.wiiflow.plugin_name}.xml")
+                        f"\t{wii_game_info.en_title} 在 {self.wiiflow().plugin_name}.xml")
 
                 if wii_game_info.zhcn_title != game_info.zhcn_title:
                     print("zhcn 属性不一致")
                     print(f"\t{game_info.zhcn_title} 在 all.xml")
                     print(
-                        f"\t{wii_game_info.zhcn_title} 在 {self.wiiflow.plugin_name}.xml")
+                        f"\t{wii_game_info.zhcn_title} 在 {self.wiiflow().plugin_name}.xml")

@@ -2,33 +2,32 @@
 
 import os
 
+from console_impl import ConsoleImpl
+from export_wii_apps import ExportWiiApps
 from local_configs import LocalConfigs
-from console_base import ConsoleBase
+from main_menu import MainMenu
+from wiiflow import WiiFlow
+
+
+class NeoGeoPocket(ConsoleImpl):
+    def __init__(self, version_number):
+        super().__init__()
+        self.wiiflow = WiiFlow(self, "NEOPOCKET")
+
+    def root_folder_path(self):
+        return os.path.join(LocalConfigs.repository_folder_path(), "pocket")
+
 
 wii_app_files_tuple = (
-    "apps\\ra-cps1\\boot.dol",
-    "apps\\ra-cps1\\icon.png",
-    "apps\\ra-cps1\\meta.xml",
-    "apps\\sf2",
-    "apps\\sf2ce",
-    "private",
-    "wad\\ra-cps1\\Capcom-CPS-1-RunningSnakes-Gold [C1LR].wad",
-    "wad\\ra-cps1\\Capcom-CPS-1-RunningSnakes-White [C1LR].wad",
-    "wad\\ra-cps1\\Capcom-CPS-1-RunningSnakes-Yellow [C1LR].wad",
-    "wad\\ra-cps1\\R-Sam-CPS1-White [C1LR].zhtw.wad",
-    "wad\\ra-cps1\\R-Sam-CPS1-Yellow [C1LR].zhtw.wad",
-    "wad\\Street Fighter II [SF21].zhtw.wad",
-    "wad\\Street Fighter II CE [SF22].zhtw.wad"
+    "apps\\ra-neogeo\\boot.dol",
+    "apps\\ra-neogeo\\icon.png",
+    "apps\\ra-neogeo\\meta.xml",
+    "private"
 )
 
 
-class NeoGeoPocket(ConsoleBase):
-    def folder_path(self):
-        return os.path.join(LocalConfigs.repository_folder_path(), "pocket")
-
-    def wiiflow_plugin_name(self):
-        return "NEOPOCKET"
-
-
-pocket = NeoGeoPocket()
-pocket.import_new_roms()
+MainMenu.console = NeoGeoPocket(1)
+MainMenu.init_default_cmd_handlers()
+# MainMenu.add_cmd_handler(ExportWiiApps(wii_app_files_tuple))
+# MainMenu.add_cmd_handler(AdjustCovers())
+MainMenu.show()

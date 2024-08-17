@@ -1,6 +1,7 @@
 # -- coding: UTF-8 --
 
-from console_base import ConsoleBase
+from console import Console
+from wiiflow import WiiFlow
 
 
 class CmdHandler:
@@ -40,7 +41,7 @@ class ConvertWfcFiles(CmdHandler):
         super().__init__("WiiFlow - 生成 - 专用的游戏封面文件")
 
     def run(self):
-        MainMenu.console.wiiflow.convert_wfc_files()
+        MainMenu.console.wiiflow().convert_wfc_files()
 
 
 class ConvertGameSynopsis(CmdHandler):
@@ -48,7 +49,7 @@ class ConvertGameSynopsis(CmdHandler):
         super().__init__("WiiFlow - 生成 - 专用排版格式的游戏摘要文本")
 
     def run(self):
-        MainMenu.console.wiiflow.convert_game_synopsis()
+        MainMenu.console.wiiflow().convert_game_synopsis()
 
 
 class ExportPluginToWiiSdCard(CmdHandler):
@@ -56,9 +57,9 @@ class ExportPluginToWiiSdCard(CmdHandler):
         super().__init__("WiiFlow - 导出 - 插件文件")
 
     def run(self):
-        MainMenu.console.wiiflow.export_plugin()
-        MainMenu.console.wiiflow.export_plugins_data()
-        MainMenu.console.wiiflow.export_source_menu()
+        MainMenu.console.wiiflow().export_plugin()
+        MainMenu.console.wiiflow().export_plugins_data()
+        MainMenu.console.wiiflow().export_source_menu()
 
 
 class ExportAllFakeRoms(CmdHandler):
@@ -66,7 +67,7 @@ class ExportAllFakeRoms(CmdHandler):
         super().__init__("WiiFlow - 导出 - 所有空白 ROM")
 
     def run(self):
-        MainMenu.console.wiiflow.export_all_fake_roms()
+        MainMenu.console.wiiflow().export_all_fake_roms()
 
 
 class ExportRoms(CmdHandler):
@@ -74,7 +75,7 @@ class ExportRoms(CmdHandler):
         super().__init__("WiiFlow - 导出 - 正常 ROM")
 
     def run(self):
-        MainMenu.console.wiiflow.export_roms()
+        MainMenu.console.wiiflow().export_roms()
 
 
 class ExportSnapshotAndCacheFiles(CmdHandler):
@@ -82,8 +83,8 @@ class ExportSnapshotAndCacheFiles(CmdHandler):
         super().__init__("WiiFlow - 导出 - 截图和封面")
 
     def run(self):
-        MainMenu.console.wiiflow.export_snapshots()
-        MainMenu.console.wiiflow.export_cache()
+        MainMenu.console.wiiflow().export_snapshots()
+        MainMenu.console.wiiflow().export_cache()
 
 
 class ExportPngCovers(CmdHandler):
@@ -91,7 +92,7 @@ class ExportPngCovers(CmdHandler):
         super().__init__("WiiFlow - 导出 - 封面原图")
 
     def run(self):
-        MainMenu.console.wiiflow.export_png_boxcovers()
+        MainMenu.console.wiiflow().export_png_boxcovers()
 
 
 class MainMenu:
@@ -122,7 +123,7 @@ class MainMenu:
         while True:
             print("\n\n")
             if MainMenu.console is not None:
-                print(f"机种代码：{MainMenu.console.wiiflow.plugin_name}")
+                print(f"机种代码：{MainMenu.console.wiiflow().plugin_name}")
             print("主菜单：")
             for key in range(1, len(MainMenu.cmd_handler_list) + 1):
                 print(f"\t{key}. {MainMenu.cmd_handler_list[str(key)].tips}")

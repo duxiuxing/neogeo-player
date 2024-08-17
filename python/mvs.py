@@ -2,7 +2,7 @@
 
 import os
 
-from console_base import ConsoleBase
+from console_impl import ConsoleImpl
 from export_wii_apps import ExportWiiApps
 from local_configs import LocalConfigs
 from main_menu import MainMenu
@@ -10,10 +10,12 @@ from mvs_adjust_covers import AdjustCovers
 from wiiflow import WiiFlow
 
 
-class NeoGeoMVS(ConsoleBase):
+class NeoGeoMVS(ConsoleImpl):
     def __init__(self, version_number):
         super().__init__()
-        self.wiiflow = WiiFlow(self, "NEOGEO")
+
+    def create_wiiflow(self):
+        return WiiFlow(self, "NEOGEO")
 
     def root_folder_path(self):
         return os.path.join(LocalConfigs.repository_folder_path(), "mvs")

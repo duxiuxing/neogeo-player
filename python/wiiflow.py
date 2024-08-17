@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 
 from game_info import GameInfo
 from configparser import ConfigParser
-from console_configs import ConsoleConfigs
+from console import Console
 from local_configs import LocalConfigs
 
 

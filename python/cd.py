@@ -3,7 +3,7 @@
 import os
 
 from local_configs import LocalConfigs
-from console_base import ConsoleBase
+from console_impl import ConsoleImpl
 
 wii_app_files_tuple = (
     "apps\\ra-cps1\\boot.dol",
@@ -22,7 +22,7 @@ wii_app_files_tuple = (
 )
 
 
-class NeoGeoCD(ConsoleBase):
+class NeoGeoCD(ConsoleImpl):
     def folder_path(self):
         return os.path.join(LocalConfigs.repository_folder_path(), "cd")
 

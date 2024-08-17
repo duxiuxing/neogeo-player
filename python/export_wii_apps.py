@@ -3,7 +3,7 @@
 import os
 import shutil
 
-from console_base import ConsoleBase
+from console import Console
 from local_configs import LocalConfigs
 from main_menu import CmdHandler
 from main_menu import MainMenu
