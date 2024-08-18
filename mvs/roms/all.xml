@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Game-List name="all-neogeo-roms" rom-exists="true">
+<Game-List name="所有 NeoGeo 街机的游戏" rom-exists="true">
     <Game crc32="46959ADD" bytes="7631274"
         zip="3countb"
         en="3 Count Bout"

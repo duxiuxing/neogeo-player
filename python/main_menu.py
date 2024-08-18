@@ -52,7 +52,7 @@ class ConvertGameSynopsis(CmdHandler):
         MainMenu.console.wiiflow().convert_game_synopsis()
 
 
-class ExportPluginToWiiSdCard(CmdHandler):
+class ExportPluginFiles(CmdHandler):
     def __init__(self):
         super().__init__("WiiFlow - 导出 - 插件文件")
 
@@ -110,7 +110,7 @@ class MainMenu:
         MainMenu.add_cmd_handler(CheckExistGamesInfos())
         MainMenu.add_cmd_handler(ConvertWfcFiles())
         MainMenu.add_cmd_handler(ConvertGameSynopsis())
-        MainMenu.add_cmd_handler(ExportPluginToWiiSdCard())
+        MainMenu.add_cmd_handler(ExportPluginFiles())
         MainMenu.add_cmd_handler(ExportAllFakeRoms())
         MainMenu.add_cmd_handler(ExportRoms())
         MainMenu.add_cmd_handler(ExportSnapshotAndCacheFiles())

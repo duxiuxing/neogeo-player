@@ -1104,6 +1104,9 @@ Esto es debido al argumento, explicado en la intro. En un remoto laboratorio, un
 	<synopsis>Columns é um jogo de quebra-cabeça estilo Tetris no qual você empilha jóias que estão caindo para criar uma corrente de três joias da mesma cor.</synopsis>
 	<genre>Quebra-cabeças / Queda,Quebra-cabeças</genre>
 	</locale>
+	<locale lang="ZHCN">
+        <title>宝石方块</title>
+    </locale>
 		<developer>Neobitz</developer>
 		<publisher>homebrew</publisher>
 		<date year="1990" month="" day=""/>

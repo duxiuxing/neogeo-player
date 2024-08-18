@@ -1,5 +1,6 @@
 # -- coding: UTF-8 --
 
+import fnmatch
 import os
 
 from console_impl import ConsoleImpl
@@ -15,6 +16,12 @@ class NeoGeoPocket(ConsoleImpl):
 
     def root_folder_path(self):
         return os.path.join(LocalConfigs.repository_folder_path(), "pocket")
+
+    def rom_extension(self):
+        return ".ngp"
+
+    def rom_extension_match(self, file_name):
+        return fnmatch.fnmatch(file_name, "*.ngp")
 
 
 wii_app_files_tuple = (

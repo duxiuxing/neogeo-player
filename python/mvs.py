@@ -1,5 +1,6 @@
 # -- coding: UTF-8 --
 
+import fnmatch
 import os
 
 from console_impl import ConsoleImpl
@@ -16,6 +17,12 @@ class NeoGeoMVS(ConsoleImpl):
 
     def root_folder_path(self):
         return os.path.join(LocalConfigs.repository_folder_path(), "mvs")
+
+    def rom_extension_match(self, file_name):
+        if file_name == "neogeo.zip":
+            return False
+        else:
+            return fnmatch.fnmatch(file_name, "*.zip")
 
 
 wii_app_files_tuple = (

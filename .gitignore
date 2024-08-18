@@ -2,6 +2,7 @@ cd/new_roms/*
 cd/wiiflow/log_cachecreate.txt
 
 mvs/new_roms/*
+mvs/roms/*/*.zip
 mvs/roms/*.zip
 mvs/wiiflow/log_cachecreate.txt
 

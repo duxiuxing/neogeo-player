@@ -26,7 +26,7 @@ def folder_exist(folder_path):
 
 class AdjustCovers(CmdHandler):
     def __init__(self):
-        super().__init__("NeoGeoMVS - 导入 - adjust_covers 文件夹里的非标准封面")
+        super().__init__("MVS - 导入 - adjust_covers 文件夹里的非标准封面")
         # 已经调整过的封面文件名列表，避免重复调整
         self.file_names_adjusted = []
 
@@ -36,17 +36,17 @@ class AdjustCovers(CmdHandler):
     def standard_cover_path(self):
         return os.path.join(MainMenu.console.root_folder_path(), "wiiflow\\boxcovers\\blank_covers\\NEOGEO.png")
 
-    def save_wiiflow_boxcover(self, zip_title, image):
+    def save_wiiflow_boxcover(self, rom_title, image):
         file_path = os.path.join(
             MainMenu.console.root_folder_path(),
-            f"wiiflow\\boxcovers\\NEOGEO\\{zip_title}.zip.png")
+            f"wiiflow\\boxcovers\\NEOGEO\\{rom_title}.zip.png")
         if os.path.exists(file_path):
             os.remove(file_path)
         image.save(file_path)
 
         file_path = os.path.join(
             MainMenu.console.root_folder_path(),
-            f"wiiflow\\cache\\NEOGEO\\{zip_title}.zip.wfc")
+            f"wiiflow\\cache\\NEOGEO\\{rom_title}.zip.wfc")
         if os.path.exists(file_path):
             os.remove(file_path)
 
