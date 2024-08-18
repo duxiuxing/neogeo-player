@@ -10,6 +10,11 @@
         en="Bust-A-Move Pocket"
         zhcn="泡泡龙"
     />
+    <Game crc32="E69EAE3E" bytes="1048576"
+        rom="Bust-A-Move Pocket.ngp"
+        en="Bust-A-Move Pocket"
+        zhcn="泡泡龙"
+    />
     <Game crc32="4FDA5D8A" bytes="2097152"
         rom="Cool Cool Jam.ngp"
         en="Cool Cool Jam"
@@ -29,6 +34,36 @@
         rom="Dynamite Slugger.ngp"
         en="Dynamite Slugger"
         zhcn="爆裂棒球"
+    />
+    <Game crc32="BE47E531" bytes="2097152"
+        rom="Evolution - Eternal Dungeon.ngp"
+        en="Evolution - Eternal Dungeon"
+        zhcn="神机世界"
+    />
+    <Game crc32="E705E30E" bytes="2097152"
+        rom="Faselei!.ngp"
+        en="Faselei!"
+        zhcn="法塞雷"
+    />
+    <Game crc32="A9119B5A" bytes="2097152"
+        rom="Fatal Fury - First Contact.ngp"
+        en="Fatal Fury - First Contact"
+        zhcn="饿狼传说 初次接触"
+    />
+    <Game crc32="D00EC8E1" bytes="2097152"
+        rom="King of Fighters R-1.ngp"
+        en="King of Fighters R-1"
+        zhcn="拳皇 R-1"
+    />
+    <Game crc32="47722D50" bytes="2097152"
+        rom="King of Fighters R-2.ngp"
+        en="King of Fighters R-2"
+        zhcn="拳皇 R-2"
+    />
+    <Game crc32="72184DE7" bytes="1048576"
+        rom="Magical Drop Pocket.ngp"
+        en="Magical Drop Pocket"
+        zhcn="魔法微量球"
     />
     <Game crc32="4FF91807" bytes="2097152"
         rom="Metal Slug 1st Mission.ngp"
@@ -50,10 +85,36 @@
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头 第二任务"
     />
+    <Game crc32="33ADD5BD" bytes="1048576"
+        rom="Neo Geo Cup '98.ngp"
+        en="Neo Geo Cup '98"
+        zhcn="98机皇杯"
+    />
+    <Game crc32="EADDE56A" bytes="524288"
+        rom="Pac-Man.ngp"
+        en="Pac-Man"
+        zhcn="吃豆小精灵"
+    />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngp"
         en="Pac-Man"
         zhcn="吃豆小精灵"
+    />
+    <Game crc32="FB0B55B8" bytes="524288"
+        rom="Pocket Reversi.ngp"
+        en="Pocket Reversi"
+        zhcn="口袋黑白棋"
+    />
+    <Game crc32="D8590B96" bytes="524288"
+        rom="Pocket Tennis Color - Pocket Sports Series.ngp"
+        en="Pocket Tennis Color - Pocket Sports Series"
+        zhcn="口袋网球"
+    />
+    <Game crc32="3090B2FD"
+        bytes="1048576"
+        rom="Puyo Pop.ngp"
+        en="Puyo Pop"
+        zhcn="魔法气泡"
     />
     <Game crc32="32E4696A" bytes="2097152"
         rom="Samurai Shodown! - Pocket Fighting Series.ngp"
@@ -64,6 +125,11 @@
         rom="Samurai Shodown II.ngp"
         en="Samurai Shodown II"
         zhcn="侍魂2"
+    />
+    <Game crc32="37C22AC9" bytes="2097152"
+        rom="The Last Blade - Beyond the Destiny.ngp"
+        en="The Last Blade - Beyond the Destiny"
+        zhcn="月华剑士"
     />
     <Game crc32="94FCFD1E" bytes="2097152"
         rom="The Last Blade - Beyond the Destiny.ngp"

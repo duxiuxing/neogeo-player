@@ -52,6 +52,9 @@
     <locale lang="DE">
       <genre>Kampf</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>拳皇 R-1</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="1998" month="" day=""/>
@@ -160,6 +163,9 @@ Le jeu est également disponible sur Neo Geo Pocket.</synopsis>
     </locale>
     <locale lang="JA">
       <title>NeoGeo Cup '98</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>98机皇杯</title>
     </locale>
     <publisher>SNK</publisher>
     <date year="1998" month="" day=""/>
@@ -1201,6 +1207,9 @@ As expected for a portable version, the gameplay has been significantly downgrad
     <locale lang="DE">
       <genre>Rollenspiele</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>神机世界</title>
+    </locale>
     <developer>ESP</developer>
     <publisher>ESP - Sega</publisher>
     <date year="2000" month="" day=""/>
@@ -1289,6 +1298,9 @@ Les differentes bases (equivalent des villes) permettent d'accomplir des quetes 
     <locale lang="DE">
       <genre>Strategie</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>法塞雷</title>
+    </locale>    
     <developer>Sacnoth</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="12" day="22"/>
@@ -1325,6 +1337,9 @@ SNK nous fourni ici un excellent travail de conversion car on garde les memes se
     <locale lang="DE">
       <genre>Kampf</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>饿狼传说 初次接触</title>
+    </locale> 
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="04" day="30"/>
@@ -1583,6 +1598,9 @@ The teams included in the game were slightly reformulated and now are the follow
     <locale lang="DE">
       <genre>Action</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>拳皇 R-2</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="" day=""/>
@@ -1688,6 +1706,9 @@ Like many other handheld puzzle games of the time, Story does not feature a "tru
     </locale>
     <locale lang="DE">
       <genre>Puzzle</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>魔法微量球</title>
     </locale>
     <developer>SAS Sakata</developer>
     <publisher>SNK</publisher>
@@ -2759,6 +2780,9 @@ Upon completion of a puzzle, the game replaces it with a colored version of the 
     <locale lang="JA">
       <title>Pocket Reversi</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋黑白棋</title>
+    </locale>
     <developer>Success</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="01" day="27"/>
@@ -2794,6 +2818,9 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
     </locale>
     <locale lang="PT">
       <genre>Esporte / Tênis,Esporte</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>口袋网球</title>
     </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>
@@ -2878,6 +2905,9 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
     </locale>
     <locale lang="DE">
       <genre>Puzzle</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>魔法气泡</title>
     </locale>
     <developer>Compile</developer>
     <publisher>SNK</publisher>
