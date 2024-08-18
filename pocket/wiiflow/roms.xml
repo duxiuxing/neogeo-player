@@ -1,14 +1,44 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Game-List name="SD:\roms\NEOPOCKET">
-    <Game crc32="4FF91807" bytes="2097152"
-        rom="Metal Slug 1st Mission.ngp"
-        en="Metal Slug 1st Mission"
-        zhcn="合金弹头第一任务"
+    <Game crc32="ECEE99F3" bytes="1048576"
+        rom="Bio Motor Unitron.ngp"
+        en="Bio Motor Unitron 999"
+        zhcn="机甲世纪 999"
+    />
+    <Game crc32="85FE6AE3" bytes="1048576"
+        rom="Bust-A-Move Pocket.ngp"
+        en="Bust-A-Move Pocket"
+        zhcn="泡泡龙"
+    />
+    <Game crc32="4FDA5D8A" bytes="2097152"
+        rom="Cool Cool Jam.ngp"
+        en="Cool Cool Jam"
+        zhcn="酷乐队"
+    />
+    <Game crc32="4640235C" bytes="1048576"
+        rom="Crush Roller.ngp"
+        en="Crush Roller"
+        zhcn="顽皮鬼"
+    />
+    <Game crc32="4E3191C6" bytes="2097152"
+        rom="Dark Arms - Beast Buster 1999.ngp"
+        en="Dark Arms - Beast Buster 1999"
+        zhcn="黑暗兵器 野兽梦魇1999" launguage="zh"
+    />
+    <Game crc32="7F1779CD" bytes="1048576"
+        rom="Dynamite Slugger.ngp"
+        en="Dynamite Slugger"
+        zhcn="爆裂棒球"
+    />
+    <Game crc32="8ADED757" bytes="2097152"
+        rom="Metal Slug 1st Mission (CN).ngp"
+        en="Metal Slug 1st Mission (CN)"
+        zhcn="合金弹头 第一任务(中)" launguage="zh"
     />
     <Game crc32="9CE52B28" bytes="4194304"
         rom="Metal Slug 2nd Mission.ngp"
         en="Metal Slug 2nd Mission"
-        zhcn="合金弹头第二任务"
+        zhcn="合金弹头 第二任务"
     />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngp"
