@@ -275,6 +275,9 @@ Le gameplay de Samurai Shodown est assez bien adapté dans la version de poche, 
     <locale lang="DE">
       <genre>Kampf</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>侍魂</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="1998" month="" day=""/>
@@ -1632,6 +1635,9 @@ De plus le jeu a reussi a garder, de maniere quasi intact, le gameplay specifiqu
     <locale lang="PT">
       <genre>Luta,Ação</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>月华剑士</title>
+    </locale>
     <developer>Saurus</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="03" day="16"/>
@@ -2418,6 +2424,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     <locale lang="DE">
       <genre>Action</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>吃豆小精灵</title>
+  </locale>
     <developer>Namco</developer>
     <publisher>Namco - SNK</publisher>
     <date year="1999" month="" day=""/>

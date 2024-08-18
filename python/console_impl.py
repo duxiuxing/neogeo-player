@@ -125,6 +125,7 @@ class ConsoleImpl(Console):
 
             game_info = self.wiiflow().find_game_info(src_rom_title, src_rom_crc32)
             if game_info is not None:
+                self.exist_rom_crc32_to_game_info[src_rom_crc32] = game_info
                 if game_info.rom_name != "":
                     dst_rom_name = game_info.rom_name
                 en_title = game_info.en_title

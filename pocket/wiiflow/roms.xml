@@ -9,5 +9,25 @@
         rom="Metal Slug 2nd Mission.ngp"
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头第二任务"
-    />    
+    />
+    <Game crc32="21E8CC15" bytes="524288"
+        rom="Pac-Man.ngp"
+        en="Pac-Man"
+        zhcn="吃豆小精灵"
+    />
+    <Game crc32="32E4696A" bytes="2097152"
+        rom="Samurai Shodown! - Pocket Fighting Series.ngp"
+        en="Samurai Shodown! - Pocket Fighting Series"
+        zhcn="侍魂"
+    />
+    <Game crc32="4F7FB156" bytes="2097152"
+        rom="Samurai Shodown II.ngp"
+        en="Samurai Shodown II"
+        zhcn="侍魂2"
+    />
+    <Game crc32="94FCFD1E" bytes="2097152"
+        rom="The Last Blade - Beyond the Destiny.ngp"
+        en="The Last Blade - Beyond the Destiny"
+        zhcn="月华剑士"
+    />
 </Game-List>

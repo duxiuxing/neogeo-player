@@ -99,11 +99,6 @@ class WiiFlow:
                 game_id = values[0]
                 self.rom_crc32_to_game_id[rom_title] = game_id
                 if game_id in self.game_id_to_info.keys():
-                    if self.game_id_to_info[game_id].en_title != rom_title:
-                        print("ROM 文件标题和游戏英文名不一致")
-                        print(f"\t{rom_title} 在 .ini")
-                        print(
-                            f"\t{self.game_id_to_info[game_id].en_title} 在 .xml")
                     self.game_id_to_info[game_id].rom_name = f"{rom_title}{self.console.rom_extension()}"
                 for index in range(1, len(values)):
                     rom_crc32 = values[index].rjust(8, "0")
