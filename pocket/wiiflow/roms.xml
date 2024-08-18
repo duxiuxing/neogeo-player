@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Game-List name="SD:\roms\NEOPOCKET">
+    <Game crc32="4FF91807" bytes="2097152"
+        rom="Metal Slug 1st Mission.ngp"
+        en="Metal Slug 1st Mission"
+        zhcn="合金弹头第一任务"
+    />
+    <Game crc32="9CE52B28" bytes="4194304"
+        rom="Metal Slug 2nd Mission.ngp"
+        en="Metal Slug 2nd Mission"
+        zhcn="合金弹头第二任务"
+    />    
+</Game-List>
