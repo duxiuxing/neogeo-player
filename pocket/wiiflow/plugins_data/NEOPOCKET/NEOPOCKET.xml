@@ -3063,6 +3063,9 @@ Le transfert d'information est possible entre 2 NGPC et le cable adecquat, mais 
     <locale lang="JA">
       <title>Rockman - Battle &amp; Fighters</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>洛克人战斗与战士</title>
+    </locale>
     <developer>Capcom</developer>
     <publisher>Capcom</publisher>
     <date year="2000" month="07" day="06"/>
@@ -3141,6 +3144,9 @@ Included are classic, tournament and dynasty modes. Classic is normal game with 
     </locale>
     <locale lang="DE">
       <genre>Strategie</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>迷你上海麻将</title>
     </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
@@ -3276,6 +3282,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     <locale lang="JA">
       <title>SNK vs. Capcom - Card Fighters Clash 2 - Expand Ed</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>SNK 对卡普空 卡片战士2 扩展版</title>
+    </locale>
     <publisher>Capcom - Moto Kikaku - SNK</publisher>
     <date year="2001" month="" day=""/>
     <rating type="NOTE" value="">
@@ -3345,6 +3354,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     <locale lang="PT">
       <genre>Estratégia, Jogos de RPG</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>SNK 对卡普空 卡片战士 卡普空版</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>Capcom - Moto Kikaku - SNK</publisher>
     <date year="1999" month="" day=""/>
@@ -3376,6 +3388,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     <locale lang="PT">
       <genre>Estratégia, Jogos de RPG</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>SNK 对卡普空 卡片战士 SNK 版</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>Capcom - Moto Kikaku - SNK</publisher>
     <date year="1999" month="" day=""/>
@@ -3404,6 +3419,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     </locale>
     <locale lang="DE">
       <genre>Action</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>SNK 对卡普空 千禧之战</title>
     </locale>
     <developer>Capcom</developer>
     <publisher>Capcom - SNK</publisher>
@@ -3471,6 +3489,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     <locale lang="DE">
       <genre>Action</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>刺猬索尼克口袋冒险</title>
+    </locale>    
     <locale lang="PT">
       <synopsis>Assuma o controle de Sonic pelo caminho com Sonic Pocket Adventure. Percorra 9 zonas atacando robôs e coletando anéis. Além da jogabilidade tradicional do Sonic, este cartucho possui os modos Trial Room, Duel Room e Puzzle Room. No Puzzle Room, o jogador pode organizar "peças de quebra-cabeça" coletadas através das fases e desbloquear imagens ocultas. Para facilitar a jogabilidade no portátil, você pode reiniciar seu jogo em qualquer zona desbloqueada ou ato. Da mesma forma este jogo apresenta vários níveis de dificuldade e a opção de desativar o limite padrão de tempo de 10 minutos em cada fase.</synopsis>
     </locale>

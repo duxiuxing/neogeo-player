@@ -116,6 +116,7 @@ class ConsoleImpl(Console):
                 exist_rom_crc32_to_name[src_rom_crc32] = src_rom_name
                 continue
 
+            src_rom_bytes = str(os.stat(src_rom_path).st_size)
             src_rom_title = os.path.splitext(src_rom_name)[0]
             src_rom_extension = os.path.splitext(src_rom_name)[1]
 
@@ -125,7 +126,6 @@ class ConsoleImpl(Console):
 
             game_info = self.wiiflow().find_game_info(src_rom_title, src_rom_crc32)
             if game_info is not None:
-                self.exist_rom_crc32_to_game_info[src_rom_crc32] = game_info
                 if game_info.rom_name != "":
                     dst_rom_name = game_info.rom_name
                 en_title = game_info.en_title
@@ -133,12 +133,19 @@ class ConsoleImpl(Console):
 
             attribs = {
                 "crc32": src_rom_crc32,
-                "bytes": str(os.stat(src_rom_path).st_size),
+                "bytes": src_rom_bytes,
                 "rom": dst_rom_name,
                 "en": en_title,
                 "zhcn": zhcn_title
             }
             ET.SubElement(new_roms_xml_root, "Game", attribs)
+
+            self.exist_rom_crc32_to_game_info[game_info.rom_crc32] = GameInfo(
+                rom_crc32=src_rom_crc32,
+                rom_bytes=src_rom_bytes,
+                rom_name=dst_rom_name,
+                en_title=en_title,
+                zhcn_title=zhcn_title)
 
             dst_rom_title = os.path.splitext(dst_rom_name)[0]
             dst_rom_extension = os.path.splitext(dst_rom_name)[1]

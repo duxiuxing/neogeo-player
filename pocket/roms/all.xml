@@ -116,6 +116,11 @@
         en="Puyo Pop"
         zhcn="魔法气泡"
     />
+    <Game crc32="373E9E15" bytes="2097152"
+        rom="Rockman Battle &amp; Fighters.ngp"
+        en="Rockman Battle &amp; Fighters"
+        zhcn="洛克人战斗与战士"
+    />
     <Game crc32="32E4696A" bytes="2097152"
         rom="Samurai Shodown! - Pocket Fighting Series.ngp"
         en="Samurai Shodown! - Pocket Fighting Series"
@@ -125,6 +130,36 @@
         rom="Samurai Shodown II.ngp"
         en="Samurai Shodown II"
         zhcn="侍魂2"
+    />
+    <Game crc32="90732D53" bytes="1048576"
+        rom="Shanghai Mini.ngp"
+        en="Shanghai Mini"
+        zhcn="迷你上海麻将"
+    />
+    <Game crc32="80CE137B" bytes="2097152"
+        rom="SNK vs. Capcom - Card Fighter's Clash - Capcom Version.ngp"
+        en="SNK vs. Capcom - Card Fighter's Clash - Capcom Version"
+        zhcn="SNK 对卡普空 卡片战士 卡普空版"
+    />
+    <Game crc32="DB4D2B6E" bytes="2097152"
+        rom="SNK vs. Capcom - Card Fighter's Clash - SNK Version.ngp"
+        en="SNK vs. Capcom - Card Fighter's Clash - SNK Version"
+        zhcn="SNK 对卡普空 卡片战士 SNK 版"
+    />
+    <Game crc32="4DB31639" bytes="2097152"
+        rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition.ngp"
+        en="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
+        zhcn="SNK 对卡普空 卡片战士2 扩展版"
+    />
+    <Game crc32="5687C83A" bytes="4194304"
+        rom="SNK vs. Capcom - The Match of the Millennium.ngp"
+        en="SNK vs. Capcom - The Match of the Millennium"
+        zhcn="SNK 对卡普空 千禧之战"
+    />
+    <Game crc32="356F0849" bytes="2097152"
+        rom="Sonic the Hedgehog - Pocket Adventure.ngp"
+        en="Sonic the Hedgehog - Pocket Adventure"
+        zhcn="刺猬索尼克口袋冒险"
     />
     <Game crc32="37C22AC9" bytes="2097152"
         rom="The Last Blade - Beyond the Destiny.ngp"
