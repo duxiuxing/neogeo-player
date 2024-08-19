@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datafile xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="wiitdb.xsd">
+        <WiiTDB version="201812050837" games="9"/>
+  <game name="Baseball Stars">
+    <id>47055A</id>
+    <locale lang="EN">
+      <title>Baseball Stars</title>
+      <synopsis>Baseball Stars is sports game about baseball. Game is similar to Baseball Stars from NES but has less realistic characters and gameplay's style. You manage own baseball team and play in series of matches. Game has typical baseball rules - one player throws the ball, second hits the ball, someone else grabs it etc. Each character has own statistics, like stamina.</synopsis>
+      <genre>Sports,Sports / Baseball</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Baseball Stars es un juego de deportes sobre el béisbol. El juego es similar a las Baseball Stars de NES, pero tiene personajes con un estilo menos realistas. Manejas tu propio equipo de béisbol y juegas en series de partidos. El juego tiene reglas típicas de béisbol: un jugador lanza la pelota, el segundo la golpea, alguien más la toma, etc. Cada personaje tiene sus propias estadísticas, como la resistencia.</synopsis>
+      <genre>Deportes,Deportes / Béisbol</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Baseball Stars est un jeu de sport sur le baseball. Le jeu est similaire à Baseball Stars sur NES mais avec des personnages moins réalistes et son propre gameplay. Vous gérez votre propre équipe de baseball et jouez une série de matchs. Le jeu a les règles de baseball typiques - un joueur lance la balle, le deuxième la frappe, quelqu'un d'autre la saisit, etc... Chaque personnage a ses propres statistiques, comme l'endurance.</synopsis>
+      <genre>Sport,Sport / Baseball</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Sport,Sport / Baseball</genre>
+    </locale>
+    <locale lang="PT">
+      <genre>Esporte,Esporte / Baseball</genre>
+    </locale>
+    <developer>Saurus Co., Ltd.</developer>
+    <publisher>SNK</publisher>
+    <date year="1998" month="01" day="28"/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+  </game>
+  <game name="King of Fighters R-1">
+    <id>47057A</id>
+    <locale lang="EN">
+      <title>King of Fighters R-1</title>
+      <synopsis>The King of Fighters: R1 marks SNK's first time bringing the KOF series onto a handheld... and what better system than their own Neo Geo Pocket to do just that? 14 of the most well known KOF characters make their appearance in KOF: R-1, along with some recognizable backgrounds and gameplay features based on The King of Fighters '97. Players can choose from "Extra" &amp; "Advance" play modes similar to KOF '97, and most characters play closely to their original versions.</synopsis>
+      <genre>Fight</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>The King of Fighters: R1 marca la primera vez que SNK lleva la serie KOF a una consola portátil, y ¿qué mejor sistema que su propio Neo Geo Pocket para hacer eso? 14 de los personajes más conocidos de KOF hacen su aparición en KOF: R-1, junto con algunos fondos reconocibles y características de juego basadas en The King of Fighters '97. Los jugadores pueden elegir modos de juego "Extra" y "Avanzado" similares a KOF '97, y la mayoría de los personajes juegan de cerca a sus versiones originales.</synopsis>
+      <genre>Combate</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>SNK transporte pour la première fois la série KOF sur un console portable... et quel meilleur système que la Neo Geo pocket pour le faire? 14 des personnages de KOF parmis les plus connus font leur apparition dans KOF: R-1, avec quelques arrière-plans reconnaissables et des fonctionnalités de jeu basées sur The King of Fighters '97. Les joueurs peuvent choisir entre les modes de jeu "Extra" et "Advance", similaires à ceux de KOF '97, et la plupart des personnages sont jouables comme dans la version originale.</synopsis>
+      <genre>Combat</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Kampf</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>拳皇 R-1</title>
+    </locale>
+    <developer>SNK</developer>
+    <publisher>SNK</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+  </game>
+  <game name="Melon-chan no Seichou Nikki">
+    <id>47058A</id>
+    <locale lang="EN">
+      <title>Melon-chan no Seichou Nikki</title>
+      <synopsis>Melon Chan's Growth Diary (Japan: Melon-chan no Seichouki) is a Life simulation game it is comparable to Tamagotchi and other virtual life simulations. In Melon Chan's Growth Diary the player raises and nurtures little girl Melon Chan. The games was only released in Japan and was one of the earliest titles released for the Neo Geo Pocket.
+
+The game was released for the Neo Geo Pocket and features monochrome graphics; however the Neo Geo Pocket Color is backwards compatible with the game.</synopsis>
+      <genre>Simulation</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Melon-chan no Seichouki es un juego de simulación de vida similar al Tamagotchi y otros juegos de simulación de vida virtual. En este juego, el jugador cría y alimenta a la niña Melon Chan. El juego fue lanzado solo en Japón y fue uno de los primeros títulos que se lanzaron en el Neo Geo Pocket.</synopsis>
+      <genre>Simulación</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Melon-chan no Seichouki est un jeu de simulation de vie comparable à Tamagotchi et à d'autres jeux de simulations de vie virtuelle. Dans ce jeu, le joueur élève et nourrit la petite fille Melon Chan. Le jeu est sorti seulement au Japon et était l'un des premiers titres à sortir sur la Neo Geo Pocket.
+
+Le jeu est sorti pour la première fois sur la Neo Geo pocket et comporte des graphiques monochromes, cependant, la Neo Geo Pocket Color est rétrocompatible avec le jeu.</synopsis>
+      <genre>Simulation</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Simulation</genre>
+    </locale>
+    <locale lang="JA">
+      <title>Melon Chan no Seichou Nikki</title>
+    </locale>
+    <developer>ADK</developer>
+    <publisher>ADK</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="1">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+  </game>
+  <game name="Neo Cherry Master - Real Casino Series">
+    <id>47059A</id>
+    <locale lang="EN">
+      <title>Neo Cherry Master - Real Casino Series</title>
+      <synopsis>Neo Cherry Master is a virtual slot machine simulator for the Neo Geo Pocket. The game simulates the old fashioned fruit-matching slots (infamously known as one-armed bandits), where the player simply "pulls the lever" and leaves the rest up to chance. The game features two modes, Simple and Original mode, with the only difference being that the latter allows for name entry and the ability to save high scores.</synopsis>
+      <genre>Casino</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Neo Cherry master es un juego de casino en el que el jugador inserta fichas virtuales</synopsis>
+      <genre>Casino</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Neo Cherry master est un jeu de casino dans lequel le joueur insère des jetons virtuels...
+
+Intérêt limité.</synopsis>
+      <genre>Casino</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Casino</genre>
+    </locale>
+    <locale lang="JA">
+      <title>Neo Cherry Master</title>
+    </locale>
+    <publisher>Dyna</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="1">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+    <developer>Dyna</developer>
+  </game>
+  <game name="Neo Geo Cup '98">
+    <id>47060A</id>
+    <locale lang="EN">
+      <title>Neo Geo Cup '98</title>
+      <synopsis>Neo Geo Cup '98: The Road to the Victory is a soccer video game based on the FIFA World Cup 1998, despite being released after the 1998 FIFA World Cup. It features 73 teams' countries. Each team enters a "Regional Qualifying Round Final" where it plays a team it actually played in the 1998 FIFA World Cup qualification. For example: Spain would face Yugoslavia, an opponent it actually faced in its qualifying group. Or Italy would face Russia, an opponent Italy faced in the UEFA play-offs. If the player beats the opponent, it goes to a group much like the real life World Cup. In fact, the team faces opponents that were actually in its group. For example: Mexico would face the Netherlands, Belgium and South Korea. It is a re-make of Super Sidekicks 3. However, animations and designs were exactly the same. The only difference is teams to reflect the World Cup, kits again to reflect the World Cup, and players to resemble squads from the World Cup (teams that did not qualify use line-ups from friendly games and qualifiers). Its slogan is "We got the kick".</synopsis>
+      <genre>Sports</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>En el modo historia, eliges uno de los mejores equipos del mundo con el objetivo de ganar la famosa Copa Neo Geo. Esto no es fácil, sin embargo, ganar el título requerirá largas horas de intensa competencia.
+Cada reunión le dará derecho a una cierta cantidad de puntos que luego se pueden usar en la tienda, lo que agrega un pequeño RPG lateral no despreciable. Comprar pantalones cortos, crampones, jerseys y muchos otros artículos de una selección seleccionada aumentará las habilidades de tu equipo de acuerdo con varios criterios y hará que tus jugadores sean más rápidos o más hábiles frente a la portería.</synopsis>
+      <genre>Deportes</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Dans le mode story vous choisissez une équipe parmi les meilleures au monde avec l'objectif de remporter la fameuse Neo Geo Cup. Cela n'est toutefois pas de tout repos et remporter le titre demandera de longues heures de match intense.
+Chaque rencontre vous donnera droit a un certain nombre de points qui pourront ensuite êtres utilisés dans la boutique, ce qui ajoute un petit côté RPG non négligeable. Acheter des shorts, crampons, maillots et plein d'autre objets parmi une sélection donnée augmenteront les capacités de votre équipe selon plusieurs critères et rendra vos joueurs plus rapides ou adroits devant le but. 
+
+Le jeu est également disponible sur Neo Geo Pocket.</synopsis>
+      <genre>Sport</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Sport</genre>
+    </locale>
+    <locale lang="JA">
+      <title>NeoGeo Cup '98</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>98机皇杯</title>
+    </locale>
+    <publisher>SNK</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+    <developer>SNK Corporation</developer>
+  </game>
+  <game name="Pocket Tennis - Pocket Sports Series">
+    <id>47066A</id>
+    <locale lang="EN">
+      <title>Pocket Tennis - Pocket Sports Series</title>
+      <synopsis>Pocket Tennis a simple tennis game with two play modes: Exhibition and Tournament.
+
+Exhibition is a single match against computer or human opponent (requires link cable). There do exist eight player characters with different skills (human player must select one of those eight characters too) and four (five in the color version) different courts. Also amount of sets per game can be selected (1, 3 or 5).
+
+Tournament is only against computer. Human player can pick his/her character but not the computer opponent. Also selection of courts and amount of sets is missing. Three games will be played: quarter and semifinals and of course the final.</synopsis>
+      <genre>Sports / Tennis,Sports</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Pocket Tennis dispone de dos modos: Exposición y Torneo.
+
+Exposición es un solo partido contra computadora o oponente humano (requiere cable de enlace). Existen ocho personajes jugadores con diferentes habilidades (el jugador humano también debe seleccionar uno de esos ocho personajes) y cuatro (cinco en la versión en color) diferentes. También se puede seleccionar la cantidad de juegos por juego (1, 3 o 5).
+
+El torneo es solo en contra de la computadora. El jugador humano puede elegir su personaje pero no el oponente de la computadora. Además, falta la selección de cantidades pequeñas y cortas. Se jugarán tres juegos: cuarto y semifinales y carrera final.</synopsis>
+      <genre>Deportes / Tenis,Deportes</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Pocket Tennis un jeu de tennis basique avec deux modes de jeu: Exposition et tournoi.
+
+Exposition est un match unique contre l'ordinateur ou un autre adversaire (nécessite un câble de liaison). Il existe huit personnages avec des compétences différentes et quatre différents terrains (cinq dans la version en couleur). La durée des matchs peut également être sélectionnée (1, 3 ou 5).
+
+Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son personnage mais pas son adversaire. Trois matchs seront disputés: quart de finale, demi-finales et bien sûr la finale.</synopsis>
+      <genre>Sport / Tennis,Sport</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Sport / Tennis,Sport</genre>
+    </locale>
+    <locale lang="PT">
+      <genre>Esporte / Tênis,Esporte</genre>
+    </locale>
+    <publisher>Yumekobo</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+    <developer>Yumekobo Co., Ltd.</developer>
+  </game>
+  <game name="Renketsu Puzzle Tsunagete Pon!">
+    <id>47061A</id>
+    <locale lang="EN">
+      <title>Renketsu Puzzle Tsunagete Pon!</title>
+      <synopsis>Renketsu Puzzle Tsunagete Pon! is a game where blocks  have to be dissolved. New blocks constantly scroll into the screen from the top. The game is over when the first blocks reach the bottom of the screen.</synopsis>
+      <genre>Puzzle-Game</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Renketsu Puzzle Tsunagete Pon! es un juego donde los bloques deben ser disueltos. Nuevos bloques que se desplazan constantemente a través de la pantalla desde la parte superior.</synopsis>
+      <genre>Rompecabezas</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Renketsu Puzzle Tsunagete Pon! est un jeu où les blocs doivent être dissous. Les nouveaux blocs défilent constamment dans l'écran par le haut. La partie se termine lorsque les premiers blocs atteignent le bas de l'écran.</synopsis>
+      <genre>Puzzle-Game</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Puzzle</genre>
+    </locale>
+    <locale lang="JA">
+      <title>Renketsu Puzzle Tsunagete Pon!</title>
+    </locale>
+    <developer>Yumekobo</developer>
+    <publisher>SNK</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+  </game>
+  <game name="Samurai Shodown! - Pocket Fighting Series">
+    <id>47067A</id>
+    <locale lang="EN">
+      <title>Samurai Shodown! - Pocket Fighting Series</title>
+      <synopsis>Samurai Shodown! Pocket is essentially a "pocket sized" version of Samurai Shodown 4. Much like the rest of the fighting games on the Neo Geo Pocket, the characters are drawn in super-deformed chibi style (big heads and tiny bodies). This title was also one of the first games for the Neo Geo Pocket, so the game was only in black &amp; white... ironically suiting for a "samurai" game. The art style is definitely on the "cutesy" side and much different than any Samurai Shodown game before it, but it can grow on you if you give it a chance.
+
+The classic Samurai Shodown gameplay made the jump to the handheld layout fairly well, but it's not nearly as smooth as Neo Geo arcade classic. The gameplay is particularly slower and very simplified in this version. Characters retain most of their specials and super moves but the deeper gameplay strategies from the arcade iterations are pretty much gone. It's basically a new game all together and it's nothing spectacular, but it's fun for a handheld title.</synopsis>
+      <genre>Fight</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Samurai Shodown! Pocket es esencialmente una versión "de bolsillo" de Samurai Shodown 4. Al igual que el resto de los juegos de lucha en el Neo Geo Pocket, los personajes se dibujan en estilo chibi súper-deformado (cabezas grandes y cuerpos pequeños). Este título es también uno de los primeros juegos para el Neo Geo Pocket, por lo que el juego fue solo en blanco y negro ... irónicamente apto para un juego "samurai". El estilo de arte está definitivamente en el lado "cursi" y es muy diferente a cualquier otro juego de Samurai Shodown anterior, pero puede crecer en ti si le das una oportunidad.
+
+El clásico juego de Samurai Shodown dio el salto al diseño de la computadora de mano bastante bien, pero no es tan suave como el clásico de Neo Geo. El juego es particularmente más lento y muy simplificado en esta versión. Los personajes conservan su juego y el juego se ha ido mucho. Básicamente es un juego nuevo, no es nada espectacular, pero es divertido para un título portátil.</synopsis>
+      <genre>Combate</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Samouraï Shodown! Pocket est essentiellement une version "portable" de Samurai Shodown 4. Tout comme les autres jeux de combat sur la Neo Geo Pocket, les personnages sont dessinés en style chibi Super Déformé (grosses têtes et corps minuscules). Ce titre était aussi l'un des premiers jeux pour la Neo Geo Pocket, alors le jeu n'était qu'en noir et blanc...
+
+Le gameplay de Samurai Shodown est assez bien adapté dans la version de poche, mais il n'est pas aussi agréable que le classique de la Neo Geo. Le gameplay est très simplifié dans cette version. Les personnages conservent la plupart de leurs coups spéciaux et de leurs mouvements, mais les stratégies profondes propres à l'arcade ont quasiment disparues. C'est fondamentalement un nouveau jeu qui même s'il n'est en rien spectaculaire, est amusant.</synopsis>
+      <genre>Combat</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Kampf</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>侍魂</title>
+    </locale>
+    <developer>SNK</developer>
+    <publisher>SNK</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+  </game>
+  <game name="Shougi no Tatsujin">
+    <id>47062A</id>
+    <locale lang="EN">
+      <title>Shougi no Tatsujin</title>
+      <synopsis>Shogi is the Japanese equivalent of chess. Indeed, as in chess, the goal of the game is to subdue the opposing king! Nevertheless, there are several differences between the Shogi and our chess game, be it in the nature of the pieces, their positions or their movements.</synopsis>
+      <genre>Strategy</genre>
+    </locale>
+    <locale lang="ES">
+      <synopsis>Shogi es el equivalente japonés de ajedrez. De hecho, como en el ajedrez, ¡el objetivo del juego es someter al rey enemigo! Sin embargo, hay varias diferencias entre el Shogi y nuestro juego de ajedrez, ya sea en la naturaleza de las piezas, sus posiciones o sus movimientos.</synopsis>
+      <genre>Estrategia</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Le Shogi est l'équivalent japonais du jeu d'échecs. En effet, comme dans le jeu d'échecs, le but du jeu est de mater le roi adverse ! Néanmoins, il y a plusieurs différences entre le Shogi et notre jeu d'échecs, que ce soit au niveau de la nature pièces, de leurs positions ou de leurs déplacements.</synopsis>
+      <genre>Stratégie</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Strategie</genre>
+    </locale>
+    <locale lang="JA">
+      <title>Master of Syougi</title>
+    </locale>
+    <publisher>SNK</publisher>
+    <date year="1998" month="" day=""/>
+    <rating type="NOTE" value="">
+		</rating>
+    <input players="2">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+    <developer>ADK Corporation</developer>
+  </game>
+</datafile>
