@@ -1123,6 +1123,9 @@ La partie se termine une fois notre cave de depart epuisé.</synopsis>
     <locale lang="JA">
       <title>Dokodemo Mahjong</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>麻将</title>
+    </locale>
     <developer>ADK</developer>
     <publisher>ADK</publisher>
     <date year="1999" month="04" day="29"/>
@@ -1636,6 +1639,9 @@ Le joueur peux choisir entre 4 protagonistes et 3 modes de jeu.</synopsis>
     </locale>
     <locale lang="JA">
       <title>Koi Koi Mahjong</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>麻将</title>
     </locale>
     <developer>Visco</developer>
     <publisher>Visco</publisher>
@@ -2465,7 +2471,7 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     </locale>
     <locale lang="ZHCN">
       <title>吃豆小精灵</title>
-  </locale>
+    </locale>
     <developer>Namco</developer>
     <publisher>Namco - SNK</publisher>
     <date year="1999" month="" day=""/>
@@ -2708,6 +2714,9 @@ Upon completion of a puzzle, the game replaces it with a colored version of the 
     </locale>
     <locale lang="JA">
       <title>Oekaki Pazuru</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>彩绘拼图</title>
     </locale>
     <developer>Success</developer>
     <publisher>SNK</publisher>
@@ -3421,7 +3430,7 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
       <genre>Action</genre>
     </locale>
     <locale lang="ZHCN">
-      <title>SNK 对卡普空 千禧之战</title>
+      <title>SNK 对卡普空 千年之战</title>
     </locale>
     <developer>Capcom</developer>
     <publisher>Capcom - SNK</publisher>
@@ -3594,6 +3603,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     <locale lang="JA">
       <title>Super Real Mahjong - Premium Collection</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>超写真麻将</title>
+    </locale>
     <publisher>Seta - SNK</publisher>
     <date year="2001" month="" day=""/>
     <rating type="NOTE" value="">
@@ -3650,6 +3662,9 @@ On peut aussi gagner des points en utilisant des cartes speciales qui affectent 
     </locale>
     <locale lang="JA">
       <title>The King of Fighters - Battle de Paradise</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>拳皇大富翁</title>
     </locale>
     <publisher>SNK</publisher>
     <date year="2000" month="07" day="06"/>

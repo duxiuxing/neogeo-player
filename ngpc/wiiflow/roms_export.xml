@@ -45,15 +45,15 @@
         en="Fatal Fury - First Contact"
         zhcn="饿狼传说 初次接触"
     />
-    <Game crc32="D00EC8E1" bytes="2097152"
-        rom="King of Fighters R-1.ngp"
-        en="King of Fighters R-1"
-        zhcn="拳皇 R-1"
-    />
     <Game crc32="47722D50" bytes="2097152"
         rom="King of Fighters R-2.ngp"
         en="King of Fighters R-2"
         zhcn="拳皇 R-2"
+    />
+    <Game crc32="B51C3EBA" bytes="524288"
+        rom="Koi Koi Mahjong.ngp"
+        en="Koi Koi Mahjong"
+        zhcn="麻将"
     />
     <Game crc32="72184DE7" bytes="1048576"
         rom="Magical Drop Pocket.ngp"
@@ -69,11 +69,6 @@
         rom="Metal Slug 2nd Mission.ngp"
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头 第二任务"
-    />
-    <Game crc32="33ADD5BD" bytes="1048576"
-        rom="Neo Geo Cup '98.ngp"
-        en="Neo Geo Cup '98"
-        zhcn="98机皇杯"
     />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngp"
@@ -100,11 +95,6 @@
         rom="Rockman Battle &amp; Fighters.ngp"
         en="Rockman Battle &amp; Fighters"
         zhcn="洛克人战斗与战士"
-    />
-    <Game crc32="32E4696A" bytes="2097152"
-        rom="Samurai Shodown! - Pocket Fighting Series.ngp"
-        en="Samurai Shodown! - Pocket Fighting Series"
-        zhcn="侍魂"
     />
     <Game crc32="4F7FB156" bytes="2097152"
         rom="Samurai Shodown II.ngp"
@@ -134,12 +124,22 @@
     <Game crc32="5687C83A" bytes="4194304"
         rom="SNK vs. Capcom - The Match of the Millennium.ngp"
         en="SNK vs. Capcom - The Match of the Millennium"
-        zhcn="SNK 对卡普空 千禧之战" language="english"
+        zhcn="SNK 对卡普空 千年之战" language="english"
     />
     <Game crc32="356F0849" bytes="2097152"
         rom="Sonic the Hedgehog - Pocket Adventure.ngp"
         en="Sonic the Hedgehog - Pocket Adventure"
         zhcn="刺猬索尼克口袋冒险"
+    />
+    <Game crc32="C6E620C3" bytes="2097152"
+        rom="Super Real Mahjong - Premium Collection.ngp"
+        en="Super Real Mahjong - Premium Collection"
+        zhcn="超写真麻将"
+    />
+    <Game crc32="77E37BAC" bytes="2097152"
+        rom="The King of Fighters - Battle de Paradise.ngp"
+        en="The King of Fighters - Battle de Paradise"
+        zhcn="拳皇大富翁"
     />
     <Game crc32="94FCFD1E" bytes="2097152"
         rom="The Last Blade - Beyond the Destiny.ngp"
