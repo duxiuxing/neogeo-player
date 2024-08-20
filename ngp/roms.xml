@@ -25,6 +25,11 @@
         en="King of Fighters R-1"
         zhcn="拳皇 R-1"
     />
+    <Game crc32="4939F933" bytes="1048576"
+        rom="Melon-chan no Seichou Nikki.ngp"
+        en="Melon-chan no Seichou Nikki"
+        zhcn="小瓜子成长日记"
+    />
     <Game crc32="CB42CFA4" bytes="1048576"
         rom="Melon-chan no Seichou Nikki.ngp"
         en="Melon-chan no Seichou Nikki"
