@@ -3011,6 +3011,9 @@ There are three different modes: In "Normal" you have to link two special blocks
     <locale lang="DE">
       <genre>Puzzle</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>连结方块</title>
+    </locale>
     <developer>Yumekobo Co., Ltd.</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="09" day="30"/>
@@ -3040,6 +3043,9 @@ There are new modes in Puzzle Link 2. Like the original, there are the standard 
     </locale>
     <locale lang="DE">
       <genre>Puzzle</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>连结方块2</title>
     </locale>
     <developer>Yumekobo Co., Ltd.</developer>
     <publisher>SNK</publisher>
