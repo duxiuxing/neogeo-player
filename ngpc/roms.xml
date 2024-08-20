@@ -5,6 +5,11 @@
         en="Baseball Stars Color"
         zhcn="棒球之星彩色版"
     />
+    <Game crc32="16B0BE9B" bytes="2097152"
+        rom="Big Bang Pro Wrestling.ngc"
+        en="Big Bang Pro Wrestling"
+        zhcn="职业摔角大赛"
+    />
     <Game crc32="B783C372" bytes="2097152"
         rom="Big Bang Pro Wrestling.ngc"
         en="Big Bang Pro Wrestling"
@@ -50,10 +55,20 @@
         en="Dark Arms - Beast Buster 1999"
         zhcn="黑暗兵器 野兽梦魇1999" language="chinese"
     />
+    <Game crc32="3C4AF4F5" bytes="2097152"
+        rom="Dive Alert - Becky's Version.ngc"
+        en="Dive Alert - Becky's Version"
+        zhcn="下潜警报 贝基篇"
+    />
     <Game crc32="83DB5772" bytes="2097152"
         rom="Dive Alert - Becky's Version.ngc"
         en="Dive Alert - Becky's Version"
         zhcn="下潜警报 贝基篇"
+    />
+    <Game crc32="C213941D" bytes="2097152"
+        rom="Dive Alert - Matt's Version.ngc"
+        en="Dive Alert - Matt's Version"
+        zhcn="下潜警报 马特篇"
     />
     <Game crc32="EF75081B" bytes="2097152"
         rom="Dive Alert - Matt's Version.ngc"
@@ -289,7 +304,7 @@
     <Game crc32="356F0849" bytes="2097152"
         rom="Sonic the Hedgehog - Pocket Adventure.ngc"
         en="Sonic the Hedgehog - Pocket Adventure"
-        zhcn="刺猬索尼克口袋冒险"
+        zhcn="索尼克口袋冒险"
     />
     <Game crc32="C6E620C3" bytes="2097152"
         rom="Super Real Mahjong - Premium Collection.ngc"
