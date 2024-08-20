@@ -37,6 +37,45 @@
       <control type="gamecube" required="false"/>
     </input>
   </game>
+  <game name="Dokodemo Mahjong">
+    <id>87555A</id>
+    <locale lang="EN">
+      <title>Dokodemo Mahjong</title>
+      <genre>Board Game</genre>
+      <synopsis>Dokodemo Mahjong is a Miscellaneous game, developed and published by ADK, which was released in Japan in 1999.</synopsis>
+    </locale>
+    <locale lang="ES">
+      <genre>Mahjong,Juegos de mesa asiático</genre>
+    </locale>
+    <locale lang="FR">
+      <synopsis>Jeu de Mahjong ou l'on prend part à des parties de 4 joueurs, et ou l'on joue de l'argent.
+La partie se termine une fois notre cave de depart epuisé.</synopsis>
+      <genre>Mahjong,Jeu de societe asiatique</genre>
+    </locale>
+    <locale lang="DE">
+      <genre>Mahjong,Asiatische Brettspiele</genre>
+    </locale>
+    <locale lang="PT">
+      <genre>Mahjong,Jogo de tabuleiro Asiático</genre>
+    </locale>
+    <locale lang="JA">
+      <title>Dokodemo Mahjong</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>口袋麻将</title>
+    </locale>
+    <developer>ADK</developer>
+    <publisher>ADK</publisher>
+    <date year="1999" month="04" day="29"/>
+    <rating type="NOTE" value="12">
+		</rating>
+    <input players="1">
+      <control type="wiimote" required="true"/>
+      <control type="nunchuk" required="false"/>
+      <control type="classiccontroller" required="false"/>
+      <control type="gamecube" required="false"/>
+    </input>
+  </game>
   <game name="King of Fighters R-1">
     <id>47057A</id>
     <locale lang="EN">
@@ -96,7 +135,7 @@ Le jeu est sorti pour la première fois sur la Neo Geo pocket et comporte des gr
       <title>Melon Chan no Seichou Nikki</title>
     </locale>
     <locale lang="ZHCN">
-      <title>陈甜瓜的成长日记</title>
+      <title>小瓜子成长日记</title>
     </locale>
     <developer>ADK</developer>
     <publisher>ADK</publisher>
@@ -134,7 +173,7 @@ Intérêt limité.</synopsis>
       <title>Neo Cherry Master</title>
     </locale>
     <locale lang="ZHCN">
-      <title>Neo 樱桃大师</title>
+      <title>Neo 老虎机</title>
     </locale>
     <publisher>Dyna</publisher>
     <date year="1998" month="" day=""/>
@@ -258,7 +297,7 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
       <title>Renketsu Puzzle Tsunagete Pon!</title>
     </locale>
     <locale lang="ZHCN">
-      <title>联结拼图</title>
+      <title>连结拼图</title>
     </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>

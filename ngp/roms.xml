@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Game-List name="所有 NeoGeo 掌机的游戏" rom-exists="true">
+    <Game crc32="4781AE84" bytes="1048576"
+        rom="Baseball Stars.ngp"
+        en="Baseball Stars"
+        zhcn="棒球之星"
+    />
+    <Game crc32="78C21B5E" bytes="524288"
+        rom="Dokodemo Mahjong.ngp"
+        en="Dokodemo Mahjong"
+        zhcn="口袋麻将"
+    />
     <Game crc32="4453E97D" bytes="2097152"
         rom="King of Fighters R-1.ngp"
         en="King of Fighters R-1"
@@ -15,14 +25,39 @@
         en="King of Fighters R-1"
         zhcn="拳皇 R-1"
     />
+    <Game crc32="CB42CFA4" bytes="1048576"
+        rom="Melon-chan no Seichou Nikki.ngp"
+        en="Melon-chan no Seichou Nikki"
+        zhcn="小瓜子成长日记"
+    />
+    <Game crc32="5C067579" bytes="1048576"
+        rom="Neo Cherry Master - Real Casino Series.ngp"
+        en="Neo Cherry Master - Real Casino Series"
+        zhcn="Neo 老虎机"
+    />
     <Game crc32="33ADD5BD" bytes="1048576"
         rom="Neo Geo Cup '98.ngp"
         en="Neo Geo Cup '98"
         zhcn="98机皇杯"
     />
+    <Game crc32="4B1EED05" bytes="524288"
+        rom="Pocket Tennis - Pocket Sports Series.ngp"
+        en="Pocket Tennis - Pocket Sports Series"
+        zhcn="口袋网球"
+    />
+    <Game crc32="CE09F534" bytes="524288"
+        rom="Renketsu Puzzle Tsunagete Pon!.ngp"
+        en="Renketsu Puzzle Tsunagete Pon!"
+        zhcn="连结拼图"
+    />
     <Game crc32="32E4696A" bytes="2097152"
         rom="Samurai Shodown! - Pocket Fighting Series.ngp"
         en="Samurai Shodown! - Pocket Fighting Series"
         zhcn="侍魂"
+    />
+    <Game crc32="F34D0C9B" bytes="524288"
+        rom="Shougi no Tatsujin.ngp"
+        en="Shougi no Tatsujin"
+        zhcn="将棋达人"
     />
 </Game-List>

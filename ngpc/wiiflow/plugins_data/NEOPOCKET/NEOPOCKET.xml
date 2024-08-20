@@ -22,6 +22,9 @@
     <locale lang="PT">
       <genre>Esporte,Esporte / Baseball</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>棒球之星</title>
+    </locale>
     <developer>Saurus Co., Ltd.</developer>
     <publisher>SNK</publisher>
     <date year="1998" month="01" day="28"/>
@@ -92,6 +95,9 @@ Le jeu est sorti pour la première fois sur la Neo Geo pocket et comporte des gr
     <locale lang="JA">
       <title>Melon Chan no Seichou Nikki</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>小瓜子成长日记</title>
+    </locale>
     <developer>ADK</developer>
     <publisher>ADK</publisher>
     <date year="1998" month="" day=""/>
@@ -126,6 +132,9 @@ Intérêt limité.</synopsis>
     </locale>
     <locale lang="JA">
       <title>Neo Cherry Master</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>Neo 老虎机</title>
     </locale>
     <publisher>Dyna</publisher>
     <date year="1998" month="" day=""/>
@@ -212,6 +221,9 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
     <locale lang="PT">
       <genre>Esporte / Tênis,Esporte</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋网球</title>
+    </locale>
     <publisher>Yumekobo</publisher>
     <date year="1998" month="" day=""/>
     <rating type="NOTE" value="">
@@ -246,7 +258,7 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
       <title>Renketsu Puzzle Tsunagete Pon!</title>
     </locale>
     <locale lang="ZHCN">
-      <title>联结拼图彩色版</title>
+      <title>连结拼图</title>
     </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>
@@ -319,6 +331,9 @@ Le gameplay de Samurai Shodown est assez bien adapté dans la version de poche, 
     </locale>
     <locale lang="JA">
       <title>Master of Syougi</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>将棋达人</title>
     </locale>
     <publisher>SNK</publisher>
     <date year="1998" month="" day=""/>
@@ -421,6 +436,9 @@ Le gameplay de Samurai Shodown est assez bien adapté dans la version de poche, 
     </locale>
     <locale lang="DE">
       <genre>Sport</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>棒球之星彩色版</title>
     </locale>
     <developer>SNK</developer>
     <publisher>Saurus - SNK</publisher>
@@ -745,6 +763,9 @@ On se rapproche beaucoup de Puzzle Bobble 2 sorti sur Playstation.
     <locale lang="DE">
       <genre>Sport</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋滑雪板</title>
+    </locale>
     <developer>UEP Systems</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="02" day="24"/>
@@ -1050,6 +1071,9 @@ Le joueur prend le contrôle d'un personnage nommé Matt. Le jeu a lieu dans le 
     <locale lang="JA">
       <title>Dive Alert - Burn Hen</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>下潜警报 马特版</title>
+    </locale>
     <developer>Sacnoth</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="08" day="19"/>
@@ -1090,6 +1114,9 @@ Le joueur prend le contrôle d'un personnage nommé Becky. Le jeu a lieu dans le
     <locale lang="JA">
       <title>Dive Alert: Rebecca Hen</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>下潜警报 贝基版</title>
+    </locale>
     <developer>Sacnoth</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="08" day="19"/>
@@ -1102,12 +1129,12 @@ Le joueur prend le contrôle d'un personnage nommé Becky. Le jeu a lieu dans le
       <control type="gamecube" required="false"/>
     </input>
   </game>
-  <game name="Doko Demo Mahjong">
+  <game name="Dokodemo Mahjong">
     <id>87555A</id>
     <locale lang="EN">
-      <title>Doko Demo Mahjong</title>
+      <title>Dokodemo Mahjong</title>
       <genre>Board Game</genre>
-      <synopsis>DokoDemo Mahjong is a Miscellaneous game, developed and published by ADK, which was released in Japan in 1999.</synopsis>
+      <synopsis>Dokodemo Mahjong is a Miscellaneous game, developed and published by ADK, which was released in Japan in 1999.</synopsis>
     </locale>
     <locale lang="ES">
       <genre>Mahjong,Juegos de mesa asiático</genre>
@@ -1127,7 +1154,7 @@ La partie se termine une fois notre cave de depart epuisé.</synopsis>
       <title>Dokodemo Mahjong</title>
     </locale>
     <locale lang="ZHCN">
-      <title>麻将</title>
+      <title>口袋麻将</title>
     </locale>
     <developer>ADK</developer>
     <publisher>ADK</publisher>
@@ -1248,6 +1275,9 @@ Le jeu dispose d'un système d'expérience dans lequel plus le joueur tue d'enne
     </locale>
     <locale lang="DE">
       <genre>Action</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>棉花小魔女</title>
     </locale>
     <developer>Success Corp.</developer>
     <publisher>SNK Europe Ltd.</publisher>
@@ -1644,7 +1674,7 @@ Le joueur peux choisir entre 4 protagonistes et 3 modes de jeu.</synopsis>
       <title>Koi Koi Mahjong</title>
     </locale>
     <locale lang="ZHCN">
-      <title>麻将</title>
+      <title>口袋麻将彩色版</title>
     </locale>
     <developer>Visco</developer>
     <publisher>Visco</publisher>
@@ -2013,6 +2043,9 @@ Les partie sont soit en 1 contre 1 soit contre l'IA qui joue le croupier, soit c
     <locale lang="DE">
       <genre>Casino</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>Neo 21点</title>
+    </locale>
     <developer>Dyna Corp.</developer>
     <publisher>Dyna Corp</publisher>
     <date year="1999" month="12" day="29"/>
@@ -2094,7 +2127,7 @@ Le but du jeu est de passer de 99 credits (la mise de base) a 9999 credits!</syn
       <genre>Casino</genre>
     </locale>
     <locale lang="ZHCN">
-      <title>Neo 樱桃大师彩色版</title>
+      <title>Neo 老虎机大师彩色版</title>
     </locale>
     <developer>Dyna Corp.</developer>
     <publisher>SNK</publisher>
@@ -2722,7 +2755,7 @@ Upon completion of a puzzle, the game replaces it with a colored version of the 
       <title>Oekaki Pazuru</title>
     </locale>
     <locale lang="ZHCN">
-      <title>彩绘拼图</title>
+      <title>绘图方块</title>
     </locale>
     <developer>Success</developer>
     <publisher>SNK</publisher>
@@ -3205,6 +3238,9 @@ Included are classic, tournament and dynasty modes. Classic is normal game with 
     </locale>
     <locale lang="JA">
       <title>Master of Syougi Color</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>将棋达人彩色版</title>
     </locale>
     <publisher>ADK</publisher>
     <date year="1999" month="" day=""/>

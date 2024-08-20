@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Game-List name="所有 NeoGeo Color 掌机的游戏" rom-exists="true">
+    <Game crc32="FFA7E88D" bytes="1048576"
+        rom="Baseball Stars Color.ngc"
+        en="Baseball Stars Color"
+        zhcn="棒球之星彩色版"
+    />
     <Game crc32="ECEE99F3" bytes="1048576"
         rom="Bio Motor Unitron.ngc"
         en="Bio Motor Unitron"
@@ -14,6 +19,11 @@
         rom="Bust-A-Move Pocket.ngc"
         en="Bust-A-Move Pocket"
         zhcn="泡泡龙"
+    />
+    <Game crc32="833F9C22" bytes="1048576"
+        rom="Cool Boarders Pocket.ngc"
+        en="Cool Boarders Pocket"
+        zhcn="口袋滑雪板"
     />
     <Game crc32="4D8D27F0" bytes="2097152"
         rom="Cool Cool Jam.ngc"
@@ -35,10 +45,15 @@
         en="Dark Arms - Beast Buster 1999"
         zhcn="黑暗兵器 野兽梦魇1999" language="chinese"
     />
-    <Game crc32="78C21B5E" bytes="524288"
-        rom="Doko Demo Mahjong.ngc"
-        en="Doko Demo Mahjong"
-        zhcn="麻将"
+    <Game crc32="83DB5772" bytes="2097152"
+        rom="Dive Alert - Becky's Version.ngc"
+        en="Dive Alert - Becky's Version"
+        zhcn="下潜警报 贝基版"
+    />
+    <Game crc32="EF75081B" bytes="2097152"
+        rom="Dive Alert - Matt's Version.ngc"
+        en="Dive Alert - Matt's Version"
+        zhcn="下潜警报 马特版"
     />
     <Game crc32="7F1779CD" bytes="1048576"
         rom="Dynamite Slugger.ngc"
@@ -49,6 +64,11 @@
         rom="Evolution - Eternal Dungeon.ngc"
         en="Evolution - Eternal Dungeon"
         zhcn="神机世界"
+    />
+    <Game crc32="1BF412F5" bytes="1048576"
+        rom="Fantastic Night Dreams - Cotton.ngc"
+        en="Fantastic Night Dreams - Cotton"
+        zhcn="棉花小魔女"
     />
     <Game crc32="8F585838" bytes="2097152"
         rom="Faselei!.ngc"
@@ -88,7 +108,7 @@
     <Game crc32="B51C3EBA" bytes="524288"
         rom="Koi Koi Mahjong.ngc"
         en="Koi Koi Mahjong"
-        zhcn="麻将"
+        zhcn="口袋麻将彩色版"
     />
     <Game crc32="72184DE7" bytes="1048576"
         rom="Magical Drop Pocket.ngc"
@@ -119,6 +139,11 @@
         rom="Metal Slug 2nd Mission.ngc"
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头 第二任务"
+    />
+    <Game crc32="0A2A2F28" bytes="1048576"
+        rom="Neo 21 - Real Casino Series.ngc"
+        en="Neo 21 - Real Casino Series"
+        zhcn="Neo 21点"
     />
     <Game crc32="EADDE56A" bytes="524288"
         rom="Pac-Man.ngc"
