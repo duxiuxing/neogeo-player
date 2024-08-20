@@ -1,10 +1,9 @@
 # -- coding: UTF-8 --
 
+import fnmatch
 import os
-import shutil
 
 from console import Console
-from local_configs import LocalConfigs
 from main_menu import CmdHandler
 from main_menu import MainMenu
 
@@ -24,68 +23,76 @@ def folder_exist(folder_path):
         return False
 
 
-class AdjustCovers(CmdHandler):
+class ImportMvsCovers(CmdHandler):
     def __init__(self):
-        super().__init__("MVS - 导入 - adjust_covers 文件夹里的非标准封面")
-        # 已经调整过的封面文件名列表，避免重复调整
-        self.file_names_adjusted = []
+        super().__init__("WiiFlow - 导入 - boxcovers_import 文件夹里的非标准封面")
+        # 已经导入过的封面文件名列表，避免重复导入
+        self.file_names_imported = []
 
-    def adjust_covers_folder_path(self):
-        return os.path.join(MainMenu.console.root_folder_path(), "adjust_covers")
+    def import_folder_path(self):
+        return os.path.join(
+            MainMenu.console.root_folder_path(),
+            "wiiflow\\boxcovers_import")
 
-    def standard_cover_path(self):
-        return os.path.join(MainMenu.console.root_folder_path(), "wiiflow\\boxcovers\\blank_covers\\NEOGEO.png")
+    def blank_cover(self):
+        plugin_name = MainMenu.console.wiiflow().plugin_name()
+        cover_path = os.path.join(MainMenu.console.root_folder_path(),
+                                  f"wiiflow\\boxcovers\\blank_covers\\{plugin_name}.png")
+        cover = Image.open(cover_path)
+        if cover.width != 1090 or cover.height != 680:
+            print(f"standard_cover error: {cover.width} x {cover.height}")
+            print(f"standard_cover path: {cover_path}")
+            return None
+        else:
+            return cover
 
     def save_wiiflow_boxcover(self, rom_title, image):
+        plugin_name = MainMenu.console.wiiflow().plugin_name()
         file_path = os.path.join(
             MainMenu.console.root_folder_path(),
-            f"wiiflow\\boxcovers\\NEOGEO\\{rom_title}.zip.png")
+            f"wiiflow\\boxcovers\\{plugin_name}\\{rom_title}{MainMenu.console.rom_extension()}.png")
         if os.path.exists(file_path):
             os.remove(file_path)
         image.save(file_path)
 
         file_path = os.path.join(
             MainMenu.console.root_folder_path(),
-            f"wiiflow\\cache\\NEOGEO\\{rom_title}.zip.wfc")
+            f"wiiflow\\cache\\{plugin_name}\\{rom_title}{MainMenu.console.rom_extension()}.wfc")
         if os.path.exists(file_path):
             os.remove(file_path)
 
     def combine_front_and_back_cover(self, file_title):
-        cover_1090x680 = Image.open(self.standard_cover_path())
-        if cover_1090x680.width != 1090 or cover_1090x680.height != 680:
-            print(
-                f"standard_cover error: {cover_1090x680.width} x {cover_1090x680.height}")
+        cover_1090x680 = self.blank_cover()
+        if cover_1090x680 is None:
             return
 
         x1 = 514
         x2 = 578
         front_file_name = f"{file_title}.front.png"
         front_file_path = os.path.join(
-            self.adjust_covers_folder_path(), front_file_name)
+            self.import_folder_path(), front_file_name)
         if os.path.exists(front_file_path):
             cover_1090x680.paste(Image.open(front_file_path).resize(
                 (cover_1090x680.width - x2, cover_1090x680.height)), (x2, 0))
-            self.file_names_adjusted.append(front_file_name)
+            self.file_names_imported.append(front_file_name)
         else:
             print(f"封面文件缺失：{front_file_name}")
 
         back_file_name = f"{file_title}.back.png"
         back_filer_path = os.path.join(
-            self.adjust_covers_folder_path(), back_file_name)
+            self.import_folder_path(), back_file_name)
         if os.path.exists(back_filer_path):
             cover_1090x680.paste(Image.open(back_filer_path).resize(
                 (x1, cover_1090x680.height)), (0, 0))
-            self.file_names_adjusted.append(back_file_name)
+            self.file_names_imported.append(back_file_name)
         else:
             print(f"封底文件缺失：{back_file_name}")
 
         self.save_wiiflow_boxcover(file_title, cover_1090x680)
 
     def adjust_cover_1144x690(self, file_title, cover_1144x690):
-        cover_1090x680 = Image.open(self.standard_cover_path())
-        if cover_1090x680.width != 1090 or cover_1090x680.height != 680:
-            print(
-                f"standard_cover error: {cover_1090x680.width} x {cover_1090x680.height}")
+        cover_1090x680 = self.blank_cover()
+        if cover_1090x680 is None:
             return
 
         x1_1090x680 = 514
@@ -138,11 +145,14 @@ class AdjustCovers(CmdHandler):
         self.save_wiiflow_boxcover(file_title, cover_1090x680)
 
     def run(self):
-        if not folder_exist(self.adjust_covers_folder_path()):
+        if not folder_exist(self.import_folder_path()):
             return
 
-        for file_name in os.listdir(self.adjust_covers_folder_path()):
-            if not file_name.endswith(".png") or file_name in self.file_names_adjusted:
+        for file_name in os.listdir(self.import_folder_path()):
+            if not fnmatch.fnmatch(file_name, "*.png"):
+                continue
+
+            if file_name in self.file_names_imported:
                 continue
 
             file_title = file_name.split(".")[0]
@@ -150,13 +160,13 @@ class AdjustCovers(CmdHandler):
                 self.combine_front_and_back_cover(file_title)
             else:
                 file_path = os.path.join(
-                    self.adjust_covers_folder_path(), file_name)
+                    self.import_folder_path(), file_name)
                 image = Image.open(file_path)
                 if image.width == 1144 and image.height == 690:
                     self.adjust_cover_1144x690(file_title, image)
-                    self.file_names_adjusted.append(file_name)
+                    self.file_names_imported.append(file_name)
                 elif image.width == 1090 and image.height == 680:
                     self.adjust_cover_1090x680(file_title, image)
-                    self.file_names_adjusted.append(file_name)
+                    self.file_names_imported.append(file_name)
                 else:
                     print(f"{file_name} error: {image.width} x {image.height}")

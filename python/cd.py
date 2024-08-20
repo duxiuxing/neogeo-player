@@ -31,4 +31,4 @@ class NeoGeoCD(ConsoleImpl):
 
 
 arcade = NeoGeoCD()
-arcade.import_new_roms()
+arcade.import_roms()

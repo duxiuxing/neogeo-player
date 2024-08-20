@@ -27,10 +27,10 @@ class Console:
         #     bool: 如果是 ROM 文件则返回 True，否则返回 False
         return fnmatch.fnmatch(file_name, "*.zip")
 
-    def import_new_roms(self):
+    def import_roms(self):
         # 导入 new_roms 文件夹里的游戏文件（.zip 格式）
         raise NotImplementedError()
 
-    def check_exist_games_infos(self):
-        # 检查 roms\\all.xml 中的游戏信息
+    def check_exist_roms_infos(self):
+        # 检查 roms.xml 中的游戏信息
         raise NotImplementedError()

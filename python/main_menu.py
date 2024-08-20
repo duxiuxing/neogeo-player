@@ -22,18 +22,18 @@ class Quit(CmdHandler):
 
 class ImportNewRoms(CmdHandler):
     def __init__(self):
-        super().__init__("Console - 导入 - new_roms 文件夹里的游戏文件")
+        super().__init__("Console - 导入 - roms_new 文件夹里的游戏文件")
 
     def run(self):
-        MainMenu.console.import_new_roms()
+        MainMenu.console.import_roms()
 
 
-class CheckExistGamesInfos(CmdHandler):
+class CheckExistRomsInfos(CmdHandler):
     def __init__(self):
-        super().__init__("Console - 检查 - roms\\all.xml 中的游戏信息")
+        super().__init__("Console - 检查 - roms.xml 中的游戏信息")
 
     def run(self):
-        MainMenu.console.check_exist_games_infos()
+        MainMenu.console.check_exist_roms_infos()
 
 
 class ConvertWfcFiles(CmdHandler):
@@ -67,7 +67,7 @@ class ExportAllFakeRoms(CmdHandler):
         super().__init__("WiiFlow - 导出 - 所有空白 ROM")
 
     def run(self):
-        MainMenu.console.wiiflow().export_all_fake_roms()
+        MainMenu.console.wiiflow().plugins_data().export_all_fake_roms()
 
 
 class ExportRoms(CmdHandler):
@@ -107,7 +107,7 @@ class MainMenu:
     @staticmethod
     def init_default_cmd_handlers():
         MainMenu.add_cmd_handler(ImportNewRoms())
-        MainMenu.add_cmd_handler(CheckExistGamesInfos())
+        MainMenu.add_cmd_handler(CheckExistRomsInfos())
         MainMenu.add_cmd_handler(ConvertWfcFiles())
         MainMenu.add_cmd_handler(ConvertGameSynopsis())
         MainMenu.add_cmd_handler(ExportPluginFiles())
@@ -123,7 +123,7 @@ class MainMenu:
         while True:
             print("\n\n")
             if MainMenu.console is not None:
-                print(f"机种代码：{MainMenu.console.wiiflow().plugin_name}")
+                print(f"机种代码：{MainMenu.console.wiiflow().plugin_name()}")
             print("主菜单：")
             for key in range(1, len(MainMenu.cmd_handler_list) + 1):
                 print(f"\t{key}. {MainMenu.cmd_handler_list[str(key)].tips}")
