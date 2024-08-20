@@ -1075,7 +1075,7 @@ Le joueur prend le contrôle d'un personnage nommé Matt. Le jeu a lieu dans le 
       <title>Dive Alert - Burn Hen</title>
     </locale>
     <locale lang="ZHCN">
-      <title>下潜警报 马特版</title>
+      <title>下潜警报 马特篇</title>
     </locale>
     <developer>Sacnoth</developer>
     <publisher>SNK</publisher>
@@ -1118,7 +1118,7 @@ Le joueur prend le contrôle d'un personnage nommé Becky. Le jeu a lieu dans le
       <title>Dive Alert: Rebecca Hen</title>
     </locale>
     <locale lang="ZHCN">
-      <title>下潜警报 贝基版</title>
+      <title>下潜警报 贝基篇</title>
     </locale>
     <developer>Sacnoth</developer>
     <publisher>SNK</publisher>
@@ -2368,6 +2368,9 @@ Le jeu est également disponible sur Neo Geo Pocket.</synopsis>
     </locale>
     <locale lang="DE">
       <genre>Sport</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>98机皇杯 Plus</title>
     </locale>
     <developer>SNK</developer>
     <publisher>SNK Corporation of America</publisher>

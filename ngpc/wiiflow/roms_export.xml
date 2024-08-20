@@ -43,12 +43,12 @@
     <Game crc32="83DB5772" bytes="2097152"
         rom="Dive Alert - Becky's Version.ngc"
         en="Dive Alert - Becky's Version"
-        zhcn="下潜警报 贝基版"
+        zhcn="下潜警报 贝基篇"
     />
     <Game crc32="EF75081B" bytes="2097152"
         rom="Dive Alert - Matt's Version.ngc"
         en="Dive Alert - Matt's Version"
-        zhcn="下潜警报 马特版"
+        zhcn="下潜警报 马特篇"
     />
     <Game crc32="7F1779CD" bytes="1048576"
         rom="Dynamite Slugger.ngc"
@@ -104,6 +104,16 @@
         rom="Neo 21 - Real Casino Series.ngc"
         en="Neo 21 - Real Casino Series"
         zhcn="Neo 21点"
+    />
+    <Game crc32="A6DCA584" bytes="1048576"
+        rom="Neo Cherry Master Color - Real Casino Series.ngc"
+        en="Neo Cherry Master Color - Real Casino Series"
+        zhcn="Neo 老虎机大师彩色版"
+    />
+    <Game crc32="C0DA4FE9" bytes="1048576"
+        rom="NeoGeo Cup '98 Plus.ngc"
+        en="NeoGeo Cup '98 Plus"
+        zhcn="98机皇杯 Plus"
     />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngc"
