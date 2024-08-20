@@ -5,6 +5,11 @@
         en="Baseball Stars Color"
         zhcn="棒球之星彩色版"
     />
+    <Game crc32="B783C372" bytes="2097152"
+        rom="Big Bang Pro Wrestling.ngc"
+        en="Big Bang Pro Wrestling"
+        zhcn="职业摔角大赛"
+    />
     <Game crc32="ECEE99F3" bytes="1048576"
         rom="Bio Motor Unitron.ngc"
         en="Bio Motor Unitron 999"

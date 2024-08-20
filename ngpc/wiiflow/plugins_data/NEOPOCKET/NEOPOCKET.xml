@@ -475,6 +475,9 @@ Et enfin le "VS mode" possible entre 2 possesseurs de NGPC.</synopsis>
     <locale lang="JA">
       <title>Big Bang Pro Wrestling</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>职业摔角大赛</title>
+    </locale>
     <developer>S-Neo</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="11" day="23"/>
