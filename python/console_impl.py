@@ -120,11 +120,14 @@ class ConsoleImpl(Console):
             src_rom_title = os.path.splitext(src_rom_name)[0]
             src_rom_extension = os.path.splitext(src_rom_name)[1]
 
+            print(f"{src_rom_name} 是新游戏，crc32 = {src_rom_crc32}")
+
             dst_rom_name = src_rom_name
             en_title = ""
             zhcn_title = ""
 
-            game_info = self.wiiflow().plugins_data().find_game_titles(src_rom_title, src_rom_crc32)
+            game_info = self.wiiflow().plugins_data().find_game_titles(
+                src_rom_title, src_rom_crc32)
             if game_info is not None:
                 if game_info.rom_name != "":
                     dst_rom_name = game_info.rom_name

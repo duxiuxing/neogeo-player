@@ -8,17 +8,22 @@
     <Game crc32="85FE6AE3" bytes="1048576"
         rom="Bust-A-Move Pocket.ngc"
         en="Bust-A-Move Pocket"
-        zhcn="泡泡龙"
+        zhcn="泡泡龙" language="english"
     />
     <Game crc32="E69EAE3E" bytes="1048576"
         rom="Bust-A-Move Pocket.ngc"
         en="Bust-A-Move Pocket"
         zhcn="泡泡龙"
     />
-    <Game crc32="4FDA5D8A" bytes="2097152"
+    <Game crc32="4D8D27F0" bytes="2097152"
         rom="Cool Cool Jam.ngc"
         en="Cool Cool Jam"
         zhcn="酷乐队"
+    />
+    <Game crc32="4FDA5D8A" bytes="2097152"
+        rom="Cool Cool Jam.ngc"
+        en="Cool Cool Jam"
+        zhcn="酷乐队" language="japnese"
     />
     <Game crc32="4640235C" bytes="1048576"
         rom="Crush Roller.ngc"
@@ -53,7 +58,7 @@
     <Game crc32="E705E30E" bytes="2097152"
         rom="Faselei!.ngc"
         en="Faselei!"
-        zhcn="法塞雷"
+        zhcn="法塞雷" language="english"
     />
     <Game crc32="A9119B5A" bytes="2097152"
         rom="Fatal Fury - First Contact.ngc"
@@ -70,6 +75,11 @@
         en="King of Fighters R-2"
         zhcn="拳皇 R-2"
     />
+    <Game crc32="47E490A2" bytes="2097152"
+        rom="King of Fighters R-2.ngc"
+        en="King of Fighters R-2"
+        zhcn="拳皇 R-2" language="english"
+    />
     <Game crc32="BB10FE5C" bytes="2097152"
         rom="King of Fighters R-2.ngc"
         en="King of Fighters R-2"
@@ -83,7 +93,12 @@
     <Game crc32="72184DE7" bytes="1048576"
         rom="Magical Drop Pocket.ngc"
         en="Magical Drop Pocket"
-        zhcn="魔法微量球"
+        zhcn="魔法微量球" language="english"
+    />
+    <Game crc32="7712F82D" bytes="1048576"
+        rom="Magical Drop Pocket.ngc"
+        en="Magical Drop Pocket"
+        zhcn="魔法微量球" language="english"
     />
     <Game crc32="4FF91807" bytes="2097152"
         rom="Metal Slug 1st Mission.ngc"
@@ -219,6 +234,6 @@
     <Game crc32="94FCFD1E" bytes="2097152"
         rom="The Last Blade - Beyond the Destiny.ngc"
         en="The Last Blade - Beyond the Destiny"
-        zhcn="月华剑士"
+        zhcn="月华剑士" language="english"
     />
 </Game-List>

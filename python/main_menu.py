@@ -22,7 +22,7 @@ class Quit(CmdHandler):
 
 class ImportNewRoms(CmdHandler):
     def __init__(self):
-        super().__init__("Console - 导入 - roms_new 文件夹里的游戏文件")
+        super().__init__("Console - 导入 - roms_import 文件夹里的游戏文件")
 
     def run(self):
         MainMenu.console.import_roms()
