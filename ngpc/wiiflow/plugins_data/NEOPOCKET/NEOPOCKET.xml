@@ -245,6 +245,9 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
     <locale lang="JA">
       <title>Renketsu Puzzle Tsunagete Pon!</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>联结拼图彩色版</title>
+    </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>
     <date year="1998" month="" day=""/>
@@ -2090,6 +2093,9 @@ Le but du jeu est de passer de 99 credits (la mise de base) a 9999 credits!</syn
     <locale lang="DE">
       <genre>Casino</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>Neo 樱桃大师彩色版</title>
+    </locale>
     <developer>Dyna Corp.</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="03" day="19"/>
@@ -2829,7 +2835,7 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
       <genre>Esporte / Tênis,Esporte</genre>
     </locale>
     <locale lang="ZHCN">
-      <title>口袋网球</title>
+      <title>口袋网球彩色版</title>
     </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>

@@ -22,6 +22,9 @@
     <locale lang="PT">
       <genre>Esporte,Esporte / Baseball</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>棒球之星</title>
+    </locale>
     <developer>Saurus Co., Ltd.</developer>
     <publisher>SNK</publisher>
     <date year="1998" month="01" day="28"/>
@@ -92,6 +95,9 @@ Le jeu est sorti pour la première fois sur la Neo Geo pocket et comporte des gr
     <locale lang="JA">
       <title>Melon Chan no Seichou Nikki</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>陈甜瓜的成长日记</title>
+    </locale>
     <developer>ADK</developer>
     <publisher>ADK</publisher>
     <date year="1998" month="" day=""/>
@@ -126,6 +132,9 @@ Intérêt limité.</synopsis>
     </locale>
     <locale lang="JA">
       <title>Neo Cherry Master</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>Neo 樱桃大师</title>
     </locale>
     <publisher>Dyna</publisher>
     <date year="1998" month="" day=""/>
@@ -212,6 +221,9 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
     <locale lang="PT">
       <genre>Esporte / Tênis,Esporte</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋网球</title>
+    </locale>
     <publisher>Yumekobo</publisher>
     <date year="1998" month="" day=""/>
     <rating type="NOTE" value="">
@@ -244,6 +256,9 @@ Le tournoi se joue seulement contre l'ordinateur. Le joueur peut choisir son per
     </locale>
     <locale lang="JA">
       <title>Renketsu Puzzle Tsunagete Pon!</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>联结拼图</title>
     </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>
@@ -316,6 +331,9 @@ Le gameplay de Samurai Shodown est assez bien adapté dans la version de poche, 
     </locale>
     <locale lang="JA">
       <title>Master of Syougi</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>将棋达人</title>
     </locale>
     <publisher>SNK</publisher>
     <date year="1998" month="" day=""/>
