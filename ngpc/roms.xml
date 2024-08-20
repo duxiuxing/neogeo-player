@@ -155,6 +155,16 @@
         en="Pac-Man"
         zhcn="吃豆小精灵"
     />
+    <Game crc32="0C4DAFE8" bytes="524288"
+        rom="Picture Puzzle.ngc"
+        en="Picture Puzzle"
+        zhcn="绘画拼图"
+    />
+    <Game crc32="59AB1E0F" bytes="524288"
+        rom="Picture Puzzle.ngc"
+        en="Picture Puzzle"
+        zhcn="绘画拼图"
+    />
     <Game crc32="FB0B55B8" bytes="524288"
         rom="Pocket Reversi.ngc"
         en="Pocket Reversi"

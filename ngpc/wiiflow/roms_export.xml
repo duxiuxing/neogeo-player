@@ -45,11 +45,6 @@
         en="Dive Alert - Matt's Version"
         zhcn="下潜警报 马特版"
     />
-    <Game crc32="78C21B5E" bytes="524288"
-        rom="Doko Demo Mahjong.ngc"
-        en="Doko Demo Mahjong"
-        zhcn="麻将"
-    />
     <Game crc32="7F1779CD" bytes="1048576"
         rom="Dynamite Slugger.ngc"
         en="Dynamite Slugger"
@@ -109,6 +104,11 @@
         rom="Pac-Man.ngc"
         en="Pac-Man"
         zhcn="吃豆小精灵"
+    />
+    <Game crc32="0C4DAFE8" bytes="524288"
+        rom="Picture Puzzle.ngc"
+        en="Picture Puzzle"
+        zhcn="绘画拼图"
     />
     <Game crc32="FB0B55B8" bytes="524288"
         rom="Pocket Reversi.ngc"
