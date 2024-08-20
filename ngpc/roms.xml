@@ -316,6 +316,11 @@
         en="The King of Fighters - Battle de Paradise"
         zhcn="拳皇大富翁"
     />
+    <Game crc32="12AFACB0" bytes="2097152"
+        rom="The Last Blade - Beyond the Destiny.ngc"
+        en="The Last Blade - Beyond the Destiny"
+        zhcn="月华剑士"
+    />
     <Game crc32="37C22AC9" bytes="2097152"
         rom="The Last Blade - Beyond the Destiny.ngc"
         en="The Last Blade - Beyond the Destiny"
