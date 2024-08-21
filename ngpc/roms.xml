@@ -15,6 +15,11 @@
         en="Big Bang Pro Wrestling"
         zhcn="职业摔角大赛"
     />
+    <Game crc32="3807DF4F" bytes="1048576"
+        rom="Bio Motor Unitron.ngc"
+        en="Bio Motor Unitron"
+        zhcn="机甲世纪"
+    />
     <Game crc32="ECEE99F3" bytes="1048576"
         rom="Bio Motor Unitron.ngc"
         en="Bio Motor Unitron"
@@ -50,10 +55,20 @@
         en="Crush Roller"
         zhcn="顽皮鬼"
     />
+    <Game crc32="F20FF9F2" bytes="1048576"
+        rom="Crush Roller.ngc"
+        en="Crush Roller"
+        zhcn="顽皮鬼"
+    />
     <Game crc32="4E3191C6" bytes="2097152"
         rom="Dark Arms - Beast Buster 1999.ngc"
         en="Dark Arms - Beast Buster 1999"
         zhcn="黑暗兵器 野兽梦魇1999" language="chinese"
+    />
+    <Game crc32="6F353F34" bytes="2097152"
+        rom="Dark Arms - Beast Buster 1999.ngc"
+        en="Dark Arms - Beast Buster 1999"
+        zhcn="黑暗兵器 野兽梦魇1999"
     />
     <Game crc32="3C4AF4F5" bytes="2097152"
         rom="Dive Alert - Becky's Version.ngc"
@@ -130,6 +145,11 @@
         en="Koi Koi Mahjong"
         zhcn="口袋麻将彩色版"
     />
+    <Game crc32="694CE2DC" bytes="1048576"
+        rom="Magical Drop Pocket.ngc"
+        en="Magical Drop Pocket"
+        zhcn="魔法微量球"
+    />
     <Game crc32="72184DE7" bytes="1048576"
         rom="Magical Drop Pocket.ngc"
         en="Magical Drop Pocket"
@@ -166,6 +186,11 @@
         zhcn="Neo 21点"
     />
     <Game crc32="22AAB454" bytes="1048576"
+        rom="Neo Baccarat - Real Casino Series.ngc"
+        en="Neo Baccarat - Real Casino Series"
+        zhcn="Neo 百家乐"
+    />
+    <Game crc32="495071A9" bytes="1048576"
         rom="Neo Baccarat - Real Casino Series.ngc"
         en="Neo Baccarat - Real Casino Series"
         zhcn="Neo 百家乐"
