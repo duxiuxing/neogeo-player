@@ -481,6 +481,11 @@
         en="Soreike!! Hanafuda Doujou"
         zhcn="挑战！花牌道场"
     />
+    <Game crc32="2436B6AD" bytes="16777216"
+        rom="Super 12 in 1.ngc"
+        en="Super 12 in 1"
+        zhcn="超级十二合一"
+    />
     <Game crc32="C6E620C3" bytes="2097152"
         rom="Super Real Mahjong - Premium Collection.ngc"
         en="Super Real Mahjong - Premium Collection"
