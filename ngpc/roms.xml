@@ -26,13 +26,13 @@
         zhcn="口袋嘉年华"
     />
     <Game crc32="3807DF4F" bytes="1048576"
-        rom="Bio Motor Unitron.ngc"
-        en="Bio Motor Unitron"
+        rom="Biomotor Unitron.ngc"
+        en="Biomotor Unitron"
         zhcn="机甲世纪"
     />
     <Game crc32="ECEE99F3" bytes="1048576"
-        rom="Bio Motor Unitron.ngc"
-        en="Bio Motor Unitron"
+        rom="Biomotor Unitron.ngc"
+        en="Biomotor Unitron"
         zhcn="机甲世纪"
     />
     <Game crc32="85FE6AE3" bytes="1048576"
@@ -83,7 +83,7 @@
     <Game crc32="ADD4FDFF" bytes="524288"
         rom="Delta Warp.ngc"
         en="Delta Warp"
-        zhcn="德尔塔拼图"
+        zhcn="扭转三角"
     />
     <Game crc32="EEEEFD6A" bytes="2097152"
         rom="Densetsu no Ogre Battle - Zenobia no Ouji.ngc"
@@ -93,7 +93,7 @@
     <Game crc32="D5CED9E9" bytes="4194304"
         rom="Densha de Go! 2.ngc"
         en="Densha de Go! 2"
-        zhcn="电车 Go! 2"
+        zhcn="电车向前冲2"
     />
     <Game crc32="3C4AF4F5" bytes="2097152"
         rom="Dive Alert - Becky's Version.ngc"
@@ -235,6 +235,11 @@
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头 第二任务"
     />
+    <Game crc32="DDE08335" bytes="2097152"
+        rom="Mizuki Shigeru no Youkai Shashinkan.ngc"
+        en="Mizuki Shigeru no Youkai Shashinkan"
+        zhcn="水木茂的妖怪照相馆"
+    />
     <Game crc32="0A2A2F28" bytes="1048576"
         rom="Neo 21 - Real Casino Series.ngc"
         en="Neo 21 - Real Casino Series"
@@ -255,20 +260,30 @@
         en="Neo Cherry Master Color - Real Casino Series"
         zhcn="Neo 老虎机大师彩色版"
     />
+    <Game crc32="5A053559" bytes="2097152"
+        rom="Neo Derby Champ Daiyosou.ngc"
+        en="Neo Derby Champ Daiyosou"
+        zhcn="Neo 德比冠军赛马"
+    />
     <Game crc32="225FD7F9" bytes="1048576"
         rom="Neo Dragon's Wild - Real Casino Series.ngc"
         en="Neo Dragon's Wild - Real Casino Series"
-        zhcn="Neo 梭哈"
+        zhcn="Neo 野龙扑克"
     />
     <Game crc32="5D028C99" bytes="1048576"
         rom="Neo Dragon's Wild - Real Casino Series.ngc"
         en="Neo Dragon's Wild - Real Casino Series"
-        zhcn="Neo 梭哈"
+        zhcn="Neo 野龙扑克"
     />
     <Game crc32="E79DC5B3" bytes="1048576"
         rom="Neo Mystery Bonus - Real Casino Series.ngc"
         en="Neo Mystery Bonus - Real Casino Series"
         zhcn="Neo 神秘的奖金"
+    />
+    <Game crc32="F4D78F12" bytes="1048576"
+        rom="Neo Poke Pro Yakyuu.ngc"
+        en="Neo Poke Pro Yakyuu"
+        zhcn="Neo 职业棒球"
     />
     <Game crc32="317A66D2" bytes="2097152"
         rom="Neo Turf Masters.ngc"
@@ -289,6 +304,11 @@
         rom="Pac-Man.ngc"
         en="Pac-Man"
         zhcn="吃豆小精灵"
+    />
+    <Game crc32="4DA8A1C0" bytes="1048576"
+        rom="Party Mail.ngc"
+        en="Party Mail"
+        zhcn="派对信件"
     />
     <Game crc32="0C4DAFE8" bytes="524288"
         rom="Picture Puzzle.ngc"
@@ -425,6 +445,11 @@
         rom="Sonic the Hedgehog - Pocket Adventure.ngc"
         en="Sonic the Hedgehog - Pocket Adventure"
         zhcn="索尼克口袋冒险"
+    />
+    <Game crc32="05FA3EB0" bytes="524288"
+        rom="Soreike!! Hanafuda Doujou.ngc"
+        en="Soreike!! Hanafuda Doujou"
+        zhcn="在此挑战！花牌道场"
     />
     <Game crc32="C6E620C3" bytes="2097152"
         rom="Super Real Mahjong - Premium Collection.ngc"

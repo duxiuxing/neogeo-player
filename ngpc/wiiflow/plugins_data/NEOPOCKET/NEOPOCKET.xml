@@ -534,10 +534,10 @@ En dehors de leur utilisation principale les pieces peuvent servir à jouer dans
       <control type="gamecube" required="false"/>
     </input>
   </game>
-  <game name="Bio Motor Unitron">
+  <game name="Biomotor Unitron">
     <id>47025A</id>
     <locale lang="EN">
-      <title>Bio Motor Unitron</title>
+      <title>Biomotor Unitron</title>
       <synopsis>Biomotor Unitron is a RPG for the Neo Geo Pocket Color.
 
 After a meteor brings a new source of energy to the world, the construction of giant robots begins. These robots are used for entertainment and fight in arena fights against one-another for the title Master of Masters. You play a duo of characters that participates in these gladiator battles. You can control both characters and have to explore and perform quests to earn money and items to upgrade your Unitron robot with. You can talk to inhabitants of the city and buy new items at stores.
@@ -565,7 +565,7 @@ Les combats sont comme beaucoup de J-RPG de l?époque, a base de menu dans leque
     </locale>
     <locale lang="ZHCN">
       <title>机甲世纪</title>
-  </locale>
+    </locale>
     <developer>Yumekobo Co., Ltd.</developer>
     <publisher>SNK Corporation of America</publisher>
     <date year="1999" month="04" day="15"/>
@@ -578,10 +578,10 @@ Les combats sont comme beaucoup de J-RPG de l?époque, a base de menu dans leque
       <control type="gamecube" required="false"/>
     </input>
   </game>
-  <game name="Bio Motor Unitron 2">
+  <game name="Biomotor Unitron 2">
     <id>87600A</id>
     <locale lang="EN">
-      <title>Bio Motor Unitron 2</title>
+      <title>Biomotor Unitron 2</title>
       <synopsis>Kikou Seiki Unitron (English: Armor Chronicles Unitron) is the sequel to Biomotor Unitron. 
 It was only released in Japan.
 The game takes place 400 years after Biomotor Unitron. 
@@ -953,7 +953,7 @@ Le jeu dispose de puzzles qui doivent être résolus et un large éventail de mo
       <title>Delta Warp</title>
     </locale>
     <locale lang="ZHCN">
-      <title>德尔塔拼图</title>
+      <title>扭转三角</title>
     </locale>  
     <developer>Iosys</developer>
     <publisher>SNK</publisher>
@@ -1048,7 +1048,7 @@ La rejouabilité est donc très bonne, car chaque route necessite une attention 
       <title>Densha de GO! 2</title>
     </locale>
     <locale lang="ZHCN">
-      <title>电车 Go! 2</title>
+      <title>电车向前冲2</title>
     </locale>  
     <developer>Taito GM R&amp;D Sect. #2</developer>
     <publisher>Taito - SNK</publisher>
@@ -1989,6 +1989,9 @@ Ce jeu fut tres populaire au sein des pocesseurs de la NGPC.</synopsis>
     <locale lang="JA">
       <title>Mizuki Shigeru no Youkai Shashinkan</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>水木茂的妖怪照相馆</title>
+    </locale>
     <developer>Ukiyotei</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="12" day="29"/>
@@ -2181,6 +2184,9 @@ Le but du jeu est de passer de 99 credits (la mise de base) a 9999 credits!</syn
     <locale lang="JA">
       <title>Neo Derby Champ Daiyosou</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>Neo 德比冠军赛马</title>
+    </locale>
     <publisher>Dyna</publisher>
     <date year="1999" month="04" day="22"/>
     <rating type="NOTE" value="">
@@ -2214,7 +2220,7 @@ Skilled players can choose Original Mode to enjoy real poker with authentic feel
       <genre>Casino</genre>
     </locale>
     <locale lang="ZHCN">
-      <title>Neo 梭哈</title>
+      <title>Neo 野龙扑克</title>
     </locale>
     <publisher>SNK</publisher>
     <date year="1999" month="03" day="19"/>
@@ -2297,6 +2303,9 @@ Skilled players can choose Original Mode to enjoy real poker with authentic feel
     </locale>
     <locale lang="JA">
       <title>Neo Poke Pro Yakyuu</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>Neo 职业棒球</title>
     </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
@@ -2760,6 +2769,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     </locale>
     <locale lang="JA">
       <title>Party Mail</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>派对信件</title>
     </locale>
     <publisher>ADK</publisher>
     <date year="1999" month="" day=""/>
@@ -3622,6 +3634,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     <locale lang="JA">
       <title>Soreike!! Hanafuda Doujou</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>在此挑战！花牌道场</title>
+    </locale>  
     <publisher>Dyna</publisher>
     <date year="1999" month="" day=""/>
     <rating type="NOTE" value="">

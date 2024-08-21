@@ -95,9 +95,13 @@ class ImportPocketCovers(CmdHandler):
         logo_file_path = os.path.join(
             self.import_folder_path(), logo_file_name)
         if os.path.exists(logo_file_path):
-            logo_image = Image.open(logo_file_path).resize(
-                (x2 - x1, blank_cover.height))
-            blank_cover.paste(logo_image, (x1, 0))
+            logo_image = Image.open(logo_file_path)
+            if logo_image.width == (x2 - x1):
+                blank_cover.paste(logo_image, (x1, int(
+                    102 + (320 - logo_image.height)/2)), mask=logo_image)
+            else:
+                logo_image = logo_image.resize((x2 - x1, blank_cover.height))
+                blank_cover.paste(logo_image, (x1, 0))
             self.file_names_imported.append(logo_file_name)
         else:
             print(f"标题文件缺失：{logo_file_name}")
@@ -127,6 +131,7 @@ class ImportPocketCovers(CmdHandler):
         if not folder_exist(self.import_folder_path()):
             return
 
+        self.file_names_imported = []
         for file_name in os.listdir(self.import_folder_path()):
             if not fnmatch.fnmatch(file_name, "*.png"):
                 continue
