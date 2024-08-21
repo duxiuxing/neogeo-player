@@ -15,6 +15,11 @@
         en="Big Bang Pro Wrestling"
         zhcn="职业摔角大赛"
     />
+    <Game crc32="4DB0AB6C" bytes="1048576"
+        rom="Bikkuriman 2000 - Viva! Pocket Festiva!.ngc"
+        en="Bikkuriman 2000 - Viva! Pocket Festiva!"
+        zhcn="口袋嘉年华"
+    />
     <Game crc32="7A2D7635" bytes="1048576"
         rom="Bikkuriman 2000 - Viva! Pocket Festiva!.ngc"
         en="Bikkuriman 2000 - Viva! Pocket Festiva!"
@@ -118,7 +123,7 @@
     <Game crc32="BE47E531" bytes="2097152"
         rom="Evolution - Eternal Dungeon.ngc"
         en="Evolution - Eternal Dungeon"
-        zhcn="神机世界"
+        zhcn="神机世界(美)"
     />
     <Game crc32="1BF412F5" bytes="1048576"
         rom="Fantastic Night Dreams - Cotton.ngc"
@@ -185,6 +190,11 @@
         en="Magical Drop Pocket"
         zhcn="魔法微量球"
     />
+    <Game crc32="6C465716" bytes="1048576"
+        rom="Magical Drop Pocket.ngc"
+        en="Magical Drop Pocket"
+        zhcn="魔法微量球"
+    />
     <Game crc32="72184DE7" bytes="1048576"
         rom="Magical Drop Pocket.ngc"
         en="Magical Drop Pocket"
@@ -194,6 +204,11 @@
         rom="Magical Drop Pocket.ngc"
         en="Magical Drop Pocket"
         zhcn="魔法微量球" language="english"
+    />
+    <Game crc32="3F592E99" bytes="1048576"
+        rom="Memories Off - Pure.ngc"
+        en="Memories Off - Pure"
+        zhcn="秋之回忆 Pure"
     />
     <Game crc32="A7926E90" bytes="1048576"
         rom="Memories Off - Pure.ngc"
@@ -239,6 +254,11 @@
         rom="Neo Cherry Master Color - Real Casino Series.ngc"
         en="Neo Cherry Master Color - Real Casino Series"
         zhcn="Neo 老虎机大师彩色版"
+    />
+    <Game crc32="225FD7F9" bytes="1048576"
+        rom="Neo Dragon's Wild - Real Casino Series.ngc"
+        en="Neo Dragon's Wild - Real Casino Series"
+        zhcn="Neo 梭哈"
     />
     <Game crc32="5D028C99" bytes="1048576"
         rom="Neo Dragon's Wild - Real Casino Series.ngc"
@@ -321,6 +341,11 @@
         en="Rockman Battle &amp; Fighters"
         zhcn="洛克人格斗"
     />
+    <Game crc32="9C861E49" bytes="2097152"
+        rom="Rockman Battle &amp; Fighters.ngc"
+        en="Rockman Battle &amp; Fighters"
+        zhcn="洛克人格斗"
+    />
     <Game crc32="4F7FB156" bytes="2097152"
         rom="Samurai Shodown II.ngc"
         en="Samurai Shodown II"
@@ -331,10 +356,20 @@
         en="Shanghai Mini"
         zhcn="迷你上海麻将"
     />
+    <Game crc32="E006F42F" bytes="2097152"
+        rom="Shinki Sekai Evolution - Hateshinai Dungeon.ngc"
+        en="Shinki Sekai Evolution - Hateshinai Dungeon"
+        zhcn="神机世界(日)"
+    />
     <Game crc32="1F2872ED" bytes="524288"
         rom="Shougi no Tatsujin Color.ngc"
         en="Shougi no Tatsujin Color"
         zhcn="将棋达人彩色版"
+    />
+    <Game crc32="411C6C56" bytes="2097152"
+        rom="SNK Gals Fighters.ngc"
+        en="SNK Gals Fighters"
+        zhcn="SNK 美少女格斗家"
     />
     <Game crc32="B02C2BE7" bytes="2097152"
         rom="SNK Gals Fighters.ngc"
@@ -354,12 +389,7 @@
     <Game crc32="94B63A97" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighter's Clash - SNK Version.ngc"
         en="SNK vs. Capcom - Card Fighter's Clash - SNK Version"
-        zhcn="SNK 对卡普空 卡片战士 SNK 版" language="english"
-    />
-    <Game crc32="DB4D2B6E" bytes="2097152"
-        rom="SNK vs. Capcom - Card Fighter's Clash - SNK Version.ngc"
-        en="SNK vs. Capcom - Card Fighter's Clash - SNK Version"
-        zhcn="SNK 对卡普空 卡片战士 SNK 版" language="japanese"
+        zhcn="SNK 对卡普空 卡片战士 SNK 版(美)" language="english"
     />
     <Game crc32="4DB31639" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition.ngc"
@@ -374,7 +404,7 @@
     <Game crc32="7065295C" bytes="2097152"
         rom="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version.ngc"
         en="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version"
-        zhcn="SNK 对卡普空 卡片战士 SNK 版" language="japanese"
+        zhcn="SNK 对卡普空 卡片战士 SNK 版(日)" language="japanese"
     />
     <Game crc32="01B59756" bytes="4194304"
         rom="SNK vs. Capcom - The Match of the Millennium.ngc"

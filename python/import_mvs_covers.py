@@ -155,8 +155,9 @@ class ImportMvsCovers(CmdHandler):
             if file_name in self.file_names_imported:
                 continue
 
-            file_title = file_name.split(".")[0]
+            file_title = os.path.splitext(file_name)[0]
             if file_name.endswith(".front.png") or file_name.endswith(".back.png"):
+                file_title = os.path.splitext(file_title)[0]
                 self.combine_front_and_back_cover(file_title)
             else:
                 file_path = os.path.join(

@@ -1256,7 +1256,7 @@ As expected for a portable version, the gameplay has been significantly downgrad
       <genre>Rollenspiele</genre>
     </locale>
     <locale lang="ZHCN">
-      <title>神机世界</title>
+      <title>神机世界(美)</title>
     </locale>
     <developer>ESP</developer>
     <publisher>ESP - Sega</publisher>
@@ -3263,6 +3263,9 @@ Included are classic, tournament and dynasty modes. Classic is normal game with 
     <locale lang="JA">
       <title>Shinki Sekai Evolution - Hateshinai Dungeon</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>神机世界(日)</title>
+    </locale>
     <publisher>ESP - Sega</publisher>
     <date year="2000" month="" day=""/>
     <rating type="NOTE" value="">
@@ -3422,6 +3425,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     </locale>
     <locale lang="JA">
       <title>SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>SNK 对卡普空 卡片战士 SNK 版(日)</title>
     </locale>
     <publisher>Capcom - Moto Kikaku - SNK</publisher>
     <date year="1999" month="" day=""/>

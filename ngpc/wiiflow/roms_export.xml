@@ -83,7 +83,7 @@
     <Game crc32="BE47E531" bytes="2097152"
         rom="Evolution - Eternal Dungeon.ngc"
         en="Evolution - Eternal Dungeon"
-        zhcn="神机世界"
+        zhcn="神机世界(美)"
     />
     <Game crc32="1BF412F5" bytes="1048576"
         rom="Fantastic Night Dreams - Cotton.ngc"
@@ -226,6 +226,11 @@
         en="Shanghai Mini"
         zhcn="迷你上海麻将"
     />
+    <Game crc32="E006F42F" bytes="2097152"
+        rom="Shinki Sekai Evolution - Hateshinai Dungeon.ngc"
+        en="Shinki Sekai Evolution - Hateshinai Dungeon"
+        zhcn="神机世界(日)"
+    />
     <Game crc32="1F2872ED" bytes="524288"
         rom="Shougi no Tatsujin Color.ngc"
         en="Shougi no Tatsujin Color"
@@ -244,12 +249,17 @@
     <Game crc32="94B63A97" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighter's Clash - SNK Version.ngc"
         en="SNK vs. Capcom - Card Fighter's Clash - SNK Version"
-        zhcn="SNK 对卡普空 卡片战士 SNK 版" language="english"
+        zhcn="SNK 对卡普空 卡片战士 SNK 版(美)" language="english"
     />
     <Game crc32="4DB31639" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition.ngc"
         en="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
         zhcn="SNK 对卡普空 卡片战士2 扩展版" language="japanese"
+    />
+    <Game crc32="7065295C" bytes="2097152"
+        rom="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version.ngc"
+        en="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version"
+        zhcn="SNK 对卡普空 卡片战士 SNK 版(日)" language="japanese"
     />
     <Game crc32="5687C83A" bytes="4194304"
         rom="SNK vs. Capcom - The Match of the Millennium.ngc"
