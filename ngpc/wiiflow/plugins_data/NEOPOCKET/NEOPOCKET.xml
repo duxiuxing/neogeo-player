@@ -519,6 +519,9 @@ En dehors de leur utilisation principale les pieces peuvent servir à jouer dans
     <locale lang="JA">
       <title>Bikkuriman 2000 Viva!</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋嘉年华</title>
+    </locale>
     <developer>Sega</developer>
     <publisher>Sega</publisher>
     <date year="2000" month="03" day="16"/>
@@ -949,6 +952,9 @@ Le jeu dispose de puzzles qui doivent être résolus et un large éventail de mo
     <locale lang="JA">
       <title>Delta Warp</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>德尔塔拼图</title>
+    </locale>  
     <developer>Iosys</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="" day=""/>
@@ -989,6 +995,9 @@ En dehors des zones de jeu et des nouvelles classes, le gameplay et le style gra
     <locale lang="JA">
       <title>Densetsu no Ogre Battle Gaiden - Zenobia no Ouji</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>皇家骑士团外传 赛诺比亚的皇子</title>
+    </locale>    
     <developer>Quest</developer>
     <publisher>Quest - SNK</publisher>
     <date year="2000" month="06" day="22"/>
@@ -1038,6 +1047,9 @@ La rejouabilité est donc très bonne, car chaque route necessite une attention 
     <locale lang="JA">
       <title>Densha de GO! 2</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>电车 Go! 2</title>
+    </locale>  
     <developer>Taito GM R&amp;D Sect. #2</developer>
     <publisher>Taito - SNK</publisher>
     <date year="1999" month="10" day="21"/>
@@ -1509,6 +1521,9 @@ Dans ce jeu nous suivons Makoto, un des nombreux etudiants present dans le pavil
     <locale lang="JA">
       <title>Infinity Cure</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>无限轮回</title>
+    </locale>
     <developer>KID Corp.</developer>
     <publisher>KID Corp.</publisher>
     <date year="2000" month="11" day="23"/>
@@ -1827,6 +1842,9 @@ L'histoire principale de Pure prend entre 3 et 4 heures de jeu, mais la rejouabi
     </locale>
     <locale lang="JA">
       <title>Memories Off - Pure</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>秋之回忆 Pure</title>
     </locale>
     <developer>Kid</developer>
     <publisher>Kid</publisher>
@@ -3139,7 +3157,7 @@ Le transfert d'information est possible entre 2 NGPC et le cable adecquat, mais 
       <title>Rockman - Battle &amp; Fighters</title>
     </locale>
     <locale lang="ZHCN">
-      <title>洛克人战斗与战士</title>
+      <title>洛克人格斗</title>
     </locale>
     <developer>Capcom</developer>
     <publisher>Capcom</publisher>
