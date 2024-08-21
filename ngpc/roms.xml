@@ -305,6 +305,16 @@
         en="Pac-Man"
         zhcn="吃豆小精灵"
     />
+    <Game crc32="C3D6B28B" bytes="1048576"
+        rom="Pachinko Hisshou Guide - Pocket Parlor.ngc"
+        en="Pachinko Hisshou Guide - Pocket Parlor"
+        zhcn="柏青嫂必胜指南"
+    />
+    <Game crc32="C56EF8C3" bytes="524288"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Azteca.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Azteca"
+        zhcn="口袋柏青嫂 Azteca"
+    />
     <Game crc32="4DA8A1C0" bytes="1048576"
         rom="Party Mail.ngc"
         en="Party Mail"
@@ -449,7 +459,7 @@
     <Game crc32="05FA3EB0" bytes="524288"
         rom="Soreike!! Hanafuda Doujou.ngc"
         en="Soreike!! Hanafuda Doujou"
-        zhcn="在此挑战！花牌道场"
+        zhcn="挑战！花牌道场"
     />
     <Game crc32="C6E620C3" bytes="2097152"
         rom="Super Real Mahjong - Premium Collection.ngc"

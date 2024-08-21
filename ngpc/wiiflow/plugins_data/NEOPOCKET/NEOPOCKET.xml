@@ -2581,6 +2581,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - Azteca</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Azteca</title>
+    </locale>
     <publisher>Aruze</publisher>
     <date year="2000" month="" day=""/>
     <rating type="NOTE" value="">
@@ -2748,6 +2751,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     </locale>
     <locale lang="JA">
       <title>Pachinko Hissyou Guide Pocket Parlor</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>柏青嫂必胜指南</title>
     </locale>
     <publisher>Sankyo</publisher>
     <date year="1999" month="" day=""/>
@@ -3635,7 +3641,7 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
       <title>Soreike!! Hanafuda Doujou</title>
     </locale>
     <locale lang="ZHCN">
-      <title>在此挑战！花牌道场</title>
+      <title>挑战！花牌道场</title>
     </locale>  
     <publisher>Dyna</publisher>
     <date year="1999" month="" day=""/>
