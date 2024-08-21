@@ -2094,6 +2094,9 @@ Les regles peuvent etre consultés dans le Menu d'option sous l'appelation : "Ga
     <locale lang="PT">
       <genre>Cassino,Cassino / Cartas</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>Neo 百家乐</title>
+    </locale>
     <developer>Dyna Corp.</developer>
     <publisher>Dyna Corp.</publisher>
     <date year="2000" month="06" day="16"/>
@@ -2189,6 +2192,9 @@ Skilled players can choose Original Mode to enjoy real poker with authentic feel
     <locale lang="DE">
       <genre>Casino</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>Neo 梭哈</title>
+    </locale>
     <publisher>SNK</publisher>
     <date year="1999" month="03" day="19"/>
     <rating type="NOTE" value="16">
@@ -2234,6 +2240,9 @@ Skilled players can choose Original Mode to enjoy real poker with authentic feel
     </locale>
     <locale lang="DE">
       <genre>Casino</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>Neo 神秘的奖金</title>
     </locale>
     <publisher>SNK</publisher>
     <date year="1999" month="03" day="19"/>
@@ -2299,6 +2308,9 @@ Skilled players can choose Original Mode to enjoy real poker with authentic feel
     </locale>
     <locale lang="PT">
       <genre>Esporte,Ação</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>高尔夫大师巡回赛</title>
     </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
@@ -3322,6 +3334,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     </locale>
     <locale lang="DE">
       <genre>Action</genre>
+    </locale>
+    <locale lang="ZHCN">
+      <title>SNK 美少女格斗家</title>
     </locale>
     <developer>Yumekobo Co., Ltd.</developer>
     <publisher>SNK</publisher>

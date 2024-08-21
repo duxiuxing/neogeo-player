@@ -105,10 +105,30 @@
         en="Neo 21 - Real Casino Series"
         zhcn="Neo 21点"
     />
+    <Game crc32="22AAB454" bytes="1048576"
+        rom="Neo Baccarat - Real Casino Series.ngc"
+        en="Neo Baccarat - Real Casino Series"
+        zhcn="Neo 百家乐"
+    />
     <Game crc32="A6DCA584" bytes="1048576"
         rom="Neo Cherry Master Color - Real Casino Series.ngc"
         en="Neo Cherry Master Color - Real Casino Series"
         zhcn="Neo 老虎机大师彩色版"
+    />
+    <Game crc32="5D028C99" bytes="1048576"
+        rom="Neo Dragon's Wild - Real Casino Series.ngc"
+        en="Neo Dragon's Wild - Real Casino Series"
+        zhcn="Neo 梭哈"
+    />
+    <Game crc32="E79DC5B3" bytes="1048576"
+        rom="Neo Mystery Bonus - Real Casino Series.ngc"
+        en="Neo Mystery Bonus - Real Casino Series"
+        zhcn="Neo 神秘的奖金"
+    />
+    <Game crc32="317A66D2" bytes="2097152"
+        rom="Neo Turf Masters.ngc"
+        en="Neo Turf Masters"
+        zhcn="高尔夫大师巡回赛"
     />
     <Game crc32="C0DA4FE9" bytes="1048576"
         rom="NeoGeo Cup '98 Plus.ngc"
@@ -165,6 +185,11 @@
         rom="Shanghai Mini.ngc"
         en="Shanghai Mini"
         zhcn="迷你上海麻将"
+    />
+    <Game crc32="B02C2BE7" bytes="2097152"
+        rom="SNK Gals Fighters.ngc"
+        en="SNK Gals Fighters"
+        zhcn="SNK 美少女格斗家"
     />
     <Game crc32="80CE137B" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighter's Clash - Capcom Version.ngc"
