@@ -75,6 +75,11 @@
         en="Fatal Fury - First Contact"
         zhcn="饿狼传说 初次接触"
     />
+    <Game crc32="6DF986A3" bytes="2097152"
+        rom="Ganbare Neo Poke-kun.ngc"
+        en="Ganbare Neo Poke-kun"
+        zhcn="加油 Neo 君"
+    />
     <Game crc32="47722D50" bytes="2097152"
         rom="King of Fighters R-2.ngc"
         en="King of Fighters R-2"

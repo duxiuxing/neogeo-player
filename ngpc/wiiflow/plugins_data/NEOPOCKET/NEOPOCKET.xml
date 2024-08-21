@@ -1473,6 +1473,9 @@ Les jeux, simples et rapides au depart, se complexifies rapidement pour parcouri
     <locale lang="JA">
       <title>Ganbare Neo Poke Kun</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>加油 Neo 君</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="" day=""/>
