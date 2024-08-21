@@ -3850,6 +3850,9 @@ On peut aussi gagner des points en utilisant des cartes speciales qui affectent 
       <genre/>
       <synopsis/>
     </locale>
+    <locale lang="ZHCN">
+      <title>连结拼图2</title>
+    </locale>
     <rating type="NOTE" value="">
 		</rating>
     <input players="">

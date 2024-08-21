@@ -240,6 +240,11 @@
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头 第二任务"
     />
+    <Game crc32="A52E1C82" bytes="2097152"
+        rom="Mezase! Kanji Ou.ngc"
+        en="Mezase! Kanji Ou"
+        zhcn="目标！汉字王"
+    />
     <Game crc32="C3C9992E" bytes="2097152"
         rom="Mezase! Kanji Ou.ngc"
         en="Mezase! Kanji Ou"
@@ -290,6 +295,11 @@
         en="Neo Mystery Bonus - Real Casino Series"
         zhcn="Neo 神秘的奖金"
     />
+    <Game crc32="0E5B3438" bytes="1048576"
+        rom="Neo Poke Pro Yakyuu.ngc"
+        en="Neo Poke Pro Yakyuu"
+        zhcn="Neo 职业棒球"
+    />
     <Game crc32="F4D78F12" bytes="1048576"
         rom="Neo Poke Pro Yakyuu.ngc"
         en="Neo Poke Pro Yakyuu"
@@ -325,6 +335,11 @@
         en="Pachinko Hisshou Guide - Pocket Parlor"
         zhcn="柏青嫂必胜指南"
     />
+    <Game crc32="25B783B5" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Azteca.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Azteca"
+        zhcn="口袋柏青嫂 Azteca"
+    />
     <Game crc32="C56EF8C3" bytes="524288"
         rom="Pachi-Slot Aruze Oukoku Pocket - Azteca.ngc"
         en="Pachi-Slot Aruze Oukoku Pocket - Azteca"
@@ -349,6 +364,11 @@
         rom="Pocket Love - If.ngc"
         en="Pocket Love - If"
         zhcn="口袋恋爱 假如"
+    />
+    <Game crc32="20F09880" bytes="1048576"
+        rom="Pocket Reversi.ngc"
+        en="Pocket Reversi"
+        zhcn="口袋黑白棋"
     />
     <Game crc32="FB0B55B8" bytes="524288"
         rom="Pocket Reversi.ngc"
@@ -417,6 +437,11 @@
         zhcn="将棋达人彩色版"
     />
     <Game crc32="411C6C56" bytes="2097152"
+        rom="SNK Gals Fighters.ngc"
+        en="SNK Gals Fighters"
+        zhcn="SNK 美少女格斗家"
+    />
+    <Game crc32="6A9FFA47" bytes="2097152"
         rom="SNK Gals Fighters.ngc"
         en="SNK Gals Fighters"
         zhcn="SNK 美少女格斗家"
@@ -510,5 +535,10 @@
         rom="The Last Blade - Beyond the Destiny.ngc"
         en="The Last Blade - Beyond the Destiny"
         zhcn="月华剑士" language="english"
+    />
+    <Game crc32="129091BB" bytes="1048576"
+        rom="Tsunagete Pon! 2.ngc"
+        en="Tsunagete Pon! 2"
+        zhcn="连结拼图2"
     />
 </Game-List>

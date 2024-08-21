@@ -336,4 +336,9 @@
         en="The Last Blade - Beyond the Destiny"
         zhcn="月华剑士"
     />
+    <Game crc32="129091BB" bytes="1048576"
+        rom="Tsunagete Pon! 2.ngc"
+        en="Tsunagete Pon! 2"
+        zhcn="连结拼图2"
+    />
 </Game-List>
