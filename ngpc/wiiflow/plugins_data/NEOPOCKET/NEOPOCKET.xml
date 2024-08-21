@@ -605,6 +605,9 @@ L'utilisation du câble Link NGPC permet des affrontements d'Unitrons entre amis
     <locale lang="JA">
       <title>Kikou Seiki Unitron</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>机甲世纪2</title>
+    </locale>
     <developer>Yumekobo</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="01" day="20"/>
@@ -1944,6 +1947,9 @@ Une liste d'otages sauvés et un mode time attack ajoutent de la profondeur à c
     <locale lang="DE">
       <genre>Lernspiel</genre>
     </locale>
+    <locale lang="ZHCN">
+      <title>目标！汉字王</title>
+    </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="01" day="20"/>
@@ -2503,6 +2509,9 @@ Nigeronpa is set on the rather appropriately named world of Nigeronpa, a place i
     <locale lang="JA">
       <title>Nige-ron-pa</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>尼哥龙帕</title>
+    </locale>
     <publisher>Dennou Eizou</publisher>
     <date year="2000" month="11" day="23"/>
     <rating type="NOTE" value="">
@@ -2854,6 +2863,9 @@ Upon completion of a puzzle, the game replaces it with a colored version of the 
     </locale>
     <locale lang="JA">
       <title>Pocket Love - If</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>口袋恋爱 假如</title>
     </locale>
     <publisher>Kid</publisher>
     <date year="1999" month="" day=""/>

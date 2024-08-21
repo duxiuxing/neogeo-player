@@ -185,7 +185,7 @@ class ConsoleImpl(Console):
                     "zhcn": game_info.zhcn_title
                 }
                 ET.SubElement(exist_roms_xml_root, "Game", attribs)
-                print(f"{rom_name} 已经存在，crc32 = {rom_crc32}")
+                print(f"{rom_name} 已经存在，{game_info.rom_name} crc32 = {rom_crc32}")
             ET.ElementTree(exist_roms_xml_root).write(
                 xml_file_path, encoding="utf-8", xml_declaration=True)
 

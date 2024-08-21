@@ -20,6 +20,11 @@
         en="Biomotor Unitron"
         zhcn="机甲世纪"
     />
+    <Game crc32="84580D66" bytes="2097152"
+        rom="Biomotor Unitron 2.ngc"
+        en="Biomotor Unitron 2"
+        zhcn="机甲世纪2"
+    />
     <Game crc32="85FE6AE3" bytes="1048576"
         rom="Bust-A-Move Pocket.ngc"
         en="Bust-A-Move Pocket"
@@ -44,11 +49,6 @@
         rom="Dark Arms - Beast Buster 1999.ngc"
         en="Dark Arms - Beast Buster 1999"
         zhcn="黑暗兵器 野兽梦魇1999" language="chinese"
-    />
-    <Game crc32="6F353F34" bytes="2097152"
-        rom="Dark Arms - Beast Buster 1999.ngc"
-        en="Dark Arms - Beast Buster 1999"
-        zhcn="黑暗兵器 野兽梦魇1999"
     />
     <Game crc32="ADD4FDFF" bytes="524288"
         rom="Delta Warp.ngc"
@@ -108,7 +108,7 @@
     <Game crc32="32DC2AA2" bytes="1048576"
         rom="Infinity Cure.ngc"
         en="Infinity Cure"
-        zhcn="无限轮回"
+        zhcn="时空轮回"
     />
     <Game crc32="47722D50" bytes="2097152"
         rom="King of Fighters R-2.ngc"
@@ -139,6 +139,11 @@
         rom="Metal Slug 2nd Mission.ngc"
         en="Metal Slug 2nd Mission"
         zhcn="合金弹头 第二任务"
+    />
+    <Game crc32="C3C9992E" bytes="2097152"
+        rom="Mezase! Kanji Ou.ngc"
+        en="Mezase! Kanji Ou"
+        zhcn="目标！汉字王"
     />
     <Game crc32="DDE08335" bytes="2097152"
         rom="Mizuki Shigeru no Youkai Shashinkan.ngc"
@@ -190,6 +195,11 @@
         en="NeoGeo Cup '98 Plus"
         zhcn="98机皇杯 Plus"
     />
+    <Game crc32="3CC3E269" bytes="1048576"
+        rom="Nigeronpa.ngc"
+        en="Nigeronpa"
+        zhcn="尼哥龙帕"
+    />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngc"
         en="Pac-Man"
@@ -214,6 +224,11 @@
         rom="Picture Puzzle.ngc"
         en="Picture Puzzle"
         zhcn="绘画拼图"
+    />
+    <Game crc32="C2EE1EE5" bytes="2097152"
+        rom="Pocket Love - If.ngc"
+        en="Pocket Love - If"
+        zhcn="口袋恋爱 假如"
     />
     <Game crc32="FB0B55B8" bytes="524288"
         rom="Pocket Reversi.ngc"
