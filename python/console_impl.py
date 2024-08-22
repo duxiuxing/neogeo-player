@@ -148,8 +148,11 @@ class ConsoleImpl(Console):
                 en_title=en_title,
                 zhcn_title=zhcn_title)
 
-            print(
-                f"新游戏 {src_rom_name} -> {dst_rom_name}，crc32 = {src_rom_crc32}")
+            if src_rom_name == dst_rom_name:
+                print(f"新游戏入库 {src_rom_name}，crc32 = {src_rom_crc32}")
+            else:
+                print(
+                    f"新游戏 {src_rom_name} 重命名为 {dst_rom_name}，crc32 = {src_rom_crc32}")
 
             dst_rom_title = os.path.splitext(dst_rom_name)[0]
             dst_rom_extension = os.path.splitext(dst_rom_name)[1]
