@@ -345,6 +345,41 @@
         en="Pachi-Slot Aruze Oukoku Pocket - Azteca"
         zhcn="口袋柏青嫂 Azteca"
     />
+    <Game crc32="346F3C46" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2"
+        zhcn="口袋柏青嫂 Dekahel 2"
+    />
+    <Game crc32="1EA69DB1" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Delsol 2.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Delsol 2"
+        zhcn="口袋柏青嫂 Delsol 2"
+    />
+    <Game crc32="0A7C32DF" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - e-Cup.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - e-Cup"
+        zhcn="口袋柏青嫂 e-Cup"
+    />
+    <Game crc32="A0C26F9B" bytes="524288"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Hanabi.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Hanabi"
+        zhcn="口袋柏青嫂 Hanabi"
+    />
+    <Game crc32="8A88C50F" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Ohhanabi.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Ohhanabi"
+        zhcn="口袋柏青嫂 Ohhanabi"
+    />
+    <Game crc32="96DDFBE3" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Porcano 2.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Porcano 2"
+        zhcn="口袋柏青嫂 Porcano 2"
+    />
+    <Game crc32="D46CBC54" bytes="524288"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights"
+        zhcn="口袋柏青嫂 Ward of Lights"
+    />
     <Game crc32="4DA8A1C0" bytes="1048576"
         rom="Party Mail.ngc"
         en="Party Mail"
@@ -386,15 +421,10 @@
         en="Puyo Pop"
         zhcn="魔法气泡"
     />
-    <Game crc32="615F1F2F" bytes="524288"
-        rom="Puzzle Link.ngc"
-        en="Puzzle Link"
-        zhcn="连结方块"
-    />
     <Game crc32="8D0610AC" bytes="524288"
         rom="Puzzle Link.ngc"
         en="Puzzle Link"
-        zhcn="连结方块" language="english"
+        zhcn="连结方块(美)" language="english"
     />
     <Game crc32="98ACC37A" bytes="1048576"
         rom="Puzzle Link 2.ngc"
@@ -405,6 +435,11 @@
         rom="Puzzle Link 2.ngc"
         en="Puzzle Link 2"
         zhcn="连结方块2" language="english"
+    />
+    <Game crc32="C3F3E83C" bytes="524288"
+        rom="Renketsu Puzzle Tsunagete Pon! Color.ngc"
+        en="Renketsu Puzzle Tsunagete Pon! Color"
+        zhcn="连结方块(日)"
     />
     <Game crc32="373E9E15" bytes="2097152"
         rom="Rockman Battle &amp; Fighters.ngc"

@@ -2614,6 +2614,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - Dekahel</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Dekahel 2</title>
+    </locale>
     <publisher>Aruze</publisher>
     <date year="2000" month="" day=""/>
     <rating type="NOTE" value="">
@@ -2635,6 +2638,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - Oelsol</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Delsol 2</title>
+    </locale>
     <publisher>Aruze</publisher>
     <date year="2000" month="" day=""/>
     <rating type="NOTE" value="">
@@ -2646,15 +2652,18 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
       <control type="gamecube" required="false"/>
     </input>
   </game>
-  <game name="Pachi-Slot Aruze Oukoku Pocket - E-Cup">
+  <game name="Pachi-Slot Aruze Oukoku Pocket - e-Cup">
     <id>87576A</id>
     <locale lang="EN">
-      <title>Pachi-Slot Aruze Oukoku Pocket - E-Cup</title>
+      <title>Pachi-Slot Aruze Oukoku Pocket - e-Cup</title>
       <genre>Casino</genre>
       <synopsis>Pachi-Slot Aruze Oukoku Pocket: e-Cup is a Pachi-Slot simulation developed and published by Aruze for Neo Geo Pocket Color.</synopsis>
     </locale>
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - e-Cup</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 e-Cup</title>
     </locale>
     <publisher>Aruze</publisher>
     <date year="2001" month="" day=""/>
@@ -2677,6 +2686,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - Hanabi</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Hanabi</title>
+    </locale>
     <publisher>Aruze</publisher>
     <date year="1999" month="" day=""/>
     <rating type="NOTE" value="">
@@ -2688,15 +2700,18 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
       <control type="gamecube" required="false"/>
     </input>
   </game>
-  <game name="Pachi-Slot Aruze Oukoku Pocket - Oohanabi">
+  <game name="Pachi-Slot Aruze Oukoku Pocket - Ohhanabi">
     <id>87578A</id>
     <locale lang="EN">
-      <title>Pachi-Slot Aruze Oukoku Pocket - Oohanabi</title>
+      <title>Pachi-Slot Aruze Oukoku Pocket - Ohhanabi</title>
       <genre>Casino</genre>
-      <synopsis>Pachi-Slot Aruze Oukoku Pocket: Oohanabi is a Pachi-Slot simulation game developed and published by Aruze for Neo Geo Pocket Color.</synopsis>
+      <synopsis>Pachi-Slot Aruze Oukoku Pocket: Ohhanabi is a Pachi-Slot simulation game developed and published by Aruze for Neo Geo Pocket Color.</synopsis>
     </locale>
     <locale lang="JA">
-      <title>Pachisuro Aruze Oogkoku Pocket - Oohanabi</title>
+      <title>Pachisuro Aruze Oogkoku Pocket - Ohhanabi</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Ohhanabi</title>
     </locale>
     <publisher>Aruze</publisher>
     <date year="2000" month="" day=""/>
@@ -2719,6 +2734,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - Adventure of Porc</title>
     </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Porcano 2</title>
+    </locale>
     <publisher>Aruze</publisher>
     <date year="2000" month="" day=""/>
     <rating type="NOTE" value="">
@@ -2739,6 +2757,9 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
     </locale>
     <locale lang="JA">
       <title>Pachisuro Aruze Oogkoku Pocket - Ward of Lights</title>
+    </locale>
+    <locale lang="ZHCN">
+      <title>口袋柏青嫂 Ward of Lights</title>
     </locale>
     <publisher>Aruze</publisher>
     <date year="2000" month="" day=""/>
@@ -3075,7 +3096,7 @@ There are three different modes: In "Normal" you have to link two special blocks
       <genre>Puzzle</genre>
     </locale>
     <locale lang="ZHCN">
-      <title>连结方块</title>
+      <title>连结方块(美)</title>
     </locale>
     <developer>Yumekobo Co., Ltd.</developer>
     <publisher>SNK</publisher>
@@ -3128,6 +3149,9 @@ There are new modes in Puzzle Link 2. Like the original, there are the standard 
       <title>Renketsu Puzzle Tsunagete Pon! Color</title>
       <genre/>
       <synopsis/>
+    </locale>
+    <locale lang="ZHCN">
+      <title>连结方块(日)</title>
     </locale>
     <rating type="NOTE" value="">
 		</rating>
