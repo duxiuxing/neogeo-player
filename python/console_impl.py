@@ -169,7 +169,11 @@ class ConsoleImpl(Console):
                 if os.path.exists(rom_folder_path):
                     dst_rom_path = os.path.join(
                         rom_folder_path, f"{src_rom_crc32}{dst_rom_extension}")
-            os.rename(src_rom_path, dst_rom_path)
+
+            if os.path.exists(dst_rom_path):
+                print(f"{src_rom_name}，crc32 = {src_rom_crc32} 已经存在，但不在 roms.xml 中")
+            else:
+                os.rename(src_rom_path, dst_rom_path)
             new_roms_count = new_roms_count + 1
 
         xml_file_path = os.path.join(self.root_folder_path(), "roms_exist.xml")
@@ -183,7 +187,7 @@ class ConsoleImpl(Console):
                 attribs = {
                     "crc32": game_info.rom_crc32,
                     "bytes": game_info.rom_bytes,
-                    "rom": rom_name,
+                    "rom": game_info.rom_name,
                     "en": game_info.en_title,
                     "zhcn": game_info.zhcn_title
                 }
