@@ -134,7 +134,7 @@ Intérêt limité.</synopsis>
       <title>Neo Cherry Master</title>
     </locale>
     <locale lang="ZHCN">
-      <title>Neo 老虎机</title>
+      <title>Neo 老虎机大师</title>
     </locale>
     <publisher>Dyna</publisher>
     <date year="1998" month="" day=""/>
@@ -1052,7 +1052,7 @@ La rejouabilité est donc très bonne, car chaque route necessite une attention 
     </locale>
     <locale lang="ZHCN">
       <title>电车向前冲2</title>
-    </locale>  
+    </locale>
     <developer>Taito GM R&amp;D Sect. #2</developer>
     <publisher>Taito - SNK</publisher>
     <date year="1999" month="10" day="21"/>
@@ -2820,7 +2820,7 @@ Survive a few rounds of gameplay, and be treated to humorous intermissions betwe
       <control type="gamecube" required="false"/>
     </input>
   </game>
-  <game name="Picture Puzzle / Oekaki Puzzle">
+  <game name="Picture Puzzle">
     <id>87572A</id>
     <locale lang="EN">
       <title>Picture Puzzle</title>
