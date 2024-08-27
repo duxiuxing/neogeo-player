@@ -957,7 +957,7 @@ Le jeu dispose de puzzles qui doivent être résolus et un large éventail de mo
     </locale>
     <locale lang="ZHCN">
       <title>扭转三角</title>
-    </locale>  
+    </locale>
     <developer>Iosys</developer>
     <publisher>SNK</publisher>
     <date year="2000" month="" day=""/>
@@ -1000,7 +1000,7 @@ En dehors des zones de jeu et des nouvelles classes, le gameplay et le style gra
     </locale>
     <locale lang="ZHCN">
       <title>皇家骑士团外传 赛诺比亚的皇子</title>
-    </locale>    
+    </locale>
     <developer>Quest</developer>
     <publisher>Quest - SNK</publisher>
     <date year="2000" month="06" day="22"/>
@@ -1354,7 +1354,7 @@ Les differentes bases (equivalent des villes) permettent d'accomplir des quetes 
     </locale>
     <locale lang="ZHCN">
       <title>法塞雷</title>
-    </locale>    
+    </locale>
     <developer>Sacnoth</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="12" day="22"/>
@@ -1393,7 +1393,7 @@ SNK nous fourni ici un excellent travail de conversion car on garde les memes se
     </locale>
     <locale lang="ZHCN">
       <title>饿狼传说 初次接触</title>
-    </locale> 
+    </locale>
     <developer>SNK</developer>
     <publisher>SNK</publisher>
     <date year="1999" month="04" day="30"/>
@@ -1525,7 +1525,7 @@ Dans ce jeu nous suivons Makoto, un des nombreux etudiants present dans le pavil
       <title>Infinity Cure</title>
     </locale>
     <locale lang="ZHCN">
-      <title>无限轮回</title>
+      <title>时空轮回</title>
     </locale>
     <developer>KID Corp.</developer>
     <publisher>KID Corp.</publisher>
@@ -3243,11 +3243,11 @@ Le transfert d'information est possible entre 2 NGPC et le cable adecquat, mais 
     <date year="" month="" day=""/>
     <publisher/>
   </game>
-  <game name="Samurai Shodown II">
+  <game name="Samurai Shodown 2">
     <id>47048A</id>
     <locale lang="EN">
-      <title>Samurai Shodown II</title>
-      <synopsis>One of SNK's legendary fighting game series has made a return! In Samurai Shodown II, you can take on one of the roles of 15 warriors as you fight your way through the land to defeat the evil Mizuki! Slash, kick, and slice your opponents in half...do whatever it takes...live by the sword, and die by its blade.</synopsis>
+      <title>Samurai Shodown 2</title>
+      <synopsis>One of SNK's legendary fighting game series has made a return! In Samurai Shodown 2, you can take on one of the roles of 15 warriors as you fight your way through the land to defeat the evil Mizuki! Slash, kick, and slice your opponents in half...do whatever it takes...live by the sword, and die by its blade.</synopsis>
       <genre>Action,Fighting,</genre>
     </locale>
     <locale lang="ES">
@@ -3650,7 +3650,7 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     </locale>
     <locale lang="ZHCN">
       <title>索尼克口袋冒险</title>
-    </locale>    
+    </locale>
     <locale lang="PT">
       <synopsis>Assuma o controle de Sonic pelo caminho com Sonic Pocket Adventure. Percorra 9 zonas atacando robôs e coletando anéis. Além da jogabilidade tradicional do Sonic, este cartucho possui os modos Trial Room, Duel Room e Puzzle Room. No Puzzle Room, o jogador pode organizar "peças de quebra-cabeça" coletadas através das fases e desbloquear imagens ocultas. Para facilitar a jogabilidade no portátil, você pode reiniciar seu jogo em qualquer zona desbloqueada ou ato. Da mesma forma este jogo apresenta vários níveis de dificuldade e a opção de desativar o limite padrão de tempo de 10 minutos em cada fase.</synopsis>
     </locale>
@@ -3678,7 +3678,7 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
     </locale>
     <locale lang="ZHCN">
       <title>挑战！花牌道场</title>
-    </locale>  
+    </locale>
     <publisher>Dyna</publisher>
     <date year="1999" month="" day=""/>
     <rating type="NOTE" value="">
@@ -3734,6 +3734,9 @@ The gameplay is identical to KOF's Advanced Mode (e.g. Emergency Evasion and Run
       <title>Super 12 in 1</title>
       <genre/>
       <synopsis/>
+    </locale>
+    <locale lang="ZHCN">
+      <title>超级十二合一</title>
     </locale>
     <rating type="NOTE" value="">
 		</rating>

@@ -273,7 +273,7 @@
     <Game crc32="D8590B96" bytes="524288"
         rom="Pocket Tennis Color - Pocket Sports Series.ngc"
         en="Pocket Tennis Color - Pocket Sports Series"
-        zhcn="口袋网球"
+        zhcn="口袋网球彩色版"
     />
     <Game crc32="3090B2FD"
         bytes="1048576"
@@ -302,8 +302,8 @@
         zhcn="洛克人格斗" language="japanese"
     />
     <Game crc32="4F7FB156" bytes="2097152"
-        rom="Samurai Shodown II.ngc"
-        en="Samurai Shodown II"
+        rom="Samurai Shodown 2.ngc"
+        en="Samurai Shodown 2"
         zhcn="侍魂2"
     />
     <Game crc32="90732D53" bytes="1048576"

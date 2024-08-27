@@ -27,8 +27,12 @@ class Console:
         #     bool: 如果是 ROM 文件则返回 True，否则返回 False
         return fnmatch.fnmatch(file_name, "*.zip")
 
+    def query_rom_path(self, rom_crc32):
+        # 查找 ROM 文件路径，如果找到则返回 ROM 文件的绝对路径，否则返回 None
+        raise NotImplementedError()
+
     def import_roms(self):
-        # 导入 new_roms 文件夹里的游戏文件（.zip 格式）
+        # 导入 new_roms 文件夹里的 ROM 文件
         raise NotImplementedError()
 
     def check_exist_roms_infos(self):

@@ -67,7 +67,15 @@ class ExportAllFakeRoms(CmdHandler):
         super().__init__("WiiFlow - 导出 - 所有空白 ROM")
 
     def run(self):
-        MainMenu.console.wiiflow().plugins_data().export_all_fake_roms()
+        MainMenu.console.wiiflow().export_all_fake_roms()
+
+
+class ExportFakeRoms(CmdHandler):
+    def __init__(self):
+        super().__init__("WiiFlow - 导出 - 空白 ROM")
+
+    def run(self):
+        MainMenu.console.wiiflow().export_fake_roms()
 
 
 class ExportRoms(CmdHandler):
@@ -112,6 +120,7 @@ class MainMenu:
         MainMenu.add_cmd_handler(ConvertGameSynopsis())
         MainMenu.add_cmd_handler(ExportPluginFiles())
         MainMenu.add_cmd_handler(ExportAllFakeRoms())
+        MainMenu.add_cmd_handler(ExportFakeRoms())
         MainMenu.add_cmd_handler(ExportRoms())
         MainMenu.add_cmd_handler(ExportSnapshotAndCacheFiles())
         MainMenu.add_cmd_handler(ExportPngCovers())

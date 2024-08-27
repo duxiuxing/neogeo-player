@@ -43,6 +43,27 @@ def verify_folder_exist(folder_path):
             return False
 
 
+def verify_folder_exist_ex(folder_full_path):
+    # 判断指定文件夹是否存在，如果不存在则逐级创建
+    # Args:
+    #     folder_path (str): 待判断的文件夹路径，如果父文件夹不存在会逐级创建
+    # Returns:
+    #     bool: 如果文件夹存在或创建成功，则返回 True，否则返回 False
+    folder_path = ""
+    for folder_name in folder_full_path.split("\\"):
+        if folder_path == "":
+            folder_path = folder_name
+            if not os.path.isdir(folder_path):
+                return False
+        else:
+            if not os.path.isdir(folder_path):
+                return False
+            folder_path = f"{folder_path}\\{folder_name}"
+            if not os.path.isdir(folder_path):
+                os.mkdir(folder_path)
+    return os.path.isdir(folder_full_path)
+
+
 def copy_file_if_not_exist(src_file_path, dst_file_path):
     # 复制源文件到目标路径，如果目标文件已存在则跳过
     # Args:
@@ -64,8 +85,8 @@ class WiiFlow:
         # 默认的 WiiFlowPluginsData 实例
         self._plugins_data = WiiFlowPluginsData(console, plugin_name)
 
-        # .zip 文件标题为键，.zip 文件路径为值的字典
-        # 内容来自 wiiflow\\roms.xml，其实就是所有 WiiFlow 用的 .zip 文件
+        # ROM 文件标题为键，ROM 文件路径为值的字典
+        # 内容来自 wiiflow\\roms_export.xml，其实就是 WiiFlow 用的所有 ROM 文件
         # 读取操作在 self.init_rom_name_to_path() 中实现
         self.rom_name_to_path = {}
 
@@ -75,25 +96,19 @@ class WiiFlow:
     def plugins_data(self):
         return self._plugins_data
 
-    def find_game_info(self, rom_title, rom_crc32):
-        # 根据 CRC32 值或 ROM 文件标题查找 GameInfo
-        # Args:
-        #     rom_title (str): ROM 文件的标题，比如 1941.zip 的标题就是 1941
-        #     rom_crc32 (str): ROM 文件的 CRC32 值
-        # Returns:
-        #     找到则返回 GameInfo 对象，否则返回 None
-        return self._plugins_data.find_game_info(rom_title, rom_crc32)
+    def roms_export_to_folder_path(self):
+        return os.path.join(LocalConfigs.sd_path(), f"roms\\{self.plugin_name()}")
 
-    def init_rom_name_to_path(self, roms_xml_name):
+    def init_rom_name_to_path(self):
         # 本函数执行的操作如下：
-        # 1. 读取 wiiflow\\roms.xml
+        # 1. 读取 roms_xml_name 指定的 .xml 文件
         # 2. 填写 self.rom_name_to_path
         # 3. 有防止重复读取的逻辑
         if len(self.rom_name_to_path) > 0:
             return
 
         xml_path = os.path.join(
-            self.console.root_folder_path(), f"wiiflow\\{roms_xml_name}")
+            self.console.root_folder_path(), "wiiflow\\roms_export.xml")
 
         if not os.path.exists(xml_path):
             print(f"无效的文件：{xml_path}")
@@ -110,17 +125,13 @@ class WiiFlow:
             if rom_name is None:
                 print(f"crc32 = {rom_crc32} 的元素缺少 rom/zip 属性")
                 continue
-            rom_path = os.path.join(
-                self.console.root_folder_path(), f"roms\\{rom_name}")
+            rom_path = self.console.query_rom_path(rom_crc32)
+            if rom_path is None:
+                print(f"crc32 = {rom_crc32} 的 ROM 文件不存在")
+                continue
             if not os.path.exists(rom_path):
-                rom_title = os.path.splitext(rom_name)[0]
-                rom_extension = os.path.splitext(rom_name)[1]
-                rom_path = os.path.join(
-                    self.console.root_folder_path(),
-                    f"roms\\{rom_title}\\{rom_crc32}{rom_extension}")
-                if not os.path.exists(rom_path):
-                    print(f"无效的文件：{rom_path}")
-                    continue
+                print(f"无效的文件：{rom_path} in WiiFlow.init_rom_name_to_path()")
+                continue
 
             self.rom_name_to_path[rom_name] = rom_path
 
@@ -151,28 +162,34 @@ class WiiFlow:
         print(cmd_line)
         subprocess.call(cmd_line)
 
-    def export_roms(self, roms_xml_name="roms_export.xml"):
-        # 本函数用于把 self.rom_name_to_path 所有的 .zip 文件导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.sd_path()):
+    def export_all_fake_roms(self):
+        # 本函数用于把 WiiFlowPluginsData 里所有的 ROM 文件导出到 Wii 的 SD 卡
+        dst_folder_path = self.roms_export_to_folder_path()
+        if not verify_folder_exist_ex(dst_folder_path):
+            return
+        self._plugins_data.export_all_fake_roms_to(dst_folder_path)
+
+    def export_fake_roms(self):
+        # 本函数用于把 roms_export.xml 中所有的 ROM 文件导出到 Wii 的 SD 卡
+        dst_folder_path = self.roms_export_to_folder_path()
+        if not verify_folder_exist_ex(dst_folder_path):
             return
 
-        # SD:\\roms
-        dst_roms_folder_path = os.path.join(LocalConfigs.sd_path(), "roms")
-        if not verify_folder_exist(dst_roms_folder_path):
+        self.init_rom_name_to_path()
+        for rom_name in self.rom_name_to_path:
+            rom_path = os.path.join(dst_folder_path, rom_name)
+            if not os.path.exists(rom_path):
+                open(rom_path, "w").close()
+
+    def export_roms(self):
+        # 本函数用于把 roms_export.xml 中所有的 ROM 文件导出到 Wii 的 SD 卡
+        dst_folder_path = self.roms_export_to_folder_path()
+        if not verify_folder_exist_ex(dst_folder_path):
             return
 
-        # SD:\\roms\\<plugin_name>
-        roms_plugin_name_folder_path = os.path.join(
-            dst_roms_folder_path, self.plugin_name())
-        if not verify_folder_exist(roms_plugin_name_folder_path):
-            return
-
-        self.init_rom_name_to_path(roms_xml_name)
-        for rom_name, src_rom_path in self.rom_name_to_path.items():
-            rom_title = os.path.splitext(rom_name)[0]
-            rom_extension = os.path.splitext(rom_name)[1]
-            dst_rom_path = os.path.join(
-                roms_plugin_name_folder_path, f"{rom_name}")
+        self.init_rom_name_to_path()
+        for dst_rom_name, src_rom_path in self.rom_name_to_path.items():
+            dst_rom_path = os.path.join(dst_folder_path, dst_rom_name)
             copy_file_if_not_exist(src_rom_path, dst_rom_path)
 
     def export_png_boxcovers(self):

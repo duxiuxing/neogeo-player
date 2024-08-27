@@ -28,10 +28,14 @@ def compute_crc32(file_path):
 class ConsoleImpl(Console):
     def __init__(self):
         self._wiiflow = self.create_wiiflow()
-        # CRC32 值为键，GameInfo 为值的字典
+        # rom_crc32 为键，rom_path 为值的字典
         # 内容来自 roms.xml
-        # 读取操作在 self.reset_exist_roms_crc32_to_game_info() 中实现
-        self.exist_roms_crc32_to_game_info = {}
+        # 读取操作在 self.reset_roms_crc32_to_path_and_game_info() 中实现
+        self.roms_crc32_to_path = {}
+        # rom_crc32 为键，GameInfo 为值的字典
+        # 内容来自 roms.xml
+        # 读取操作在 self.reset_roms_crc32_to_path_and_game_info() 中实现
+        self.roms_crc32_to_game_info = {}
 
     def create_wiiflow(self):
         raise NotImplementedError()
@@ -39,41 +43,72 @@ class ConsoleImpl(Console):
     def wiiflow(self):
         return self._wiiflow
 
-    def reset_exist_roms_crc32_to_game_info(self):
+    def reset_roms_crc32_to_path_and_game_info(self):
         # 本函数执行的操作如下：
-        # 1. 清空 self.exist_roms_crc32_to_game_info
+        # 1. 清空 self.roms_crc32_to_path 和 self.roms_crc32_to_game_info
         # 2. 读取 roms.xml
-        # 3. 重新填写 self.exist_roms_crc32_to_game_info
-        self.exist_roms_crc32_to_game_info.clear()
+        # 3. 重新填写 self.roms_crc32_to_path 和 self.roms_crc32_to_game_info
+        self.roms_crc32_to_path.clear()
+        self.roms_crc32_to_game_info.clear()
 
-        xml_file_path = os.path.join(
-            self.root_folder_path(), "roms.xml")
-        if os.path.exists(xml_file_path):
-            tree = ET.parse(xml_file_path)
-            root = tree.getroot()
-            for element in root.iter():
-                if element.tag == "Game":
-                    rom_name = element.get("rom")
-                    if rom_name == None:
-                        rom_name = element.get("zip") + ".zip"
-                    game_info = GameInfo(
-                        rom_crc32=element.get("crc32").rjust(8, "0"),
-                        rom_bytes=element.get("bytes"),
-                        rom_name=rom_name,
-                        en_title=element.get("en"),
-                        zhcn_title=element.get("zhcn"))
-                    self.exist_roms_crc32_to_game_info[game_info.rom_crc32] = game_info
+        xml_path = os.path.join(self.root_folder_path(), "roms.xml")
+        if not os.path.exists(xml_path):
+            print(f"无效的文件 {xml_path}")
+            return
+
+        tree = ET.parse(xml_path)
+        root = tree.getroot()
+        for game_element in root.findall("Game"):
+            rom_crc32 = game_element.get("crc32").rjust(8, "0")
+            rom_name = game_element.get("rom")
+            if rom_name == None:
+                rom_name = game_element.get("zip") + ".zip"
+            rom_path = os.path.join(
+                self.root_folder_path(), f"roms\\{rom_name}")
+            if not os.path.exists(rom_path):
+                rom_title = os.path.splitext(rom_name)[0]
+                rom_extension = os.path.splitext(rom_name)[1]
+                rom_path = os.path.join(
+                    self.root_folder_path(), f"roms\\{rom_title}\\{rom_crc32}{rom_extension}")
+
+                if not os.path.exists(rom_path):
+                    print(
+                        f"无效的文件 {rom_path} in ConsoleImpl.reset_roms_crc32_to_path_and_game_info()")
+
+            self.roms_crc32_to_path[rom_crc32] = rom_path
+
+            game_info = GameInfo(
+                rom_crc32=game_element.get("crc32").rjust(8, "0"),
+                rom_bytes=game_element.get("bytes"),
+                rom_name=rom_name,
+                en_title=game_element.get("en"),
+                zhcn_title=game_element.get("zhcn"))
+            self.roms_crc32_to_game_info[game_info.rom_crc32] = game_info
+
+    def query_rom_path(self, rom_crc32):
+        if len(self.roms_crc32_to_path) == 0:
+            self.reset_roms_crc32_to_path_and_game_info()
+
+        if rom_crc32 in self.roms_crc32_to_path.keys():
+            return self.roms_crc32_to_path[rom_crc32]
+        else:
+            return None
 
     def verify_rom_name_as_crc32(self, rom_name):
         # 以《1941》这个游戏的 ROM 文件（1941.zip）为例：
         # 情况1. 当游戏和 ROM 文件一一对应时，文件路径是：cps-player\\cps1\\roms\\1941.zip
         # 情况2. 当游戏对应的 ROM 文件不止一个时，需要先创建一个 1941 的文件夹，然后把
-        #        不同的ROM 文件以 CRC32 值命名，放到这个文件夹里，例如：
+        #        不同的 ROM 文件以 CRC32 值命名，放到这个文件夹里，例如：
         #          - roms\\1941\\64E58DC3.zip
         #          - roms\\1941\\8C733532.zip
         #          - roms\\1941\\9DA9C6D9.zip
         #
         # 本函数仅在 self.import_roms() 中调用，用来把情况1的 ROM 文件按照情况2的规则重命名
+        default_rom_path = os.path.join(
+            self.root_folder_path(), f"roms\\{rom_name}")
+        if not os.path.exists(default_rom_path):
+            return
+
         rom_title = os.path.splitext(rom_name)[0]
         rom_extension = os.path.splitext(rom_name)[1]
 
@@ -82,19 +117,17 @@ class ConsoleImpl(Console):
         if not os.path.exists(rom_folder_path):
             os.makedirs(rom_folder_path)
 
-        default_rom_path = os.path.join(
-            self.root_folder_path(), f"roms\\{rom_name}")
-        if os.path.exists(default_rom_path):
-            dst_rom_path = os.path.join(
-                rom_folder_path, f"{compute_crc32(default_rom_path)}{rom_extension}")
-            os.rename(default_rom_path, dst_rom_path)
+        dst_rom_path = os.path.join(
+            rom_folder_path,
+            f"{compute_crc32(default_rom_path)}{rom_extension}")
+        os.rename(default_rom_path, dst_rom_path)
 
     def import_roms(self):
         # 本函数用于导入 roms_import 文件夹里的 ROM 文件
         # 1. 新的 ROM 文件会被转移到 roms 文件夹，对应的 GameInfo 会
         #    记录在 roms_new.xml，需要进一步手动合入 roms.xml；
         # 2. 已经有的游戏文件不会被转移，对应的 GameInfo 会记录在 roms_exist.xml
-        self.reset_exist_roms_crc32_to_game_info()
+        self.reset_roms_crc32_to_path_and_game_info()
 
         exist_roms_crc32_to_name = {}
         new_roms_xml_root = ET.Element("Game-List")
@@ -112,7 +145,7 @@ class ConsoleImpl(Console):
 
             src_rom_path = os.path.join(import_folder_path, src_rom_name)
             src_rom_crc32 = compute_crc32(src_rom_path)
-            if src_rom_crc32 in self.exist_roms_crc32_to_game_info.keys():
+            if src_rom_crc32 in self.roms_crc32_to_game_info.keys():
                 exist_roms_crc32_to_name[src_rom_crc32] = src_rom_name
                 continue
 
@@ -120,17 +153,15 @@ class ConsoleImpl(Console):
             src_rom_title = os.path.splitext(src_rom_name)[0]
             src_rom_extension = os.path.splitext(src_rom_name)[1]
 
-            dst_rom_name = src_rom_name
-            en_title = ""
-            zhcn_title = ""
+            game_info = self.wiiflow().plugins_data().query_game_info(
+                rom_crc32=src_rom_crc32, rom_title=src_rom_title)
+            if game_info is None:
+                print(f"未知的新游戏 {src_rom_name}，crc32 = {src_rom_crc32}")
+                continue
 
-            game_info = self.wiiflow().plugins_data().find_game_titles(
-                src_rom_title, src_rom_crc32)
-            if game_info is not None:
-                if game_info.rom_name != "":
-                    dst_rom_name = game_info.rom_name
-                en_title = game_info.en_title
-                zhcn_title = game_info.zhcn_title
+            dst_rom_name = game_info.rom_name
+            en_title = game_info.en_title
+            zhcn_title = game_info.zhcn_title
 
             attribs = {
                 "crc32": src_rom_crc32,
@@ -141,7 +172,7 @@ class ConsoleImpl(Console):
             }
             ET.SubElement(new_roms_xml_root, "Game", attribs)
 
-            self.exist_roms_crc32_to_game_info[src_rom_crc32] = GameInfo(
+            self.roms_crc32_to_game_info[src_rom_crc32] = GameInfo(
                 rom_crc32=src_rom_crc32,
                 rom_bytes=src_rom_bytes,
                 rom_name=dst_rom_name,
@@ -183,7 +214,7 @@ class ConsoleImpl(Console):
         if len(exist_roms_crc32_to_name) > 0:
             exist_roms_xml_root = ET.Element("Game-List")
             for rom_crc32, rom_name in exist_roms_crc32_to_name.items():
-                game_info = self.exist_roms_crc32_to_game_info[rom_crc32]
+                game_info = self.roms_crc32_to_game_info[rom_crc32]
                 attribs = {
                     "crc32": game_info.rom_crc32,
                     "bytes": game_info.rom_bytes,
@@ -211,20 +242,33 @@ class ConsoleImpl(Console):
     def check_exist_roms_infos(self):
         # WiiFlow 里有当前机种所有游戏的详细信息，本函数用于检查 roms.xml 中
         # 的游戏中英文名称和 WiiFlow 里的是否一致，如果不一致则打印出来
-        self.reset_exist_roms_crc32_to_game_info()
+        self.reset_roms_crc32_to_path_and_game_info()
 
-        for rom_crc32, game_info in self.exist_roms_crc32_to_game_info.items():
-            game_info = self.wiiflow().plugins_data().find_game_titles(
-                os.path.splitext(game_info.rom_name)[0], rom_crc32)
-            if game_info is not None:
-                if game_info.en_title != game_info.en_title:
+        for rom_crc32, game_info in self.roms_crc32_to_game_info.items():
+            # 检查 ROM 文件是否存在
+            rom_path = os.path.join(
+                self.root_folder_path(), f"roms\\{game_info.rom_name}")
+            if not os.path.exists(rom_path):
+                rom_title = os.path.splitext(game_info.rom_name)[0]
+                rom_extension = os.path.splitext(game_info.rom_name)[1]
+                rom_path = os.path.join(
+                    self.root_folder_path(), f"roms\\{rom_title}\\{game_info.rom_crc32}{rom_extension}")
+                if not os.path.exists(rom_path):
+                    print(
+                        f"无效的文件 {game_info.rom_name}，crc32 = {game_info.rom_crc32}")
+
+            # 检查 en 和 zhcn 属性是否一致
+            db_game_info = self.wiiflow().plugins_data().query_game_info(
+                rom_crc32=rom_crc32, rom_title=os.path.splitext(game_info.rom_name)[0])
+            if db_game_info is not None:
+                if game_info.en_title != db_game_info.en_title:
                     print("en 属性不一致")
                     print(f"\t{game_info.en_title} 在 roms.xml")
                     print(
-                        f"\t{game_info.en_title} 在 {self.wiiflow().plugin_name()}.xml")
+                        f"\t{db_game_info.en_title} 在 {self.wiiflow().plugin_name()}.xml")
 
-                if game_info.zhcn_title != game_info.zhcn_title:
+                if game_info.zhcn_title != db_game_info.zhcn_title:
                     print("zhcn 属性不一致")
                     print(f"\t{game_info.zhcn_title} 在 roms.xml")
                     print(
-                        f"\t{game_info.zhcn_title} 在 {self.wiiflow().plugin_name()}.xml")
+                        f"\t{db_game_info.zhcn_title} 在 {self.wiiflow().plugin_name()}.xml")
