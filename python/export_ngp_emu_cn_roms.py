@@ -72,9 +72,9 @@ def copy_file_if_not_exist(src_file_path, dst_file_path):
         shutil.copyfile(src_file_path, dst_file_path)
 
 
-class ExportNGPemuRoms(CmdHandler):
+class ExportNgpEmuCnRoms(CmdHandler):
     def __init__(self):
-        super().__init__("NGP.emu - 导出 - 正常 ROM")
+        super().__init__("NGP.emu.cn - 导出 - 中文命名的 ROM")
 
     def export_roms_by_xml(self, folder_elem, folder_path):
         # 本函数用于把 folder_elem 中所有的 ROM 文件导出到 dst_folder_path
@@ -96,17 +96,15 @@ class ExportNGPemuRoms(CmdHandler):
 
     def run(self):
         # 本函数用于把 roms_export.xml 中所有的 ROM 文件导出到 SD 卡
-
-        xml_path = os.path.join(
-            MainMenu.console.root_folder_path(), "NGP.emu\\roms_export.xml")
-
+        xml_path = os.path.join(MainMenu.console.root_folder_path(),
+                                "NGP.emu.cn\\roms_export.xml")
         if not os.path.exists(xml_path):
             print(f"无效的文件：{xml_path}")
             return
+        tree = ET.parse(xml_path)
 
         root_folder_path = os.path.join(LocalConfigs.sd_path(), "roms\\NGP")
         if not verify_folder_exist_ex(root_folder_path):
             return
 
-        tree = ET.parse(xml_path)
         self.export_roms_by_xml(tree.getroot(), root_folder_path)
