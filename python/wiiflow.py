@@ -148,6 +148,8 @@ class WiiFlow:
             print(f"无效文件夹：{foler_path}")
             return
 
+        foler_path = os.path.join(self.console.root_folder_path(),
+                                  "wiiflow")
         cmd_line = f"\"{LocalConfigs.wfc_conv_exe_path()}\" \"{foler_path}\""
         print(cmd_line)
         subprocess.call(cmd_line)

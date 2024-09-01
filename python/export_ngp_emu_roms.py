@@ -84,7 +84,8 @@ class ExportNGPemuRoms(CmdHandler):
             if src_rom_path is None:
                 print(f"crc32 = {rom_crc32} 的 ROM 文件不存在")
                 continue
-            dst_rom_path = os.path.join(folder_path, game_elem.get("rom"))
+            rom_name = game_elem.get("rom") + MainMenu.console.rom_extension()
+            dst_rom_path = os.path.join(folder_path, rom_name)
             copy_file_if_not_exist(src_rom_path, dst_rom_path)
 
         for child_folder_elem in folder_elem.findall("Folder"):
