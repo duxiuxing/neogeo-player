@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Game-List name="SD:\roms\NEOPOCKET">
+<Game-List brief="导出到 SD:\roms\NEOPOCKET 文件夹的游戏，使用 rom 作为 ROM 文件名">
     <Game crc32="FFA7E88D" bytes="1048576"
         rom="Baseball Stars Color"
         en="Baseball Stars Color"

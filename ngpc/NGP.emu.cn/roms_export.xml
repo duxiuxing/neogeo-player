@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Game-List name="SD:\roms\NGP">
+<Game-List brief="导出到 SD:\roms\NGP 文件夹的游戏，使用 zhcn 作为 ROM 文件名">
     <Folder name="【精选游戏-博彩类】">
         <Folder name="【系列游戏-柏青嫂】">
             <Game crc32="C3D6B28B" bytes="1048576"

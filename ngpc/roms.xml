@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Game-List name="roms 文件夹里所有 NeoGeo Color 掌机的游戏">
+<Game-List brief="ngpc/roms 文件夹里所有 NeoGeo Color 掌机的游戏">
     <Game crc32="FFA7E88D" bytes="1048576"
         rom="Baseball Stars Color"
         en="Baseball Stars Color"

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Game-List name="roms 文件夹里所有 NeoGeo 掌机的游戏">
+<Game-List brief="ngp/roms 文件夹里所有 NeoGeo 掌机的游戏">
     <Game crc32="4781AE84" bytes="1048576"
         rom="Baseball Stars"
         en="Baseball Stars"

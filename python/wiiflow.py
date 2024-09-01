@@ -185,24 +185,11 @@ class WiiFlow:
             copy_file_if_not_exist(src_path, dst_path)
 
     def export_png_boxcovers(self):
-        # 本函数执行的操作如下：
-        # 1. 把 wiiflow\\boxcovers\\blank_covers 里的默认封面文件（.png 格式）导出到 Wii 的 SD 卡
-        # 2. 根据 SD 卡里的 ROM 文件，把对应的封面文件（.png 格式）导出到 Wii 的 SD 卡
+        # 本函数会根据 SD 卡里的 ROM 文件，把对应的封面文件（.png 格式）导出到 Wii 的 SD 卡
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果已经导出过 .wfc 格式的封面文件，可以不导出 .png 格式的
         if not folder_exist(LocalConfigs.sd_path()):
             return
-
-        # SD:\\wiiflow\\boxcovers\\blank_covers
-        folder_path = os.path.join(LocalConfigs.sd_path(),
-                                   "wiiflow\\boxcovers\\blank_covers")
-        if not verify_folder_exist_ex(folder_path):
-            return
-        src_png_path = os.path.join(self.console.root_folder_path(),
-                                    f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
-        dst_png_path = os.path.join(LocalConfigs.sd_path(),
-                                    f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
-        copy_file_if_not_exist(src_png_path, dst_png_path)
 
         # SD:\\wiiflow\\boxcovers\\<plugin_name>
         dst_folder_path = os.path.join(LocalConfigs.sd_path(),
@@ -224,13 +211,25 @@ class WiiFlow:
 
     def export_cache(self):
         # 本函数执行的操作如下：
-        # 1. 把 wiiflow\\cache\\blank_covers 里的默认封面文件（.wfc 格式）导出到 Wii 的 SD 卡
-        # 2. 根据 SD 卡里的 ROM 文件，把对应的封面文件（.wfc 格式）导出到 Wii 的 SD 卡
-        # 3. 删除 SD:\\wiiflow\\cache 里可能失效的缓存文件
+        # 1. 把 wiiflow\\boxcovers\\blank_covers 里的默认封面文件（.png 格式）导出到 Wii 的 SD 卡
+        # 2. 把 wiiflow\\cache\\blank_covers 里的默认封面文件（.wfc 格式）导出到 Wii 的 SD 卡
+        # 3. 根据 SD 卡里的 ROM 文件，把对应的封面文件（.wfc 格式）导出到 Wii 的 SD 卡
+        # 4. 删除 SD:\\wiiflow\\cache 里可能失效的缓存文件
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果导出了 .wfc 格式的封面文件，可以不导出 .png 格式的
         if not folder_exist(LocalConfigs.sd_path()):
             return
+
+        # SD:\\wiiflow\\boxcovers\\blank_covers
+        folder_path = os.path.join(LocalConfigs.sd_path(),
+                                   "wiiflow\\boxcovers\\blank_covers")
+        if not verify_folder_exist_ex(folder_path):
+            return
+        src_png_path = os.path.join(self.console.root_folder_path(),
+                                    f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
+        dst_png_path = os.path.join(LocalConfigs.sd_path(),
+                                    f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
+        copy_file_if_not_exist(src_png_path, dst_png_path)
 
         # SD:\\wiiflow\\cache\\blank_covers
         folder_path = os.path.join(LocalConfigs.sd_path(),
@@ -281,7 +280,7 @@ class WiiFlow:
         src_folder_path = os.path.join(self.console.root_folder_path(),
                                        f"wiiflow\\plugins\\R-Sam\\{self.plugin_name()}")
 
-        file_tuple = ("boot.dol", "config.ini", "sound.ogg")
+        file_tuple = ("config.ini", "sound.ogg")
         for file in file_tuple:
             src_file_path = os.path.join(src_folder_path, file)
             dst_file_path = os.path.join(dst_folder_path, file)
