@@ -50,6 +50,11 @@
         en="Pocket Tennis - Pocket Sports Series"
         zhcn="口袋网球"
     />
+    <Game crc32="89410850" bytes="524288"
+        rom="Pocket Tennis - Pocket Sports Series.ngp"
+        en="Pocket Tennis - Pocket Sports Series"
+        zhcn="口袋网球"
+    />
     <Game crc32="CE09F534" bytes="524288"
         rom="Renketsu Puzzle Tsunagete Pon!.ngp"
         en="Renketsu Puzzle Tsunagete Pon!"

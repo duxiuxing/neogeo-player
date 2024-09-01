@@ -4,6 +4,7 @@ import fnmatch
 import os
 
 from console_impl import ConsoleImpl
+from export_ngp_emu_roms import ExportNGPemuRoms
 from export_wii_apps import ExportWiiApps
 from import_pocket_covers import ImportPocketCovers
 from local_configs import LocalConfigs
@@ -37,4 +38,5 @@ MainMenu.console = NeoGeoPocketColor()
 MainMenu.init_default_cmd_handlers()
 # MainMenu.add_cmd_handler(ExportWiiApps(wii_app_files_tuple))
 MainMenu.add_cmd_handler(ImportPocketCovers())
+MainMenu.add_cmd_handler(ExportNGPemuRoms())
 MainMenu.show()

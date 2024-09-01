@@ -101,8 +101,8 @@ class WiiFlow:
 
     def init_rom_name_to_path(self):
         # 本函数执行的操作如下：
-        # 1. 读取 roms_xml_name 指定的 .xml 文件
-        # 2. 填写 self.rom_name_to_path
+        # 1. 读取 roms_export.xml
+        # 2. 设置 self.rom_name_to_path
         # 3. 有防止重复读取的逻辑
         if len(self.rom_name_to_path) > 0:
             return

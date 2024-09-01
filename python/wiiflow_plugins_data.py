@@ -161,7 +161,7 @@ class WiiFlowPluginsData(GameTDB):
         if len(self.game_id_to_info) == 0:
             self.reset()
 
-        for rom_name in self.game_id_to_info.values():
-            dst_rom_path = os.path.join(dst_folder_path, rom_name)
+        for game_info in self.game_id_to_info.values():
+            dst_rom_path = os.path.join(dst_folder_path, game_info.rom_name)
             if not os.path.exists(dst_rom_path):
                 open(dst_rom_path, "w").close()

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Game-List name="SD:\roms\NGP">
+    <Folder name="【精选游戏-博彩类】">
+        <Game crc32="5C067579" bytes="1048576"
+            rom="Neo 老虎机大师.ngp"
+            en="Neo Cherry Master - Real Casino Series"
+            zhcn="Neo 老虎机大师"
+        />
+    </Folder>
+    <Folder name="【精选游戏-格斗类】">
+        <Game crc32="D00EC8E1" bytes="2097152"
+            rom="拳皇 R-1.ngp"
+            en="King of Fighters R-1"
+            zhcn="拳皇 R-1"
+        />
+        <Game crc32="32E4696A" bytes="2097152"
+            rom="侍魂.ngp"
+            en="Samurai Shodown! - Pocket Fighting Series"
+            zhcn="侍魂"
+        />
+    </Folder>
+    <Folder name="【精选游戏-运动类】">
+        <Game crc32="33ADD5BD" bytes="1048576"
+            rom="98机皇杯.ngp"
+            en="Neo Geo Cup '98"
+            zhcn="98机皇杯"
+        />
+        <Game crc32="4781AE84" bytes="1048576"
+            rom="棒球之星.ngp"
+            en="Baseball Stars"
+            zhcn="棒球之星"
+        />
+        <Game crc32="4B1EED05" bytes="524288"
+            rom="口袋网球.ngp"
+            en="Pocket Tennis - Pocket Sports Series"
+            zhcn="口袋网球"
+        />
+    </Folder>
+    <Folder name="【精选游戏-文字类】">
+        <Game crc32="CB42CFA4" bytes="1048576"
+            rom="小瓜子成长日记.ngp"
+            en="Melon-chan no Seichou Nikki"
+            zhcn="小瓜子成长日记"
+        />
+    </Folder>
+    <Folder name="【精选游戏-益智类】">
+        <Game crc32="F34D0C9B" bytes="524288"
+            rom="将棋达人.ngp"
+            en="Shougi no Tatsujin"
+            zhcn="将棋达人"
+        />
+        <Game crc32="78C21B5E" bytes="524288"
+            rom="口袋麻将.ngp"
+            en="Dokodemo Mahjong"
+            zhcn="口袋麻将"
+        />
+        <Game crc32="CE09F534" bytes="524288"
+            rom="连结拼图.ngp"
+            en="Renketsu Puzzle Tsunagete Pon!"
+            zhcn="连结拼图"
+        />
+    </Folder>
+</Game-List>

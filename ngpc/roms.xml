@@ -40,10 +40,20 @@
         en="Biomotor Unitron 2"
         zhcn="机甲世纪2" language="japnese"
     />
+    <Game crc32="78A1361D" bytes="1048576"
+        rom="Bust-A-Move Pocket.ngc"
+        en="Bust-A-Move Pocket"
+        zhcn="泡泡龙" language="english"
+    />
     <Game crc32="85FE6AE3" bytes="1048576"
         rom="Bust-A-Move Pocket.ngc"
         en="Bust-A-Move Pocket"
         zhcn="泡泡龙" language="english"
+    />
+    <Game crc32="C94B173A" bytes="1048576"
+        rom="Bust-A-Move Pocket.ngc"
+        en="Bust-A-Move Pocket"
+        zhcn="泡泡龙"
     />
     <Game crc32="E69EAE3E" bytes="1048576"
         rom="Bust-A-Move Pocket.ngc"
@@ -80,6 +90,11 @@
         en="Dark Arms - Beast Buster 1999"
         zhcn="黑暗兵器 野兽梦魇1999" language="english"
     />
+    <Game crc32="77CAA548" bytes="2097152"
+        rom="Dark Arms - Beast Buster 1999.ngc"
+        en="Dark Arms - Beast Buster 1999"
+        zhcn="黑暗兵器 野兽梦魇1999" language="english"
+    />
     <Game crc32="ADD4FDFF" bytes="524288"
         rom="Delta Warp.ngc"
         en="Delta Warp"
@@ -106,6 +121,11 @@
         zhcn="下潜警报 Becky 篇" language="english"
     />
     <Game crc32="C213941D" bytes="2097152"
+        rom="Dive Alert - Matt's Version.ngc"
+        en="Dive Alert - Matt's Version"
+        zhcn="下潜警报 Matt 篇" language="japnese"
+    />
+    <Game crc32="D9817A88" bytes="2097152"
         rom="Dive Alert - Matt's Version.ngc"
         en="Dive Alert - Matt's Version"
         zhcn="下潜警报 Matt 篇" language="japnese"
@@ -218,22 +238,22 @@
     <Game crc32="4FF91807" bytes="2097152"
         rom="Metal Slug 1st Mission.ngc"
         en="Metal Slug 1st Mission"
-        zhcn="合金弹头 第一任务" language="english"
+        zhcn="合金弹头 第1任务" language="english"
     />
     <Game crc32="8ADED757" bytes="2097152"
         rom="Metal Slug 1st Mission.ngc"
         en="Metal Slug 1st Mission"
-        zhcn="合金弹头 第一任务" language="chinese"
+        zhcn="合金弹头 第1任务" language="chinese"
     />
     <Game crc32="9CE52B28" bytes="4194304"
         rom="Metal Slug 2nd Mission.ngc"
         en="Metal Slug 2nd Mission"
-        zhcn="合金弹头 第二任务" language="english"
+        zhcn="合金弹头 第2任务" language="english"
     />
     <Game crc32="AC549144" bytes="4194304"
         rom="Metal Slug 2nd Mission.ngc"
         en="Metal Slug 2nd Mission"
-        zhcn="合金弹头 第二任务" language="english"
+        zhcn="合金弹头 第2任务" language="english"
     />
     <Game crc32="A52E1C82" bytes="2097152"
         rom="Mezase! Kanji Ou.ngc"
@@ -261,6 +281,11 @@
         zhcn="Neo 百家乐" language="english"
     />
     <Game crc32="495071A9" bytes="1048576"
+        rom="Neo Baccarat - Real Casino Series.ngc"
+        en="Neo Baccarat - Real Casino Series"
+        zhcn="Neo 百家乐" language="english"
+    />
+    <Game crc32="80880498" bytes="1048576"
         rom="Neo Baccarat - Real Casino Series.ngc"
         en="Neo Baccarat - Real Casino Series"
         zhcn="Neo 百家乐" language="english"
@@ -315,6 +340,11 @@
         en="Nigeronpa"
         zhcn="尼哥龙帕" language="japanese"
     />
+    <Game crc32="6672D6E6" bytes="2097152"
+        rom="Nigeronpa.ngc"
+        en="Nigeronpa"
+        zhcn="尼哥龙帕" language="english"
+    />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngc"
         en="Pac-Man"
@@ -354,6 +384,11 @@
         rom="Pachi-Slot Aruze Oukoku Pocket - Hanabi.ngc"
         en="Pachi-Slot Aruze Oukoku Pocket - Hanabi"
         zhcn="口袋柏青嫂 Hanabi" language="japanese"
+    />
+    <Game crc32="CFD1C8F2" bytes="524288"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Hanabi.ngc"
+        en="Pachi-Slot Aruze Oukoku Pocket - Hanabi"
+        zhcn="口袋柏青嫂 Hanabi"
     />
     <Game crc32="8A88C50F" bytes="1048576"
         rom="Pachi-Slot Aruze Oukoku Pocket - Ohhanabi.ngc"
@@ -410,14 +445,12 @@
         en="Pocket Tennis Color - Pocket Sports Series"
         zhcn="口袋网球彩色版"
     />
-    <Game crc32="3090B2FD"
-        bytes="1048576"
+    <Game crc32="3090B2FD" bytes="1048576"
         rom="Puyo Pop.ngc"
         en="Puyo Pop"
         zhcn="魔法气泡"
     />
-    <Game crc32="5C649D1E"
-        bytes="1048576"
+    <Game crc32="5C649D1E" bytes="1048576"
         rom="Puyo Pop.ngc"
         en="Puyo Pop"
         zhcn="魔法气泡"
@@ -457,7 +490,17 @@
         en="Samurai Shodown 2"
         zhcn="侍魂2"
     />
+    <Game crc32="79620C3F" bytes="1048576"
+        rom="Shanghai Mini.ngc"
+        en="Shanghai Mini"
+        zhcn="迷你上海麻将"
+    />
     <Game crc32="90732D53" bytes="1048576"
+        rom="Shanghai Mini.ngc"
+        en="Shanghai Mini"
+        zhcn="迷你上海麻将"
+    />
+    <Game crc32="920AF0ED" bytes="1048576"
         rom="Shanghai Mini.ngc"
         en="Shanghai Mini"
         zhcn="迷你上海麻将"
@@ -502,6 +545,11 @@
         en="SNK vs. Capcom - Card Fighter's Clash - SNK Version"
         zhcn="SNK 对卡普空 卡片战士 SNK 版(美)" language="english"
     />
+    <Game crc32="0CC88D96" bytes="2097152"
+        rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition.ngc"
+        en="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
+        zhcn="SNK 对卡普空 卡片战士2 扩展版" language="english"
+    />
     <Game crc32="4DB31639" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition.ngc"
         en="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
@@ -533,6 +581,11 @@
         zhcn="SNK 对卡普空 千年之战" language="japanese"
     />
     <Game crc32="356F0849" bytes="2097152"
+        rom="Sonic the Hedgehog - Pocket Adventure.ngc"
+        en="Sonic the Hedgehog - Pocket Adventure"
+        zhcn="索尼克口袋冒险"
+    />
+    <Game crc32="45FC3BCA" bytes="2097152"
         rom="Sonic the Hedgehog - Pocket Adventure.ngc"
         en="Sonic the Hedgehog - Pocket Adventure"
         zhcn="索尼克口袋冒险"

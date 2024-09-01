@@ -133,12 +133,12 @@
     <Game crc32="8ADED757" bytes="2097152"
         rom="Metal Slug 1st Mission.ngc"
         en="Metal Slug 1st Mission"
-        zhcn="合金弹头 第一任务" language="chinese"
+        zhcn="合金弹头 第1任务" language="chinese"
     />
     <Game crc32="9CE52B28" bytes="4194304"
         rom="Metal Slug 2nd Mission.ngc"
         en="Metal Slug 2nd Mission"
-        zhcn="合金弹头 第二任务" language="english"
+        zhcn="合金弹头 第2任务" language="english"
     />
     <Game crc32="C3C9992E" bytes="2097152"
         rom="Mezase! Kanji Ou.ngc"
@@ -195,10 +195,10 @@
         en="NeoGeo Cup '98 Plus"
         zhcn="98机皇杯 Plus" language="english"
     />
-    <Game crc32="3CC3E269" bytes="1048576"
+    <Game crc32="6672D6E6" bytes="2097152"
         rom="Nigeronpa.ngc"
         en="Nigeronpa"
-        zhcn="尼哥龙帕" language="japanese"
+        zhcn="尼哥龙帕" language="english"
     />
     <Game crc32="21E8CC15" bytes="524288"
         rom="Pac-Man.ngc"
@@ -275,8 +275,7 @@
         en="Pocket Tennis Color - Pocket Sports Series"
         zhcn="口袋网球彩色版"
     />
-    <Game crc32="3090B2FD"
-        bytes="1048576"
+    <Game crc32="3090B2FD" bytes="1048576"
         rom="Puyo Pop.ngc"
         en="Puyo Pop"
         zhcn="魔法气泡"
@@ -336,10 +335,10 @@
         en="SNK vs. Capcom - Card Fighter's Clash - SNK Version"
         zhcn="SNK 对卡普空 卡片战士 SNK 版(美)" language="english"
     />
-    <Game crc32="4DB31639" bytes="2097152"
+    <Game crc32="0CC88D96" bytes="2097152"
         rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition.ngc"
         en="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
-        zhcn="SNK 对卡普空 卡片战士2 扩展版" language="japanese"
+        zhcn="SNK 对卡普空 卡片战士2 扩展版" language="english"
     />
     <Game crc32="7065295C" bytes="2097152"
         rom="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version.ngc"
