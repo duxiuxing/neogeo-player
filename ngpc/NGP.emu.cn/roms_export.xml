@@ -227,7 +227,7 @@
             zhcn="目标！汉字王" language="japanese"
         />
         <Game crc32="6672D6E6" bytes="2097152"
-            rom="Nigeronpa"
+            rom="尼哥龙帕"
             en="Nigeronpa"
             zhcn="尼哥龙帕" language="english"
         />
@@ -386,7 +386,7 @@
             zhcn="SNK 对卡普空 卡片战士 卡普空版" language="english"
         />
         <Game crc32="0CC88D96" bytes="2097152"
-            rom="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
+            rom="SNK 对卡普空 卡片战士2 扩展版"
             en="SNK vs. Capcom - Card Fighters 2 - Expand Edition"
             zhcn="SNK 对卡普空 卡片战士2 扩展版" language="english"
         />
