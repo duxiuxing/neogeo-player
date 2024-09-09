@@ -10,36 +10,6 @@ from game_tdb import GameTDB
 from local_configs import LocalConfigs
 
 
-def folder_exist(folder_path):
-    # 判断指定文件夹是否存在
-    # Args:
-    #     folder_path (str): 待判断的文件夹路径
-    # Returns:
-    #     bool: 如果文件夹存在则返回 True，否则返回 False
-    if os.path.isdir(folder_path):
-        return True
-    else:
-        print(f"无效的文件夹：{folder_path}")
-        return False
-
-
-def verify_folder_exist(folder_path):
-    # 判断指定文件夹是否存在，如果不存在则创建该文件夹
-    # Args:
-    #     folder_path (str): 待判断的文件夹路径，要求父文件夹必须是存在的
-    # Returns:
-    #     bool: 如果文件夹存在或创建成功，则返回 True，否则返回 False
-    if os.path.isdir(folder_path):
-        return True
-    else:
-        os.mkdir(folder_path)
-        if os.path.isdir(folder_path):
-            return True
-        else:
-            print(f"无效文件夹：{folder_path}")
-            return False
-
-
 class WiiFlowPluginsData(GameTDB):
     def __init__(self, console, plugin_name):
         self.console = console

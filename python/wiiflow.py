@@ -9,70 +9,9 @@ import xml.etree.ElementTree as ET
 from game_info import GameInfo
 from configparser import ConfigParser
 from console import Console
+from helper import Helper
 from local_configs import LocalConfigs
 from wiiflow_plugins_data import WiiFlowPluginsData
-
-
-def folder_exist(folder_path):
-    # 判断指定文件夹是否存在
-    # Args:
-    #     folder_path (str): 待判断的文件夹路径
-    # Returns:
-    #     bool: 如果文件夹存在则返回 True，否则返回 False
-    if os.path.isdir(folder_path):
-        return True
-    else:
-        print(f"无效的文件夹：{folder_path}")
-        return False
-
-
-def verify_folder_exist(folder_path):
-    # 判断指定文件夹是否存在，如果不存在则创建该文件夹
-    # Args:
-    #     folder_path (str): 待判断的文件夹路径，要求父文件夹必须是存在的
-    # Returns:
-    #     bool: 如果文件夹存在或创建成功，则返回 True，否则返回 False
-    if os.path.isdir(folder_path):
-        return True
-    else:
-        os.mkdir(folder_path)
-        if os.path.isdir(folder_path):
-            return True
-        else:
-            print(f"无效文件夹：{folder_path}")
-            return False
-
-
-def verify_folder_exist_ex(folder_full_path):
-    # 判断指定文件夹是否存在，如果不存在则逐级创建
-    # Args:
-    #     folder_path (str): 待判断的文件夹路径，如果父文件夹不存在会逐级创建
-    # Returns:
-    #     bool: 如果文件夹存在或创建成功，则返回 True，否则返回 False
-    folder_path = ""
-    for folder_name in folder_full_path.split("\\"):
-        if folder_path == "":
-            folder_path = folder_name
-            if not os.path.isdir(folder_path):
-                return False
-        else:
-            if not os.path.isdir(folder_path):
-                return False
-            folder_path = f"{folder_path}\\{folder_name}"
-            if not os.path.isdir(folder_path):
-                os.mkdir(folder_path)
-    return os.path.isdir(folder_full_path)
-
-
-def copy_file_if_not_exist(src_file_path, dst_file_path):
-    # 复制源文件到目标路径，如果目标文件已存在则跳过
-    # Args:
-    #     src_file_path (str): 源文件路径
-    #     dst_file_path (str): 目标文件路径
-    if not os.path.exists(src_file_path):
-        print(f"源文件缺失：{src_file_path}")
-    elif not os.path.exists(dst_file_path):
-        shutil.copyfile(src_file_path, dst_file_path)
 
 
 class WiiFlow:
@@ -144,7 +83,7 @@ class WiiFlow:
         # wiiflow\\cache
         foler_path = os.path.join(self.console.root_folder_path(),
                                   "wii\\wiiflow\\cache")
-        if not verify_folder_exist_ex(foler_path):
+        if not Helper.verify_folder_exist_ex(foler_path):
             print(f"无效文件夹：{foler_path}")
             return
 
@@ -157,14 +96,14 @@ class WiiFlow:
     def export_all_fake_roms(self):
         # 本函数用于把 WiiFlowPluginsData 里所有的 ROM 文件导出到 Wii 的 SD 卡
         dst_folder_path = self.roms_export_to_folder_path()
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
         self._plugins_data.export_all_fake_roms_to(dst_folder_path)
 
     def export_fake_roms(self):
         # 本函数用于把 roms_export.xml 中所有的 ROM 文件导出到 Wii 的 SD 卡
         dst_folder_path = self.roms_export_to_folder_path()
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
 
         self.init_rom_dst_name_to_src_path()
@@ -176,13 +115,13 @@ class WiiFlow:
     def export_roms(self):
         # 本函数用于把 roms_export.xml 中所有的 ROM 文件导出到 Wii 的 SD 卡
         dst_folder_path = self.roms_export_to_folder_path()
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
 
         self.init_rom_dst_name_to_src_path()
         for dst_name, src_path in self.rom_dst_name_to_src_path.items():
             dst_path = os.path.join(dst_folder_path, dst_name)
-            copy_file_if_not_exist(src_path, dst_path)
+            Helper.copy_file_if_not_exist(src_path, dst_path)
 
     def boxcover_parent_folder_path(self, rom_name):
         xml_path = os.path.join(self.console.root_folder_path(),
@@ -201,13 +140,13 @@ class WiiFlow:
         # 本函数会根据 SD 卡里的 ROM 文件，把对应的封面文件（.png 格式）导出到 Wii 的 SD 卡
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果已经导出过 .wfc 格式的封面文件，可以不导出 .png 格式的
-        if not folder_exist(LocalConfigs.sd_path()):
+        if not Helper.folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow\\boxcovers\\<plugin_name>
         dst_folder_path = os.path.join(LocalConfigs.sd_path(),
                                        f"wiiflow\\boxcovers\\{self.plugin_name()}")
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
 
         # 根据 SD 卡里的 ROM 文件来拷贝对应的封面文件
@@ -219,7 +158,7 @@ class WiiFlow:
             src_png_path = os.path.join(self.boxcover_parent_folder_path(rom_name),
                                         f"{rom_name}.png")
             dst_png_path = os.path.join(dst_folder_path, f"{rom_name}.png")
-            copy_file_if_not_exist(src_png_path, dst_png_path)
+            Helper.copy_file_if_not_exist(src_png_path, dst_png_path)
 
     def wfc_parent_folder_path(self, rom_name):
         xml_path = os.path.join(self.console.root_folder_path(),
@@ -242,35 +181,35 @@ class WiiFlow:
         # 4. 删除 SD:\\wiiflow\\cache 里可能失效的缓存文件
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果导出了 .wfc 格式的封面文件，可以不导出 .png 格式的
-        if not folder_exist(LocalConfigs.sd_path()):
+        if not Helper.folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow\\boxcovers\\blank_covers
         folder_path = os.path.join(LocalConfigs.sd_path(),
                                    "wiiflow\\boxcovers\\blank_covers")
-        if not verify_folder_exist_ex(folder_path):
+        if not Helper.verify_folder_exist_ex(folder_path):
             return
         src_png_path = os.path.join(self.console.root_folder_path(),
                                     f"wii\\wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
         dst_png_path = os.path.join(LocalConfigs.sd_path(),
                                     f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
-        copy_file_if_not_exist(src_png_path, dst_png_path)
+        Helper.copy_file_if_not_exist(src_png_path, dst_png_path)
 
         # SD:\\wiiflow\\cache\\blank_covers
         folder_path = os.path.join(LocalConfigs.sd_path(),
                                    "wiiflow\\cache\\blank_covers")
-        if not verify_folder_exist_ex(folder_path):
+        if not Helper.verify_folder_exist_ex(folder_path):
             return
         src_wfc_path = os.path.join(self.console.root_folder_path(),
                                     f"wii\\wiiflow\\cache\\blank_covers\\{self.plugin_name()}.wfc")
         dst_wfc_path = os.path.join(LocalConfigs.sd_path(),
                                     f"wiiflow\\cache\\blank_covers\\{self.plugin_name()}.wfc")
-        copy_file_if_not_exist(src_wfc_path, dst_wfc_path)
+        Helper.copy_file_if_not_exist(src_wfc_path, dst_wfc_path)
 
         # SD:\\wiiflow\\cache\\<plugin_name>
         dst_folder_path = os.path.join(LocalConfigs.sd_path(),
                                        f"wiiflow\\cache\\{self.plugin_name()}")
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
 
         # 根据 SD 卡里的 ROM 文件来拷贝对应的封面文件
@@ -282,7 +221,7 @@ class WiiFlow:
             src_file_path = os.path.join(self.wfc_parent_folder_path(rom_name),
                                          f"{rom_name}.wfc")
             dst_file_path = os.path.join(dst_folder_path, f"{rom_name}.wfc")
-            copy_file_if_not_exist(src_file_path, dst_file_path)
+            Helper.copy_file_if_not_exist(src_file_path, dst_file_path)
 
         # SD:\\wiiflow\\cache\\lists
         # lists 文件夹里都是 WiiFlow 生成的缓存文件，删掉才会重新生成
@@ -293,13 +232,13 @@ class WiiFlow:
 
     def export_plugin(self):
         # 本函数用于把 wiiflow\\plugins 里的文件导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.sd_path()):
+        if not Helper.folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow\\plugins\\R-Sam\\<plugin_name>
         dst_folder_path = os.path.join(LocalConfigs.sd_path(),
                                        f"wiiflow\\plugins\\R-Sam\\{self.plugin_name()}")
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
         src_folder_path = os.path.join(self.console.root_folder_path(),
                                        f"wii\\wiiflow\\plugins\\R-Sam\\{self.plugin_name()}")
@@ -310,19 +249,19 @@ class WiiFlow:
             dst_file_path = os.path.join(dst_folder_path, file)
             if os.path.exists(dst_file_path):
                 os.remove(dst_file_path)
-            copy_file_if_not_exist(src_file_path, dst_file_path)
+            Helper.copy_file_if_not_exist(src_file_path, dst_file_path)
 
     def export_plugins_data(self):
         # # 本函数执行的操作如下：
         # 1. 把 wiiflow\\plugins_data 里的文件导出到 Wii 的 SD 卡
         # 2. 删除可能失效的缓存文件：gametdb_offsets.bin
-        if not folder_exist(LocalConfigs.sd_path()):
+        if not Helper.folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow\\plugins_data\\<plugin_name>
         dst_folder_path = os.path.join(LocalConfigs.sd_path(),
                                        f"wiiflow\\plugins_data\\{self.plugin_name()}")
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
         src_folder_path = os.path.join(self.console.root_folder_path(),
                                        f"wii\\wiiflow\\plugins_data\\{self.plugin_name()}")
@@ -333,7 +272,7 @@ class WiiFlow:
             dst_file_path = os.path.join(dst_folder_path, file)
             if os.path.exists(dst_file_path):
                 os.remove(dst_file_path)
-            copy_file_if_not_exist(src_file_path, dst_file_path)
+            Helper.copy_file_if_not_exist(src_file_path, dst_file_path)
 
         # gametdb_offsets.bin 是 WiiFlow 生成的缓存文件，删掉才会重新生成
         gametdb_offsets_bin_path = os.path.join(dst_folder_path, "gametdb_offsets.bin")
@@ -355,13 +294,13 @@ class WiiFlow:
 
     def export_snapshots(self):
         # 本函数用于把 wiiflow\\snapshots 里的游戏截图（.png格式）导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.sd_path()):
+        if not Helper.folder_exist(LocalConfigs.sd_path()):
             return
 
         # SD:\\wiiflow\\snapshots\\<plugin_name>
         dst_folder_path = os.path.join(LocalConfigs.sd_path(),
                                        f"wiiflow\\snapshots\\{self.plugin_name()}")
-        if not verify_folder_exist_ex(dst_folder_path):
+        if not Helper.verify_folder_exist_ex(dst_folder_path):
             return
 
         roms_folder_path = os.path.join(LocalConfigs.sd_path(),
@@ -373,23 +312,23 @@ class WiiFlow:
             src_png_path = os.path.join(self.snapshot_parent_folder_path(rom_name),
                                         f"{png_title}.png")
             dst_png_path = os.path.join(dst_folder_path, f"{png_title}.png")
-            copy_file_if_not_exist(src_png_path, dst_png_path)
+            Helper.copy_file_if_not_exist(src_png_path, dst_png_path)
 
     def export_source_menu(self):
         # 本函数用于把 wiiflow\\source_menu 里的源菜单图标（.png格式）导出到 Wii 的 SD 卡
-        if not folder_exist(LocalConfigs.sd_path()):
+        if not Helper.folder_exist(LocalConfigs.sd_path()):
             return
 
          # SD:\\wiiflow\\source_menu
         folder_path = os.path.join(LocalConfigs.sd_path(),
                                    "wiiflow\\source_menu")
-        if not verify_folder_exist_ex(folder_path):
+        if not Helper.verify_folder_exist_ex(folder_path):
             return
         src_png_path = os.path.join(self.console.root_folder_path(),
                                     f"wii\\wiiflow\\source_menu\\{self.plugin_name()}.png")
         dst_png_path = os.path.join(LocalConfigs.sd_path(),
                                     f"wiiflow\\source_menu\\{self.plugin_name()}.png")
-        copy_file_if_not_exist(src_png_path, dst_png_path)
+        Helper.copy_file_if_not_exist(src_png_path, dst_png_path)
 
     def convert_game_synopsis(self):
         # wiiflow\\plugins_data 里的 <self.plugin_name()>.xml 可以配置游戏的中文摘要

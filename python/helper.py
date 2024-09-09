@@ -99,3 +99,14 @@ class Helper:
                 shutil.copy2(src, dst)
             else:
                 print(f"源文件缺失：{src}")
+
+    @staticmethod
+    def copy_file_if_not_exist(src_file_path, dst_file_path):
+        # 复制源文件到目标路径，如果目标文件已存在则跳过
+        # Args:
+        #     src_file_path (str): 源文件路径
+        #     dst_file_path (str): 目标文件路径
+        if not os.path.exists(src_file_path):
+            print(f"源文件缺失：{src_file_path}")
+        elif not os.path.exists(dst_file_path):
+            shutil.copyfile(src_file_path, dst_file_path)

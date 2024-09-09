@@ -4,23 +4,11 @@ import fnmatch
 import os
 
 from console import Console
+from helper import Helper
 from main_menu import CmdHandler
 from main_menu import MainMenu
 
 from PIL import Image
-
-
-def folder_exist(folder_path):
-    # 判断指定文件夹是否存在
-    # Args:
-    #     folder_path (str): 待判断的文件夹路径
-    # Returns:
-    #     bool: 如果文件夹存在则返回 True，否则返回 False
-    if os.path.isdir(folder_path):
-        return True
-    else:
-        print(f"无效的文件夹：{folder_path}")
-        return False
 
 
 class ImportPocketCovers(CmdHandler):
@@ -128,7 +116,7 @@ class ImportPocketCovers(CmdHandler):
         self.save_wiiflow_boxcover(file_title, blank_cover)
 
     def run(self):
-        if not folder_exist(self.import_folder_path()):
+        if not Helper.folder_exist(self.import_folder_path()):
             return
 
         self.file_names_imported = []
