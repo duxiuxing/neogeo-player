@@ -258,7 +258,7 @@
     <Game crc32="67E6DC56" bytes="1048576"
         rom="Picture Puzzle"
         en="Picture Puzzle"
-        zhcn="绘画拼图" language="english"
+        zhcn="以数织图" language="english"
     />
     <Game crc32="C2EE1EE5" bytes="2097152"
         rom="Pocket Love - If"
@@ -280,7 +280,7 @@
         en="Puyo Pop"
         zhcn="魔法气泡"
     />
-    <Game crc32="8D0610AC" bytes="524288"
+    <Game crc32="FE95938C" bytes="524288"
         rom="Puzzle Link"
         en="Puzzle Link"
         zhcn="连结方块(美)" language="english"

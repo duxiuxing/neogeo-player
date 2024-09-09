@@ -245,6 +245,11 @@
         en="Metal Slug 1st Mission"
         zhcn="合金弹头 第1任务" language="chinese"
     />
+    <Game crc32="C2C5BCB4" bytes="2097152"
+        rom="Metal Slug 1st Mission"
+        en="Metal Slug 1st Mission"
+        zhcn="合金弹头 第1任务"
+    />
     <Game crc32="9CE52B28" bytes="4194304"
         rom="Metal Slug 2nd Mission"
         en="Metal Slug 2nd Mission"
@@ -375,6 +380,11 @@
         en="Pachi-Slot Aruze Oukoku Pocket - Delsol 2"
         zhcn="口袋柏青嫂 Delsol 2" language="japanese"
     />
+    <Game crc32="B98B498A" bytes="1048576"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Delsol 2"
+        en="Pachi-Slot Aruze Oukoku Pocket - Delsol 2"
+        zhcn="口袋柏青嫂 Delsol 2" language="japanese"
+    />
     <Game crc32="0A7C32DF" bytes="1048576"
         rom="Pachi-Slot Aruze Oukoku Pocket - e-Cup"
         en="Pachi-Slot Aruze Oukoku Pocket - e-Cup"
@@ -400,6 +410,11 @@
         en="Pachi-Slot Aruze Oukoku Pocket - Porcano 2"
         zhcn="口袋柏青嫂 Porcano 2" language="japanese"
     />
+    <Game crc32="E9816E43" bytes="524288"
+        rom="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights"
+        en="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights"
+        zhcn="口袋柏青嫂 Ward of Lights" language="japanese"
+    />
     <Game crc32="D46CBC54" bytes="524288"
         rom="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights"
         en="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights"
@@ -413,17 +428,17 @@
     <Game crc32="0C4DAFE8" bytes="524288"
         rom="Picture Puzzle"
         en="Picture Puzzle"
-        zhcn="绘画拼图" language="japanese"
+        zhcn="以数织图" language="japanese"
     />
     <Game crc32="59AB1E0F" bytes="524288"
         rom="Picture Puzzle"
         en="Picture Puzzle"
-        zhcn="绘画拼图" language="japanese"
+        zhcn="以数织图" language="japanese"
     />
     <Game crc32="67E6DC56" bytes="1048576"
         rom="Picture Puzzle"
         en="Picture Puzzle"
-        zhcn="绘画拼图" language="english"
+        zhcn="以数织图" language="english"
     />
     <Game crc32="C2EE1EE5" bytes="2097152"
         rom="Pocket Love - If"
@@ -455,7 +470,7 @@
         en="Puyo Pop"
         zhcn="魔法气泡"
     />
-    <Game crc32="8D0610AC" bytes="524288"
+    <Game crc32="FE95938C" bytes="524288"
         rom="Puzzle Link"
         en="Puzzle Link"
         zhcn="连结方块(美)" language="english"

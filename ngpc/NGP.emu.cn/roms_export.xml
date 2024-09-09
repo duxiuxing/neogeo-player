@@ -289,9 +289,9 @@
             zhcn="吃豆小精灵" language="english"
         />
         <Game crc32="67E6DC56" bytes="1048576"
-            rom="绘画拼图"
+            rom="以数织图"
             en="Picture Puzzle"
-            zhcn="绘画拼图" language="english"
+            zhcn="以数织图" language="english"
         />
         <Game crc32="6DF986A3" bytes="2097152"
             rom="加油 Neo 君"
@@ -313,7 +313,7 @@
             en="Koi Koi Mahjong"
             zhcn="口袋麻将彩色版" language="japanese"
         />
-        <Game crc32="8D0610AC" bytes="524288"
+        <Game crc32="FE95938C" bytes="524288"
             rom="连结方块(美)"
             en="Puzzle Link"
             zhcn="连结方块(美)" language="english"
