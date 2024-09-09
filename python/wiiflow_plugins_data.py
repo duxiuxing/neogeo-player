@@ -69,7 +69,7 @@ class WiiFlowPluginsData(GameTDB):
 
         xml_path = os.path.join(
             self.console.root_folder_path(),
-            f"wiiflow\\plugins_data\\{self.plugin_name}\\{self.plugin_name}.xml")
+            f"wii\\wiiflow\\plugins_data\\{self.plugin_name}\\{self.plugin_name}.xml")
 
         if not os.path.exists(xml_path):
             print(f"无效的文件：{xml_path}")
@@ -108,7 +108,7 @@ class WiiFlowPluginsData(GameTDB):
         # 3. 同时设置 self.game_id_to_info 每个 GameInfo 的 rom_title
 
         ini_path = os.path.join(self.console.root_folder_path(),
-                                f"wiiflow\\plugins_data\\{self.plugin_name}\\{self.plugin_name}.ini")
+                                f"wii\\wiiflow\\plugins_data\\{self.plugin_name}\\{self.plugin_name}.ini")
 
         if not os.path.exists(ini_path):
             print(f"无效的文件：{ini_path}")

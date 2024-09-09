@@ -109,7 +109,7 @@ class WiiFlow:
             return
 
         xml_path = os.path.join(self.console.root_folder_path(),
-                                "wiiflow\\roms_export.xml")
+                                "wii\\wiiflow\\roms_export.xml")
 
         if not os.path.exists(xml_path):
             print(f"无效的文件：{xml_path}")
@@ -143,13 +143,13 @@ class WiiFlow:
 
         # wiiflow\\cache
         foler_path = os.path.join(self.console.root_folder_path(),
-                                  "wiiflow\\cache")
+                                  "wii\\wiiflow\\cache")
         if not verify_folder_exist_ex(foler_path):
             print(f"无效文件夹：{foler_path}")
             return
 
         foler_path = os.path.join(self.console.root_folder_path(),
-                                  "wiiflow")
+                                  "wii\\wiiflow")
         cmd_line = f"\"{LocalConfigs.wfc_conv_exe_path()}\" \"{foler_path}\""
         print(cmd_line)
         subprocess.call(cmd_line)
@@ -184,7 +184,20 @@ class WiiFlow:
             dst_path = os.path.join(dst_folder_path, dst_name)
             copy_file_if_not_exist(src_path, dst_path)
 
-    def export_png_boxcovers(self):
+    def boxcover_parent_folder_path(self, rom_name):
+        xml_path = os.path.join(self.console.root_folder_path(),
+                                "roms\\roms.xml")
+        if os.path.exists(xml_path):
+            return os.path.join(self.console.root_folder_path(),
+                                f"wii\\wiiflow\\boxcovers\\{self.plugin_name()}")
+        else:
+            letter = rom_name.upper()[0]
+            if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                letter = "#"
+            return os.path.join(self.console.root_folder_path(),
+                                f"wii\\wiiflow\\boxcovers\\{letter}")
+
+    def export_boxcovers(self):
         # 本函数会根据 SD 卡里的 ROM 文件，把对应的封面文件（.png 格式）导出到 Wii 的 SD 卡
         #
         # 注意：WiiFlow 中展示的游戏封面对应于 cache 文件夹里的 .wfc 文件，如果已经导出过 .wfc 格式的封面文件，可以不导出 .png 格式的
@@ -196,8 +209,6 @@ class WiiFlow:
                                        f"wiiflow\\boxcovers\\{self.plugin_name()}")
         if not verify_folder_exist_ex(dst_folder_path):
             return
-        src_folder_path = os.path.join(self.console.root_folder_path(),
-                                       f"wiiflow\\boxcovers\\{self.plugin_name()}")
 
         # 根据 SD 卡里的 ROM 文件来拷贝对应的封面文件
         roms_folder_path = os.path.join(LocalConfigs.sd_path(),
@@ -205,9 +216,23 @@ class WiiFlow:
         for rom_name in os.listdir(roms_folder_path):
             if not self.console.rom_extension_match(rom_name):
                 continue
-            src_png_path = os.path.join(src_folder_path, f"{rom_name}.png")
+            src_png_path = os.path.join(self.boxcover_parent_folder_path(rom_name),
+                                        f"{rom_name}.png")
             dst_png_path = os.path.join(dst_folder_path, f"{rom_name}.png")
             copy_file_if_not_exist(src_png_path, dst_png_path)
+
+    def wfc_parent_folder_path(self, rom_name):
+        xml_path = os.path.join(self.console.root_folder_path(),
+                                "roms\\roms.xml")
+        if os.path.exists(xml_path):
+            return os.path.join(self.console.root_folder_path(),
+                                f"wii\\wiiflow\\cache\\{self.plugin_name()}")
+        else:
+            letter = rom_name.upper()[0]
+            if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                letter = "#"
+            return os.path.join(self.console.root_folder_path(),
+                                f"wii\\wiiflow\\cache\\{letter}")
 
     def export_cache(self):
         # 本函数执行的操作如下：
@@ -226,7 +251,7 @@ class WiiFlow:
         if not verify_folder_exist_ex(folder_path):
             return
         src_png_path = os.path.join(self.console.root_folder_path(),
-                                    f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
+                                    f"wii\\wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
         dst_png_path = os.path.join(LocalConfigs.sd_path(),
                                     f"wiiflow\\boxcovers\\blank_covers\\{self.plugin_name()}.png")
         copy_file_if_not_exist(src_png_path, dst_png_path)
@@ -237,7 +262,7 @@ class WiiFlow:
         if not verify_folder_exist_ex(folder_path):
             return
         src_wfc_path = os.path.join(self.console.root_folder_path(),
-                                    f"wiiflow\\cache\\blank_covers\\{self.plugin_name()}.wfc")
+                                    f"wii\\wiiflow\\cache\\blank_covers\\{self.plugin_name()}.wfc")
         dst_wfc_path = os.path.join(LocalConfigs.sd_path(),
                                     f"wiiflow\\cache\\blank_covers\\{self.plugin_name()}.wfc")
         copy_file_if_not_exist(src_wfc_path, dst_wfc_path)
@@ -247,8 +272,6 @@ class WiiFlow:
                                        f"wiiflow\\cache\\{self.plugin_name()}")
         if not verify_folder_exist_ex(dst_folder_path):
             return
-        src_folder_path = os.path.join(self.console.root_folder_path(),
-                                       f"wiiflow\\cache\\{self.plugin_name()}")
 
         # 根据 SD 卡里的 ROM 文件来拷贝对应的封面文件
         roms_folder_path = os.path.join(LocalConfigs.sd_path(),
@@ -256,7 +279,8 @@ class WiiFlow:
         for rom_name in os.listdir(roms_folder_path):
             if not self.console.rom_extension_match(rom_name):
                 continue
-            src_file_path = os.path.join(src_folder_path, f"{rom_name}.wfc")
+            src_file_path = os.path.join(self.wfc_parent_folder_path(rom_name),
+                                         f"{rom_name}.wfc")
             dst_file_path = os.path.join(dst_folder_path, f"{rom_name}.wfc")
             copy_file_if_not_exist(src_file_path, dst_file_path)
 
@@ -278,7 +302,7 @@ class WiiFlow:
         if not verify_folder_exist_ex(dst_folder_path):
             return
         src_folder_path = os.path.join(self.console.root_folder_path(),
-                                       f"wiiflow\\plugins\\R-Sam\\{self.plugin_name()}")
+                                       f"wii\\wiiflow\\plugins\\R-Sam\\{self.plugin_name()}")
 
         file_tuple = ("config.ini", "sound.ogg")
         for file in file_tuple:
@@ -301,7 +325,7 @@ class WiiFlow:
         if not verify_folder_exist_ex(dst_folder_path):
             return
         src_folder_path = os.path.join(self.console.root_folder_path(),
-                                       f"wiiflow\\plugins_data\\{self.plugin_name()}")
+                                       f"wii\\wiiflow\\plugins_data\\{self.plugin_name()}")
 
         file_tuple = (f"{self.plugin_name()}.ini", f"{self.plugin_name()}.xml")
         for file in file_tuple:
@@ -316,6 +340,19 @@ class WiiFlow:
         if os.path.exists(gametdb_offsets_bin_path):
             os.remove(gametdb_offsets_bin_path)
 
+    def snapshot_parent_folder_path(self, rom_name):
+        xml_path = os.path.join(self.console.root_folder_path(),
+                                "roms\\roms.xml")
+        if os.path.exists(xml_path):
+            return os.path.join(self.console.root_folder_path(),
+                                f"wii\\wiiflow\\snapshots\\{self.plugin_name()}")
+        else:
+            letter = rom_name.upper()[0]
+            if letter not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+                letter = "#"
+            return os.path.join(self.console.root_folder_path(),
+                                f"wii\\wiiflow\\snapshots\\{letter}")
+
     def export_snapshots(self):
         # 本函数用于把 wiiflow\\snapshots 里的游戏截图（.png格式）导出到 Wii 的 SD 卡
         if not folder_exist(LocalConfigs.sd_path()):
@@ -326,8 +363,6 @@ class WiiFlow:
                                        f"wiiflow\\snapshots\\{self.plugin_name()}")
         if not verify_folder_exist_ex(dst_folder_path):
             return
-        src_folder_path = os.path.join(self.console.root_folder_path(),
-                                       f"wiiflow\\snapshots\\{self.plugin_name()}")
 
         roms_folder_path = os.path.join(LocalConfigs.sd_path(),
                                         f"roms\\{self.plugin_name()}")
@@ -335,7 +370,8 @@ class WiiFlow:
             if not self.console.rom_extension_match(rom_name):
                 continue
             png_title = os.path.splitext(rom_name)[0]
-            src_png_path = os.path.join(src_folder_path, f"{png_title}.png")
+            src_png_path = os.path.join(self.snapshot_parent_folder_path(rom_name),
+                                        f"{png_title}.png")
             dst_png_path = os.path.join(dst_folder_path, f"{png_title}.png")
             copy_file_if_not_exist(src_png_path, dst_png_path)
 
@@ -350,7 +386,7 @@ class WiiFlow:
         if not verify_folder_exist_ex(folder_path):
             return
         src_png_path = os.path.join(self.console.root_folder_path(),
-                                    f"wiiflow\\source_menu\\{self.plugin_name()}.png")
+                                    f"wii\\wiiflow\\source_menu\\{self.plugin_name()}.png")
         dst_png_path = os.path.join(LocalConfigs.sd_path(),
                                     f"wiiflow\\source_menu\\{self.plugin_name()}.png")
         copy_file_if_not_exist(src_png_path, dst_png_path)

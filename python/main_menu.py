@@ -30,7 +30,7 @@ class ImportNewRoms(CmdHandler):
 
 class CheckExistRomsInfos(CmdHandler):
     def __init__(self):
-        super().__init__("Console - 检查 - roms.xml 中的游戏信息")
+        super().__init__("Console - 检查 - roms 文件夹里的 .xml 中的游戏信息")
 
     def run(self):
         MainMenu.console.check_exist_roms_infos()
@@ -97,10 +97,10 @@ class ExportSnapshotAndCacheFiles(CmdHandler):
 
 class ExportPngCovers(CmdHandler):
     def __init__(self):
-        super().__init__("WiiFlow - 导出 - 封面原图")
+        super().__init__("WiiFlow - 导出 - .png 格式的封面原图")
 
     def run(self):
-        MainMenu.console.wiiflow().export_png_boxcovers()
+        MainMenu.console.wiiflow().export_boxcovers()
 
 
 class MainMenu:
